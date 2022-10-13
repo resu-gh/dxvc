@@ -43,7 +43,7 @@ pintool:
 .PHONY: bench # run a single benchmark (requires TEST_NAME and TEST_OUT vars)
 bench: pintool
 	echo -e "$(CHL)Running benchmark$(CRS) $(TEST_NAME)"
-	$(PIN_BIN) -t $(DXVC_SO) -o $(TEST_OUT) -- $(JAVA_BIN) --add-modules jdk.incubator.vector -jar $(JVBENCH_JAR) "$(TEST_NAME)"
+	$(PIN_BIN) -t $(DXVC_SO) -o $(TEST_OUT) -- $(JAVA_BIN) --add-modules jdk.incubator.vector -jar $(JVBENCH_JAR) "$(TEST_NAME)" -o "$(TEST_OUT).bm.log"
 
 	echo -e "$(CHL)Creating Directory$(CRS) $(TEST_DIR)/$(TEST_OUT)"
 	mkdir -p "$(TEST_DIR)/$(TEST_OUT)"
@@ -51,7 +51,8 @@ bench: pintool
 	echo -e "$(CHL)Moving$(CRS) $(TEST_OUT).[td,nt].csv to $(JVBENCH_TEST_PATH)/$(TEST_OUT)"
 	mv "$(TEST_OUT).td.csv" "$(TEST_DIR)/$(TEST_OUT)"
 	mv "$(TEST_OUT).nt.csv" "$(TEST_DIR)/$(TEST_OUT)"
+	mv "$(TEST_OUT).bm.log" "$(TEST_DIR)/$(TEST_OUT)"
 
 	echo -e "$(CHL)Displaying Results ...$(CRS)"
-	column -s, -t < "$(TEST_DIR)/$(TEST_OUT)/$(TEST_OUT).td.csv" | cut -c -$(shell stty size | cut -d' ' -f2) | sed 30q 
+	column -s, -t < "$(TEST_DIR)/$(TEST_OUT)/$(TEST_OUT).td.csv" | cut -c -$(shell stty size | cut -d' ' -f2) | sed 15q 
 	column -s, -t < "$(TEST_DIR)/$(TEST_OUT)/$(TEST_OUT).nt.csv"
