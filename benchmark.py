@@ -1,4 +1,5 @@
 import pathlib
+import argparse
 import shutil
 import subprocess
 import sys
@@ -10,12 +11,12 @@ def checkdeps(xs):
             sys.exit(f"Executable `{x}` not found!")
 
 
-def select():
+def select(jvbench_jar):
     jvbench_tests = list(
         map(
             lambda t: ".".join(t.split(".")[-2:]),
             (
-                subprocess.check_output("java -jar JVBench-1.0.jar -l", shell=True)
+                subprocess.check_output(f"java -jar {jvbench_jar} -l", shell=True)
                 .__str__()
                 .split("\\n")[1:-1]
             ),
@@ -40,13 +41,19 @@ def select():
     return benchmark_s
 
 
-def main():
-    benchmark_s = select()
+def main(jvbench_jar):
+    xs = ["java", "make"]
+    checkdeps(xs)
+
+    if not pathlib.Path(jvbench_jar).is_file():
+        sys.exit(f"File Not Found `{jvbench_jar}`")
+
+    benchmark_s = select(jvbench_jar)
 
     for b in benchmark_s:
         if (
             subprocess.run(
-                f"TEST_NAME={b} TEST_OUT={b.replace('.', '_')} make",
+                f"TEST_NAME={b} TEST_OUT={b.replace('.', '_')} make bench",
                 shell=True,
             ).returncode
             != 0
@@ -55,13 +62,16 @@ def main():
 
 
 if __name__ == "__main__":
-    xs = ["java", "make"]
-    checkdeps(xs)
-
-    jvbench_jar = pathlib.Path("JVBench-1.0.jar")
-    if not jvbench_jar.is_file():
-        sys.exit(
-            "File Not Found `./JVBench-1.0.jar`. Download it from https://www.github.com/usi-dag/JVBench"
-        )
-
-    main()
+    parser = argparse.ArgumentParser(description="jvbench benchmarks runner")
+    parser.add_argument(
+        "-j",
+        "--jar",
+        type=str,
+        nargs=1,
+        help="jvbench jar path (default: ./env/jvbench/JVBench-1.0.jar)",
+    )
+    args = parser.parse_args()
+    if args.jar:
+        main(args.jar)
+    else:
+        main("env/jvbench/JVBench-1.0.jar")
