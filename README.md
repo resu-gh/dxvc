@@ -1,3 +1,150 @@
+# Usage
+
+## Make options
+
+```
+help                                                  display help, and exit
+build                                                 build all (dependencies and environment)
+clean                                                 clean all
+rebuild                                               combo: rebuild all (clean, build)
+pintool                                               compile the dxvc pintool (uses PIN_ROOT var)
+bench                                                 run a single benchmark (requires BENCH_NAME and BENCH_OUT vars)
+AxpyPatternBenchmark.fmaScalar                        run the AxpyPatternBenchmark.fmaScalar benchmark
+SwaptionsPatternBenchmark.conversion                  run the SwaptionsPatternBenchmark.conversion benchmark
+SwaptionsPatternBenchmark.indexInRange                run the SwaptionsPatternBenchmark.indexInRange benchmark
+SwaptionsPatternBenchmark.pow                         run the SwaptionsPatternBenchmark.pow benchmark
+AxpyBenchmark.autoVec                                 run the AxpyBenchmark.autoVec benchmark
+AxpyBenchmark.explicitVec                             run the AxpyBenchmark.explicitVec benchmark
+AxpyBenchmark.fullVec                                 run the AxpyBenchmark.fullVec benchmark
+AxpyBenchmark.serial                                  run the AxpyBenchmark.serial benchmark
+AxpyPatternBenchmark.broadcastExternal                run the AxpyPatternBenchmark.broadcastExternal benchmark
+AxpyPatternBenchmark.fma                              run the AxpyPatternBenchmark.fma benchmark
+AxpyPatternBenchmark.indexInRange                     run the AxpyPatternBenchmark.indexInRange benchmark
+BlackscholesBenchmark.autoVec                         run the BlackscholesBenchmark.autoVec benchmark
+BlackscholesBenchmark.explicitVec                     run the BlackscholesBenchmark.explicitVec benchmark
+BlackscholesBenchmark.fullVec                         run the BlackscholesBenchmark.fullVec benchmark
+BlackscholesBenchmark.serial                          run the BlackscholesBenchmark.serial benchmark
+BlackscholesPatternBenchmark.indexInRange             run the BlackscholesPatternBenchmark.indexInRange benchmark
+BlackscholesPatternBenchmark.mergeWithoutBlend        run the BlackscholesPatternBenchmark.mergeWithoutBlend benchmark
+BlackscholesPatternBenchmark.pow                      run the BlackscholesPatternBenchmark.pow benchmark
+CannealBenchmark.autoVec                              run the CannealBenchmark.autoVec benchmark
+CannealBenchmark.explicitVec                          run the CannealBenchmark.explicitVec benchmark
+CannealBenchmark.fullVec                              run the CannealBenchmark.fullVec benchmark
+CannealBenchmark.serial                               run the CannealBenchmark.serial benchmark
+CannealPatternBenchmark.indexInRange                  run the CannealPatternBenchmark.indexInRange benchmark
+CannealPatternBenchmark.minSizeCheck                  run the CannealPatternBenchmark.minSizeCheck benchmark
+CannealPatternBenchmark.noMinSizeCheck                run the CannealPatternBenchmark.noMinSizeCheck benchmark
+CannealPatternBenchmark.reductionExternal             run the CannealPatternBenchmark.reductionExternal benchmark
+CannealPatternBenchmark.reductionInternal             run the CannealPatternBenchmark.reductionInternal benchmark
+Jacobi2dBenchmark.autoVec                             run the Jacobi2dBenchmark.autoVec benchmark
+Jacobi2dBenchmark.explicitVec                         run the Jacobi2dBenchmark.explicitVec benchmark
+Jacobi2dBenchmark.fullVec                             run the Jacobi2dBenchmark.fullVec benchmark
+Jacobi2dBenchmark.serial                              run the Jacobi2dBenchmark.serial benchmark
+Jacobi2dPatternBenchmark.indexInRange                 run the Jacobi2dPatternBenchmark.indexInRange benchmark
+LavaMDBenchmark.autoVec                               run the LavaMDBenchmark.autoVec benchmark
+LavaMDBenchmark.explicitVec                           run the LavaMDBenchmark.explicitVec benchmark
+LavaMDBenchmark.fullVec                               run the LavaMDBenchmark.fullVec benchmark
+LavaMDBenchmark.serial                                run the LavaMDBenchmark.serial benchmark
+LavaMDPatternBenchmark.fma                            run the LavaMDPatternBenchmark.fma benchmark
+LavaMDPatternBenchmark.fmaScalar                      run the LavaMDPatternBenchmark.fmaScalar benchmark
+LavaMDPatternBenchmark.indexInRange                   run the LavaMDPatternBenchmark.indexInRange benchmark
+LavaMDPatternBenchmark.reduction                      run the LavaMDPatternBenchmark.reduction benchmark
+TranscendentalOperationBenchmark.scalarACOS           run the TranscendentalOperationBenchmark.scalarACOS benchmark
+TranscendentalOperationBenchmark.scalarASIN           run the TranscendentalOperationBenchmark.scalarASIN benchmark
+TranscendentalOperationBenchmark.scalarATAN           run the TranscendentalOperationBenchmark.scalarATAN benchmark
+TranscendentalOperationBenchmark.scalarATAN2          run the TranscendentalOperationBenchmark.scalarATAN2 benchmark
+TranscendentalOperationBenchmark.scalarCBRT           run the TranscendentalOperationBenchmark.scalarCBRT benchmark
+TranscendentalOperationBenchmark.scalarCOS            run the TranscendentalOperationBenchmark.scalarCOS benchmark
+TranscendentalOperationBenchmark.scalarCOSH           run the TranscendentalOperationBenchmark.scalarCOSH benchmark
+TranscendentalOperationBenchmark.scalarEXP            run the TranscendentalOperationBenchmark.scalarEXP benchmark
+TranscendentalOperationBenchmark.scalarEXPM1          run the TranscendentalOperationBenchmark.scalarEXPM1 benchmark
+TranscendentalOperationBenchmark.scalarHYPOT          run the TranscendentalOperationBenchmark.scalarHYPOT benchmark
+TranscendentalOperationBenchmark.scalarLOG            run the TranscendentalOperationBenchmark.scalarLOG benchmark
+TranscendentalOperationBenchmark.scalarLOG10          run the TranscendentalOperationBenchmark.scalarLOG10 benchmark
+TranscendentalOperationBenchmark.scalarLOG1P          run the TranscendentalOperationBenchmark.scalarLOG1P benchmark
+TranscendentalOperationBenchmark.scalarMUL0           run the TranscendentalOperationBenchmark.scalarMUL0 benchmark
+TranscendentalOperationBenchmark.scalarMUL1           run the TranscendentalOperationBenchmark.scalarMUL1 benchmark
+TranscendentalOperationBenchmark.scalarMUL2           run the TranscendentalOperationBenchmark.scalarMUL2 benchmark
+TranscendentalOperationBenchmark.scalarPOW            run the TranscendentalOperationBenchmark.scalarPOW benchmark
+TranscendentalOperationBenchmark.scalarPOW0           run the TranscendentalOperationBenchmark.scalarPOW0 benchmark
+TranscendentalOperationBenchmark.scalarPOW1           run the TranscendentalOperationBenchmark.scalarPOW1 benchmark
+TranscendentalOperationBenchmark.scalarPOW2           run the TranscendentalOperationBenchmark.scalarPOW2 benchmark
+TranscendentalOperationBenchmark.scalarSIN            run the TranscendentalOperationBenchmark.scalarSIN benchmark
+TranscendentalOperationBenchmark.scalarSINH           run the TranscendentalOperationBenchmark.scalarSINH benchmark
+TranscendentalOperationBenchmark.scalarTAN            run the TranscendentalOperationBenchmark.scalarTAN benchmark
+TranscendentalOperationBenchmark.scalarTANH           run the TranscendentalOperationBenchmark.scalarTANH benchmark
+TranscendentalOperationBenchmark.vectorACOS           run the TranscendentalOperationBenchmark.vectorACOS benchmark
+TranscendentalOperationBenchmark.vectorASIN           run the TranscendentalOperationBenchmark.vectorASIN benchmark
+TranscendentalOperationBenchmark.vectorATAN           run the TranscendentalOperationBenchmark.vectorATAN benchmark
+TranscendentalOperationBenchmark.vectorATAN2          run the TranscendentalOperationBenchmark.vectorATAN2 benchmark
+TranscendentalOperationBenchmark.vectorCBRT           run the TranscendentalOperationBenchmark.vectorCBRT benchmark
+TranscendentalOperationBenchmark.vectorCOS            run the TranscendentalOperationBenchmark.vectorCOS benchmark
+TranscendentalOperationBenchmark.vectorCOSH           run the TranscendentalOperationBenchmark.vectorCOSH benchmark
+TranscendentalOperationBenchmark.vectorEXP            run the TranscendentalOperationBenchmark.vectorEXP benchmark
+TranscendentalOperationBenchmark.vectorEXPM1          run the TranscendentalOperationBenchmark.vectorEXPM1 benchmark
+TranscendentalOperationBenchmark.vectorHYPOT          run the TranscendentalOperationBenchmark.vectorHYPOT benchmark
+TranscendentalOperationBenchmark.vectorLOG            run the TranscendentalOperationBenchmark.vectorLOG benchmark
+TranscendentalOperationBenchmark.vectorLOG10          run the TranscendentalOperationBenchmark.vectorLOG10 benchmark
+TranscendentalOperationBenchmark.vectorLOG1P          run the TranscendentalOperationBenchmark.vectorLOG1P benchmark
+TranscendentalOperationBenchmark.vectorMUL0           run the TranscendentalOperationBenchmark.vectorMUL0 benchmark
+TranscendentalOperationBenchmark.vectorMUL1           run the TranscendentalOperationBenchmark.vectorMUL1 benchmark
+TranscendentalOperationBenchmark.vectorMUL2           run the TranscendentalOperationBenchmark.vectorMUL2 benchmark
+TranscendentalOperationBenchmark.vectorPOW            run the TranscendentalOperationBenchmark.vectorPOW benchmark
+TranscendentalOperationBenchmark.vectorPOW0           run the TranscendentalOperationBenchmark.vectorPOW0 benchmark
+TranscendentalOperationBenchmark.vectorPOW1           run the TranscendentalOperationBenchmark.vectorPOW1 benchmark
+TranscendentalOperationBenchmark.vectorPOW2           run the TranscendentalOperationBenchmark.vectorPOW2 benchmark
+TranscendentalOperationBenchmark.vectorSIN            run the TranscendentalOperationBenchmark.vectorSIN benchmark
+TranscendentalOperationBenchmark.vectorSINH           run the TranscendentalOperationBenchmark.vectorSINH benchmark
+TranscendentalOperationBenchmark.vectorTAN            run the TranscendentalOperationBenchmark.vectorTAN benchmark
+TranscendentalOperationBenchmark.vectorTANH           run the TranscendentalOperationBenchmark.vectorTANH benchmark
+ParticlefilterBenchmark.autoVec                       run the ParticlefilterBenchmark.autoVec benchmark
+ParticlefilterBenchmark.explicitVec                   run the ParticlefilterBenchmark.explicitVec benchmark
+ParticlefilterBenchmark.fullVec                       run the ParticlefilterBenchmark.fullVec benchmark
+ParticlefilterBenchmark.serial                        run the ParticlefilterBenchmark.serial benchmark
+ParticlefilterPatternBenchmark.indexInRange           run the ParticlefilterPatternBenchmark.indexInRange benchmark
+ParticlefilterPatternBenchmark.loadMaskInsideLoop     run the ParticlefilterPatternBenchmark.loadMaskInsideLoop benchmark
+ParticlefilterPatternBenchmark.mergeWithBlend         run the ParticlefilterPatternBenchmark.mergeWithBlend benchmark
+ParticlefilterPatternBenchmark.noSecondMask           run the ParticlefilterPatternBenchmark.noSecondMask benchmark
+ParticlefilterPatternBenchmark.staticMask             run the ParticlefilterPatternBenchmark.staticMask benchmark
+ParticlefilterPatternBenchmark.updateMaskInsideLoop   run the ParticlefilterPatternBenchmark.updateMaskInsideLoop benchmark
+ParticlefilterPatternBenchmark.xorExtended            run the ParticlefilterPatternBenchmark.xorExtended benchmark
+PathfinderBenchmark.autoVec                           run the PathfinderBenchmark.autoVec benchmark
+PathfinderBenchmark.explicitVec                       run the PathfinderBenchmark.explicitVec benchmark
+PathfinderBenchmark.fullVec                           run the PathfinderBenchmark.fullVec benchmark
+PathfinderBenchmark.serial                            run the PathfinderBenchmark.serial benchmark
+PathfinderPatternBenchmark.conditionInsideLoop        run the PathfinderPatternBenchmark.conditionInsideLoop benchmark
+PathfinderPatternBenchmark.indexInRange               run the PathfinderPatternBenchmark.indexInRange benchmark
+SomierBenchmark.autoVec                               run the SomierBenchmark.autoVec benchmark
+SomierBenchmark.explicitVec                           run the SomierBenchmark.explicitVec benchmark
+SomierBenchmark.fullVec                               run the SomierBenchmark.fullVec benchmark
+SomierBenchmark.serial                                run the SomierBenchmark.serial benchmark
+SomierPatternBenchmark.fma                            run the SomierPatternBenchmark.fma benchmark
+SomierPatternBenchmark.fmaScalar                      run the SomierPatternBenchmark.fmaScalar benchmark
+SomierPatternBenchmark.indexInRange                   run the SomierPatternBenchmark.indexInRange benchmark
+SomierPatternBenchmark.pow                            run the SomierPatternBenchmark.pow benchmark
+StreamclusterBenchmark.autoVec                        run the StreamclusterBenchmark.autoVec benchmark
+StreamclusterBenchmark.explicitVec                    run the StreamclusterBenchmark.explicitVec benchmark
+StreamclusterBenchmark.fullVec                        run the StreamclusterBenchmark.fullVec benchmark
+StreamclusterBenchmark.serial                         run the StreamclusterBenchmark.serial benchmark
+StreamclusterPatternBenchmark.indexInRange            run the StreamclusterPatternBenchmark.indexInRange benchmark
+StreamclusterPatternBenchmark.pow                     run the StreamclusterPatternBenchmark.pow benchmark
+StreamclusterPatternBenchmark.reduction               run the StreamclusterPatternBenchmark.reduction benchmark
+SwaptionsBenchmark.autoVec                            run the SwaptionsBenchmark.autoVec benchmark
+SwaptionsBenchmark.explicitVec                        run the SwaptionsBenchmark.explicitVec benchmark
+SwaptionsBenchmark.fullVec                            run the SwaptionsBenchmark.fullVec benchmark
+SwaptionsBenchmark.serial                             run the SwaptionsBenchmark.serial benchmark
+```
+
+## Build the environment
+
+- `Intel Pin` and `JVBench` are required
+
+- Cleanup, Cleanup-and-Rebuild
+
+## Run an instrumented benchmark
+
+## Bulk-Runner Python3 script
+
 # Notes
 
 ## Project
