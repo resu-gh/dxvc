@@ -1,0 +1,177 @@
+# JMH version: 1.35
+# VM version: JDK 18.0.2, OpenJDK 64-Bit Server VM, 18.0.2+0
+# VM invoker: /usr/lib/jvm/java-18-openjdk/bin/java
+# VM options: --add-modules=jdk.incubator.vector -XX:-UseSuperWord
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 10 iterations, single-shot each
+# Measurement: 10 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: jvbench.particlefilter.ParticlefilterBenchmark.serial
+
+# Run progress: 0.00% complete, ETA 00:00:00
+# Fork: 1 of 5
+WARNING: Using incubator modules: jdk.incubator.vector
+# Warmup Iteration   1: 4.254 s/op
+# Warmup Iteration   2: 4.126 s/op
+# Warmup Iteration   3: 5.045 s/op
+# Warmup Iteration   4: 5.274 s/op
+# Warmup Iteration   5: 5.181 s/op
+# Warmup Iteration   6: 5.154 s/op
+# Warmup Iteration   7: 5.126 s/op
+# Warmup Iteration   8: 5.350 s/op
+# Warmup Iteration   9: 5.189 s/op
+# Warmup Iteration  10: 5.121 s/op
+Iteration   1: 5.097 s/op
+Iteration   2: 5.242 s/op
+Iteration   3: 5.108 s/op
+Iteration   4: 5.019 s/op
+Iteration   5: 5.285 s/op
+Iteration   6: 5.411 s/op
+Iteration   7: 5.432 s/op
+Iteration   8: 5.358 s/op
+Iteration   9: 5.295 s/op
+Iteration  10: 5.420 s/op
+
+# Run progress: 20.00% complete, ETA 00:07:01
+# Fork: 2 of 5
+WARNING: Using incubator modules: jdk.incubator.vector
+# Warmup Iteration   1: 4.380 s/op
+# Warmup Iteration   2: 5.304 s/op
+# Warmup Iteration   3: 5.231 s/op
+# Warmup Iteration   4: 5.318 s/op
+# Warmup Iteration   5: 5.315 s/op
+# Warmup Iteration   6: 5.227 s/op
+# Warmup Iteration   7: 5.220 s/op
+# Warmup Iteration   8: 5.297 s/op
+# Warmup Iteration   9: 5.261 s/op
+# Warmup Iteration  10: 5.240 s/op
+Iteration   1: 5.289 s/op
+Iteration   2: 5.353 s/op
+Iteration   3: 5.359 s/op
+Iteration   4: 5.227 s/op
+Iteration   5: 5.352 s/op
+Iteration   6: 5.319 s/op
+Iteration   7: 5.363 s/op
+Iteration   8: 5.332 s/op
+Iteration   9: 5.132 s/op
+Iteration  10: 5.320 s/op
+
+# Run progress: 40.00% complete, ETA 00:05:16
+# Fork: 3 of 5
+WARNING: Using incubator modules: jdk.incubator.vector
+# Warmup Iteration   1: 4.551 s/op
+# Warmup Iteration   2: 4.514 s/op
+# Warmup Iteration   3: 4.444 s/op
+# Warmup Iteration   4: 4.386 s/op
+# Warmup Iteration   5: 5.292 s/op
+# Warmup Iteration   6: 5.251 s/op
+# Warmup Iteration   7: 5.176 s/op
+# Warmup Iteration   8: 5.303 s/op
+# Warmup Iteration   9: 5.247 s/op
+# Warmup Iteration  10: 5.069 s/op
+Iteration   1: 5.246 s/op
+Iteration   2: 5.309 s/op
+Iteration   3: 5.252 s/op
+Iteration   4: 5.176 s/op
+Iteration   5: 5.312 s/op
+Iteration   6: 5.288 s/op
+Iteration   7: 5.339 s/op
+Iteration   8: 5.213 s/op
+Iteration   9: 5.048 s/op
+Iteration  10: 5.256 s/op
+
+# Run progress: 60.00% complete, ETA 00:03:29
+# Fork: 4 of 5
+WARNING: Using incubator modules: jdk.incubator.vector
+# Warmup Iteration   1: 4.383 s/op
+# Warmup Iteration   2: 5.194 s/op
+# Warmup Iteration   3: 5.226 s/op
+# Warmup Iteration   4: 5.396 s/op
+# Warmup Iteration   5: 5.195 s/op
+# Warmup Iteration   6: 5.198 s/op
+# Warmup Iteration   7: 5.348 s/op
+# Warmup Iteration   8: 5.404 s/op
+# Warmup Iteration   9: 5.262 s/op
+# Warmup Iteration  10: 5.342 s/op
+Iteration   1: 5.324 s/op
+Iteration   2: 5.323 s/op
+Iteration   3: 5.309 s/op
+Iteration   4: 5.209 s/op
+Iteration   5: 5.351 s/op
+Iteration   6: 5.285 s/op
+Iteration   7: 5.388 s/op
+Iteration   8: 5.231 s/op
+Iteration   9: 5.166 s/op
+Iteration  10: 5.252 s/op
+
+# Run progress: 80.00% complete, ETA 00:01:44
+# Fork: 5 of 5
+WARNING: Using incubator modules: jdk.incubator.vector
+# Warmup Iteration   1: 4.593 s/op
+# Warmup Iteration   2: 4.351 s/op
+# Warmup Iteration   3: 4.487 s/op
+# Warmup Iteration   4: 4.411 s/op
+# Warmup Iteration   5: 5.273 s/op
+# Warmup Iteration   6: 5.211 s/op
+# Warmup Iteration   7: 5.163 s/op
+# Warmup Iteration   8: 5.328 s/op
+# Warmup Iteration   9: 5.336 s/op
+# Warmup Iteration  10: 5.223 s/op
+Iteration   1: 5.284 s/op
+Iteration   2: 5.228 s/op
+Iteration   3: 5.312 s/op
+Iteration   4: 5.278 s/op
+Iteration   5: 5.299 s/op
+Iteration   6: 5.355 s/op
+Iteration   7: 5.323 s/op
+Iteration   8: 5.329 s/op
+Iteration   9: 5.235 s/op
+Iteration  10: 5.401 s/op
+
+
+Result "jvbench.particlefilter.ParticlefilterBenchmark.serial":
+  N = 50
+  mean =      5.281 ±(99.9%) 0.045 s/op
+
+  Histogram, s/op:
+    [5.000, 5.050) = 2 
+    [5.050, 5.100) = 1 
+    [5.100, 5.150) = 2 
+    [5.150, 5.200) = 2 
+    [5.200, 5.250) = 8 
+    [5.250, 5.300) = 11 
+    [5.300, 5.350) = 12 
+    [5.350, 5.400) = 8 
+    [5.400, 5.450) = 4 
+
+  Percentiles, s/op:
+      p(0.0000) =      5.019 s/op
+     p(50.0000) =      5.297 s/op
+     p(90.0000) =      5.386 s/op
+     p(95.0000) =      5.415 s/op
+     p(99.0000) =      5.432 s/op
+     p(99.9000) =      5.432 s/op
+     p(99.9900) =      5.432 s/op
+     p(99.9990) =      5.432 s/op
+     p(99.9999) =      5.432 s/op
+    p(100.0000) =      5.432 s/op
+
+
+# Run complete. Total time: 00:08:42
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                       Mode  Cnt  Score   Error  Units
+ParticlefilterBenchmark.serial    ss   50  5.281 ± 0.045   s/op
