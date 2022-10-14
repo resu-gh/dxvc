@@ -145,6 +145,20 @@ SwaptionsBenchmark.serial                             run the SwaptionsBenchmark
 
 ## Bulk-Runner Python3 script
 
+```
+usage: bulkmk.py [-h] [-j JAR] [-r RANGE [RANGE ...]] [-l]
+
+jvbench benchmarks runner (calls Makefile)
+
+options:
+  -h, --help            show this help message and exit
+  -j JAR, --jar JAR     jvbench jar path (default:
+                        ./env/jvbench/JVBench-1.0.jar)
+  -r RANGE [RANGE ...], --range RANGE [RANGE ...]
+                        run a list of contiguous benchmarks [begin, end?]
+  -l, --list            list available benchmarks w/ indexes
+```
+
 # Notes
 
 ## Project

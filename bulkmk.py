@@ -114,7 +114,7 @@ def checkRange():
 if __name__ == "__main__":
     checkDeps(["java", "make", "cut", "file", "tr"])
 
-    parser = argparse.ArgumentParser(description="jvbench benchmarks runner")
+    parser = argparse.ArgumentParser(description="jvbench benchmarks runner (calls Makefile)")
 
     parser.add_argument(
         "-j",
@@ -129,7 +129,7 @@ if __name__ == "__main__":
         "--range",
         type=int,
         nargs="+",
-        help="run a list of benchmarks [begin, end?]",
+        help="run a list of contiguous benchmarks [begin, end?]",
         action=checkRange(),
     )
     parser.add_argument(
