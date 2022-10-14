@@ -1,0 +1,12 @@
+System:
+  Host: unknwn Kernel: 5.19.13-arch1-1 arch: x86_64 bits: 64 Desktop: bspwm
+    v: 0.9.10 Distro: Arch Linux
+CPU:
+  Info: 4x 4-core model: Intel Core i7-7820X bits: 64 type: MCP SMP cache:
+    L2: 4x 4 MiB (16 MiB)
+  Speed (MHz): avg: 3600 min/max: N/A cores: 1: 3600 2: 3600 3: 3600
+    4: 3600 5: 3600 6: 3600 7: 3600 8: 3600 9: 3600 10: 3600 11: 3600 12: 3600
+    13: 3600 14: 3600 15: 3600 16: 3600
+Info:
+  Processes: 284 Uptime: 11h 47m Memory: 7.73 GiB used: 2.37 GiB (30.6%)
+  Shell: Zsh inxi: 3.3.22
