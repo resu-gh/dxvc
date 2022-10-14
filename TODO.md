@@ -1,1 +1,3 @@
+- JVBench *JAR*: Dynamic args as `-t 16` (multi-threading) (e.g. using the `JAR_ARGS` env-var)
 - Benchmarks: Dynamic args (e.g. using the `BENCH_ARGS` env-var)
+- Add timestamps to test results (file and folder names)

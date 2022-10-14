@@ -230,7 +230,7 @@ options:
 
 ![0-bulk-range-single.png](./imgs/0-bulk-range-single.png)
 
-### Bulk execution (`Makefile` alternative)
+### Bulk execution
 
 ![0-bulk-range-multi.png](./imgs/0-bulk-range-multi.png)
 
