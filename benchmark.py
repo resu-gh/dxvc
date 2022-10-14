@@ -47,6 +47,16 @@ def main(args):
     if not pathlib.Path(args.jar).is_file():
         sys.exit(f"File Not Found `{args.jar}`")
 
+    if args.range:
+        if args.range[0] > args.range[1]:
+            print("error: invalid -r [begin, end] range (note: begin < end)")
+            parser.print_help()
+            sys.exit()
+        if args.range[0] < 0:
+            print("error: invalid -r [begin, end] range (note: begin >= 0)")
+            parser.print_help()
+            sys.exit()
+
     benchmark_s = select(args)
 
     for b in benchmark_s:
@@ -81,9 +91,5 @@ if __name__ == "__main__":
     )
 
     args = parser.parse_args()
-
-    if args.range and args.range[0] > args.range[1]:
-        print("error: invalid -r [begin, end] range (note: begin < end)")
-        parser.print_help()
 
     main(args)
