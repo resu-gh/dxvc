@@ -1,0 +1,2096 @@
+thread,set,opcode,mnemonic,category,extension,type,counter,description
+17,AVX,1249,VMOVQ,---,---,---,56,
+17,AVX,1232,VMOVDQU,---,---,---,1480,
+17,SSE2f,811,SQRTSD,---,---,ARITHMETIC,4,Compute Square Root of Scalar Double-Precision Floating-Point Value
+17,SSE2f,475,MULSD,---,---,ARITHMETIC,761,Multiply Scalar Double-Precision Floating-Point Value
+17,SSE2f,124,COMISD,---,---,COMPARISON,504,Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS
+17,SSE2f,802,SHUFPD,---,---,SHUFFLE,54,Packed Interleave Shuffle of Pairs of Double-Precision Floating-Point Values
+17,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,192,Move Aligned Packed Double-Precision Floating-Point Values
+17,SSE2f,141,CVTSI2SD,---,---,CONVERSION,1545,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+17,SSE2f,417,MAXSD,---,---,COMPARISON,122,Return Maximum Scalar Double-Precision Floating-Point Value
+17,SSE2f,160,DIVSD,---,---,ARITHMETIC,478,Divide Scalar Double-Precision Floating-Point Value
+17,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,9,Add Scalar Double-Precision Floating-Point Values
+17,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,115,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+17,SSE2f,858,UCOMISD,---,---,COMPARISON,224,Unordered Compare Scalar Double-Precision Floating-Point Values and Set EFLAGS
+17,SSE2f,143,CVTSS2SD,---,---,CONVERSION,137,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+17,SSE1f,438,MOVHLPS,---,---,DATA_TRANSFER,325,Move Packed Single-Precision Floating-Point Values High to Low
+17,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,137,Add Scalar Single-Precision Floating-Point Values
+17,SSE1f,476,MULSS,---,---,ARITHMETIC,54,Multiply Scalar Single-Precision Floating-Point Values
+17,SSE1f,150,CVTTSS2SI,---,---,CONVERSION,52,Convert with Truncation Scalar Single-Precision Floating-Point Value to Integer
+17,SSE1f,161,DIVSS,---,---,ARITHMETIC,75,Divide Scalar Single-Precision Floating-Point Values
+17,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,4676,Move High Packed Single-Precision Floating-Point Values
+17,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,27002,Move Aligned Packed Single-Precision Floating-Point Values
+17,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,160,Move or Merge Scalar Single-Precision Floating-Point Value
+17,SSE1f,142,CVTSI2SS,---,---,CONVERSION,95,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+17,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+17,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,69205,Move Unaligned Packed Single-Precision Floating-Point Values
+17,AVX2,1456,VPMINUB,---,---,---,1959,
+17,AVX2,1312,VPBROADCASTB,---,---,---,13105,
+17,SSE2i,665,PUNPCKHQDQ,---,---,UNPACK,52,Unpack High Data
+17,SSE2i,510,PADDQ,---,---,ARITHMETIC,120,Add Packed Integers
+17,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,39790,Move Unaligned Packed Integer Values
+17,SSE2i,634,PSHUFD,---,---,SHUFFLE,3101,Shuffle Packed Doublewords
+17,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,26434,Move Aligned Packed Integer Values
+17,SSE2i,649,PSRLDQ,---,---,SHIFT,35,Shift Double Quadword Right Logical
+17,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,5377,Unpack Low Data
+17,MMX,664,PUNPCKHDQ,---,---,UNPACK,76,Unpack High Data
+17,MMX,535,PCMPGTD,---,---,COMPARISON,60,Compare Packed Signed Integers for Greater Than
+17,MMX,527,PCMPEQD,---,---,COMPARISON,2361,Compare Packed Data for Equal
+17,MMX,666,PUNPCKHWD,---,---,UNPACK,2,Unpack High Data
+17,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+17,MMX,518,PANDN,---,---,LOGICAL,2792,Logical AND NOT
+17,MMX,678,PXOR,---,---,LOGICAL,14069,Logical Exclusive OR
+17,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+17,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+17,MMX,509,PADDD,---,---,ARITHMETIC,55,Add Packed Integers
+17,MMX,670,PUNPCKLWD,---,---,UNPACK,3,Unpack Low Data
+17,MMX,623,POR,---,---,LOGICAL,4852,Bitwise Logical OR
+17,MMX,667,PUNPCKLBW,---,---,UNPACK,2,Unpack Low Data
+17,MMX,663,PUNPCKHBW,---,---,UNPACK,1,Unpack High Data
+17,MMX,454,MOVQ,---,---,DATA_TRANSFER,28755,Move Doubleword/Move Quadword
+17,MMX,431,MOVD,---,---,DATA_TRANSFER,16304,Move Doubleword/Move Quadword
+17,MMX,668,PUNPCKLDQ,---,---,UNPACK,6502,Unpack Low Data
+16,AVX,1249,VMOVQ,---,---,---,43,
+16,AVX,1232,VMOVDQU,---,---,---,992,
+16,SSE2f,475,MULSD,---,---,ARITHMETIC,604,Multiply Scalar Double-Precision Floating-Point Value
+16,SSE2f,124,COMISD,---,---,COMPARISON,465,Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS
+16,SSE2f,802,SHUFPD,---,---,SHUFFLE,31,Packed Interleave Shuffle of Pairs of Double-Precision Floating-Point Values
+16,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,181,Move Aligned Packed Double-Precision Floating-Point Values
+16,SSE2f,417,MAXSD,---,---,COMPARISON,102,Return Maximum Scalar Double-Precision Floating-Point Value
+16,SSE2f,160,DIVSD,---,---,ARITHMETIC,431,Divide Scalar Double-Precision Floating-Point Value
+16,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,98,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+16,SSE2f,141,CVTSI2SD,---,---,CONVERSION,1355,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+16,SSE2f,858,UCOMISD,---,---,COMPARISON,244,Unordered Compare Scalar Double-Precision Floating-Point Values and Set EFLAGS
+16,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1,Add Scalar Double-Precision Floating-Point Values
+16,SSE2f,143,CVTSS2SD,---,---,CONVERSION,63,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+16,SSE1f,438,MOVHLPS,---,---,DATA_TRANSFER,274,Move Packed Single-Precision Floating-Point Values High to Low
+16,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,63,Add Scalar Single-Precision Floating-Point Values
+16,SSE1f,476,MULSS,---,---,ARITHMETIC,75,Multiply Scalar Single-Precision Floating-Point Values
+16,SSE1f,150,CVTTSS2SI,---,---,CONVERSION,73,Convert with Truncation Scalar Single-Precision Floating-Point Value to Integer
+16,SSE1f,161,DIVSS,---,---,ARITHMETIC,93,Divide Scalar Single-Precision Floating-Point Values
+16,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,4432,Move High Packed Single-Precision Floating-Point Values
+16,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,24844,Move Aligned Packed Single-Precision Floating-Point Values
+16,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,83,Move or Merge Scalar Single-Precision Floating-Point Value
+16,SSE1f,142,CVTSI2SS,---,---,CONVERSION,110,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+16,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+16,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,61956,Move Unaligned Packed Single-Precision Floating-Point Values
+16,AVX2,1456,VPMINUB,---,---,---,1638,
+16,AVX2,1312,VPBROADCASTB,---,---,---,11805,
+16,SSE2i,510,PADDQ,---,---,ARITHMETIC,100,Add Packed Integers
+16,SSE2i,665,PUNPCKHQDQ,---,---,UNPACK,68,Unpack High Data
+16,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,33953,Move Unaligned Packed Integer Values
+16,SSE2i,634,PSHUFD,---,---,SHUFFLE,2523,Shuffle Packed Doublewords
+16,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,23352,Move Aligned Packed Integer Values
+16,SSE2i,649,PSRLDQ,---,---,SHIFT,27,Shift Double Quadword Right Logical
+16,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,5450,Unpack Low Data
+16,MMX,664,PUNPCKHDQ,---,---,UNPACK,62,Unpack High Data
+16,MMX,535,PCMPGTD,---,---,COMPARISON,50,Compare Packed Signed Integers for Greater Than
+16,MMX,527,PCMPEQD,---,---,COMPARISON,2199,Compare Packed Data for Equal
+16,MMX,666,PUNPCKHWD,---,---,UNPACK,2,Unpack High Data
+16,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+16,MMX,518,PANDN,---,---,LOGICAL,2423,Logical AND NOT
+16,MMX,678,PXOR,---,---,LOGICAL,13659,Logical Exclusive OR
+16,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+16,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+16,MMX,509,PADDD,---,---,ARITHMETIC,43,Add Packed Integers
+16,MMX,670,PUNPCKLWD,---,---,UNPACK,3,Unpack Low Data
+16,MMX,623,POR,---,---,LOGICAL,3769,Bitwise Logical OR
+16,MMX,667,PUNPCKLBW,---,---,UNPACK,2,Unpack Low Data
+16,MMX,663,PUNPCKHBW,---,---,UNPACK,1,Unpack High Data
+16,MMX,454,MOVQ,---,---,DATA_TRANSFER,27108,Move Doubleword/Move Quadword
+16,MMX,431,MOVD,---,---,DATA_TRANSFER,14543,Move Doubleword/Move Quadword
+16,MMX,668,PUNPCKLDQ,---,---,UNPACK,5932,Unpack Low Data
+19,AVX,1249,VMOVQ,---,---,---,4,
+19,AVX,1232,VMOVDQU,---,---,---,1932,
+19,SSE2f,868,UNPCKLPD,---,---,UNPACK,127,Unpack and Interleave Low Packed Double-Precision Floating-Point Values
+19,SSE2f,829,SUBSD,---,---,ARITHMETIC,1403,Subtract Scalar Double-Precision Floating-Point Value
+19,SSE2f,35,ANDPD,FCMOV,LZCNT,LOGICAL,1198,Bitwise Logical AND of Packed Double Precision Floating-Point Values
+19,SSE2f,145,CVTTPD2DQ,---,---,CONVERSION,127,Convert with Truncation Packed Double-Precision Floating-Point Values to Packed Doubleword Integers
+19,SSE2f,858,UCOMISD,---,---,COMPARISON,1722,Unordered Compare Scalar Double-Precision Floating-Point Values and Set EFLAGS
+19,SSE2f,439,MOVHPD,---,---,DATA_TRANSFER,127,Move High Packed Double-Precision Floating-Point Value
+19,SSE2f,140,CVTSD2SS,---,---,CONVERSION,1097,Convert Scalar Double-Precision Floating-Point Value to Scalar Single-Precision Floating-Point Value
+19,SSE2f,158,DIVPD,---,---,ARITHMETIC,127,Divide Packed Double-Precision Floating-Point Values
+19,SSE2f,457,MOVSD,---,---,DATA_TRANSFER,1042,Move or Merge Scalar Double-Precision Floating-Point Value
+19,SSE2f,802,SHUFPD,---,---,SHUFFLE,134,Packed Interleave Shuffle of Pairs of Double-Precision Floating-Point Values
+19,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,2258,Move Aligned Packed Double-Precision Floating-Point Values
+19,SSE2f,124,COMISD,---,---,COMPARISON,9729,Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS
+19,SSE2f,475,MULSD,---,---,ARITHMETIC,4519,Multiply Scalar Double-Precision Floating-Point Value
+19,SSE2f,160,DIVSD,---,---,ARITHMETIC,174,Divide Scalar Double-Precision Floating-Point Value
+19,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,8472,Add Scalar Double-Precision Floating-Point Values
+19,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,62,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+19,SSE2f,417,MAXSD,---,---,COMPARISON,184,Return Maximum Scalar Double-Precision Floating-Point Value
+19,SSE2f,141,CVTSI2SD,---,---,CONVERSION,1986,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+19,SSE2f,143,CVTSS2SD,---,---,CONVERSION,777,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+19,SSE1f,438,MOVHLPS,---,---,DATA_TRANSFER,331,Move Packed Single-Precision Floating-Point Values High to Low
+19,SSE1f,443,MOVLPS,---,---,DATA_TRANSFER,25,Move Low Packed Single-Precision Floating-Point Values
+19,SSE1f,869,UNPCKLPS,---,---,UNPACK,29,Unpack and Interleave Low Packed Single-Precision Floating-Point Values
+19,SSE1f,424,MINSS,---,---,COMPARISON,22,Return Minimum Scalar Single-Precision Floating-Point Value
+19,SSE1f,125,COMISS,---,---,COMPARISON,713,Compare Scalar Ordered Single-Precision Floating-Point Values and Set EFLAGS
+19,SSE1f,859,UCOMISS,---,---,COMPARISON,173,Unordered Compare Scalar Single-Precision Floating-Point Values and Set EFLAGS
+19,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,145,Add Scalar Single-Precision Floating-Point Values
+19,SSE1f,476,MULSS,---,---,ARITHMETIC,162,Multiply Scalar Single-Precision Floating-Point Values
+19,SSE1f,161,DIVSS,---,---,ARITHMETIC,33,Divide Scalar Single-Precision Floating-Point Values
+19,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,1350,Move High Packed Single-Precision Floating-Point Values
+19,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,29728,Move Aligned Packed Single-Precision Floating-Point Values
+19,SSE1f,830,SUBSS,---,---,ARITHMETIC,206,Subtract Scalar Single-Precision Floating-Point Value
+19,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,3004,Move or Merge Scalar Single-Precision Floating-Point Value
+19,SSE1f,418,MAXSS,---,---,COMPARISON,1,Return Maximum Scalar Single-Precision Floating-Point Value
+19,SSE1f,142,CVTSI2SS,---,---,CONVERSION,86,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+19,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,171158,Move Unaligned Packed Single-Precision Floating-Point Values
+19,AVX2,1456,VPMINUB,---,---,---,212,
+19,AVX2,1312,VPBROADCASTB,---,---,---,6821,
+19,SSE2i,510,PADDQ,---,---,ARITHMETIC,915,Add Packed Integers
+19,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,70584,Move Unaligned Packed Integer Values
+19,SSE2i,634,PSHUFD,---,---,SHUFFLE,3089,Shuffle Packed Doublewords
+19,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,6559,Move Aligned Packed Integer Values
+19,SSE2i,649,PSRLDQ,---,---,SHIFT,231,Shift Double Quadword Right Logical
+19,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,2871,Unpack Low Data
+19,MMX,664,PUNPCKHDQ,---,---,UNPACK,6,Unpack High Data
+19,MMX,535,PCMPGTD,---,---,COMPARISON,6,Compare Packed Signed Integers for Greater Than
+19,MMX,527,PCMPEQD,---,---,COMPARISON,2516,Compare Packed Data for Equal
+19,MMX,666,PUNPCKHWD,---,---,UNPACK,2,Unpack High Data
+19,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+19,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+19,MMX,678,PXOR,---,---,LOGICAL,15547,Logical Exclusive OR
+19,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+19,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+19,MMX,509,PADDD,---,---,ARITHMETIC,9,Add Packed Integers
+19,MMX,670,PUNPCKLWD,---,---,UNPACK,3,Unpack Low Data
+19,MMX,623,POR,---,---,LOGICAL,571,Bitwise Logical OR
+19,MMX,667,PUNPCKLBW,---,---,UNPACK,2,Unpack Low Data
+19,MMX,663,PUNPCKHBW,---,---,UNPACK,1,Unpack High Data
+19,MMX,454,MOVQ,---,---,DATA_TRANSFER,10884,Move Doubleword/Move Quadword
+19,MMX,431,MOVD,---,---,DATA_TRANSFER,4703,Move Doubleword/Move Quadword
+19,MMX,668,PUNPCKLDQ,---,---,UNPACK,802,Unpack Low Data
+25,AVX,1203,VLDMXCSR,---,---,---,2,
+25,AVX,1704,VZEROUPPER,---,---,---,18,
+25,AVX,1685,VSTMXCSR,---,---,---,2,
+25,AVX,1232,VMOVDQU,---,---,---,8,
+25,SSE2f,160,DIVSD,---,---,ARITHMETIC,2,Divide Scalar Double-Precision Floating-Point Value
+25,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,1,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+25,SSE2f,141,CVTSI2SD,---,---,CONVERSION,2,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+25,SSE2f,858,UCOMISD,---,---,COMPARISON,12,Unordered Compare Scalar Double-Precision Floating-Point Values and Set EFLAGS
+25,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1,Add Scalar Double-Precision Floating-Point Values
+25,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+25,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+25,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+25,SSE1f,161,DIVSS,---,---,ARITHMETIC,3,Divide Scalar Single-Precision Floating-Point Values
+25,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,4,Move High Packed Single-Precision Floating-Point Values
+25,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,52,Move Aligned Packed Single-Precision Floating-Point Values
+25,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,4,Move or Merge Scalar Single-Precision Floating-Point Value
+25,SSE1f,142,CVTSI2SS,---,---,CONVERSION,3,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+25,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+25,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,215,Move Unaligned Packed Single-Precision Floating-Point Values
+25,AVX2,1456,VPMINUB,---,---,---,8,
+25,AVX2,1312,VPBROADCASTB,---,---,---,19,
+25,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,35,Move Unaligned Packed Integer Values
+25,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,19,Move Aligned Packed Integer Values
+25,SSE2i,634,PSHUFD,---,---,SHUFFLE,6,Shuffle Packed Doublewords
+25,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,146,Unpack Low Data
+25,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+25,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+25,MMX,678,PXOR,---,---,LOGICAL,41,Logical Exclusive OR
+25,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+25,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+25,MMX,509,PADDD,---,---,ARITHMETIC,4,Add Packed Integers
+25,MMX,670,PUNPCKLWD,---,---,UNPACK,5,Unpack Low Data
+25,MMX,623,POR,---,---,LOGICAL,1,Bitwise Logical OR
+25,MMX,667,PUNPCKLBW,---,---,UNPACK,3,Unpack Low Data
+25,MMX,454,MOVQ,---,---,DATA_TRANSFER,178,Move Doubleword/Move Quadword
+25,MMX,431,MOVD,---,---,DATA_TRANSFER,8,Move Doubleword/Move Quadword
+25,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+24,AVX,1203,VLDMXCSR,---,---,---,2,
+24,AVX,1704,VZEROUPPER,---,---,---,84,
+24,AVX,1685,VSTMXCSR,---,---,---,2,
+24,AVX,1232,VMOVDQU,---,---,---,10,
+24,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,9,Move Aligned Packed Double-Precision Floating-Point Values
+24,SSE2f,811,SQRTSD,---,---,ARITHMETIC,4,Compute Square Root of Scalar Double-Precision Floating-Point Value
+24,SSE2f,124,COMISD,---,---,COMPARISON,13,Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS
+24,SSE2f,475,MULSD,---,---,ARITHMETIC,17,Multiply Scalar Double-Precision Floating-Point Value
+24,SSE2f,160,DIVSD,---,---,ARITHMETIC,4,Divide Scalar Double-Precision Floating-Point Value
+24,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,5,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+24,SSE2f,141,CVTSI2SD,---,---,CONVERSION,14,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+24,SSE2f,858,UCOMISD,---,---,COMPARISON,40,Unordered Compare Scalar Double-Precision Floating-Point Values and Set EFLAGS
+24,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,9,Add Scalar Double-Precision Floating-Point Values
+24,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+24,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+24,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+24,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,6,Move High Packed Single-Precision Floating-Point Values
+24,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,4,Move or Merge Scalar Single-Precision Floating-Point Value
+24,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,307,Move Aligned Packed Single-Precision Floating-Point Values
+24,SSE1f,161,DIVSS,---,---,ARITHMETIC,3,Divide Scalar Single-Precision Floating-Point Values
+24,SSE1f,142,CVTSI2SS,---,---,CONVERSION,3,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+24,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+24,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,240,Move Unaligned Packed Single-Precision Floating-Point Values
+24,AVX2,1608,VPXOR,---,---,---,2,
+24,AVX2,1456,VPMINUB,---,---,---,8,
+24,AVX2,1312,VPBROADCASTB,---,---,---,32,
+24,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,109,Move Aligned Packed Integer Values
+24,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,72,Move Unaligned Packed Integer Values
+24,SSE2i,634,PSHUFD,---,---,SHUFFLE,33,Shuffle Packed Doublewords
+24,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,127,Unpack Low Data
+24,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+24,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+24,MMX,678,PXOR,---,---,LOGICAL,183,Logical Exclusive OR
+24,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+24,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+24,MMX,509,PADDD,---,---,ARITHMETIC,4,Add Packed Integers
+24,MMX,670,PUNPCKLWD,---,---,UNPACK,5,Unpack Low Data
+24,MMX,623,POR,---,---,LOGICAL,1,Bitwise Logical OR
+24,MMX,667,PUNPCKLBW,---,---,UNPACK,3,Unpack Low Data
+24,MMX,454,MOVQ,---,---,DATA_TRANSFER,311,Move Doubleword/Move Quadword
+24,MMX,431,MOVD,---,---,DATA_TRANSFER,35,Move Doubleword/Move Quadword
+24,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+27,AVX,1203,VLDMXCSR,---,---,---,2,
+27,AVX,1704,VZEROUPPER,---,---,---,29,
+27,AVX,1250,VMOVSD,---,---,---,8,
+27,AVX,1685,VSTMXCSR,---,---,---,2,
+27,AVX,1232,VMOVDQU,---,---,---,10,
+27,SSE2f,160,DIVSD,---,---,ARITHMETIC,2,Divide Scalar Double-Precision Floating-Point Value
+27,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,1,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+27,SSE2f,141,CVTSI2SD,---,---,CONVERSION,2,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+27,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1,Add Scalar Double-Precision Floating-Point Values
+27,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+27,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,13,Move Aligned Packed Integer Values
+27,SSE2i,634,PSHUFD,---,---,SHUFFLE,5,Shuffle Packed Doublewords
+27,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,20,Unpack Low Data
+27,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,37,Move Unaligned Packed Integer Values
+27,AVX2,1608,VPXOR,---,---,---,2,
+27,AVX2,1456,VPMINUB,---,---,---,8,
+27,AVX2,1312,VPBROADCASTB,---,---,---,16,
+27,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+27,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+27,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,5,Move High Packed Single-Precision Floating-Point Values
+27,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,4,Move or Merge Scalar Single-Precision Floating-Point Value
+27,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,38,Move Aligned Packed Single-Precision Floating-Point Values
+27,SSE1f,161,DIVSS,---,---,ARITHMETIC,3,Divide Scalar Single-Precision Floating-Point Values
+27,SSE1f,142,CVTSI2SS,---,---,CONVERSION,3,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+27,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+27,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,88,Move Unaligned Packed Single-Precision Floating-Point Values
+27,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+27,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+27,MMX,678,PXOR,---,---,LOGICAL,35,Logical Exclusive OR
+27,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+27,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+27,MMX,509,PADDD,---,---,ARITHMETIC,4,Add Packed Integers
+27,MMX,670,PUNPCKLWD,---,---,UNPACK,5,Unpack Low Data
+27,MMX,623,POR,---,---,LOGICAL,1,Bitwise Logical OR
+27,MMX,667,PUNPCKLBW,---,---,UNPACK,3,Unpack Low Data
+27,MMX,454,MOVQ,---,---,DATA_TRANSFER,56,Move Doubleword/Move Quadword
+27,MMX,431,MOVD,---,---,DATA_TRANSFER,7,Move Doubleword/Move Quadword
+27,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+26,AVX,1203,VLDMXCSR,---,---,---,2,
+26,AVX,1704,VZEROUPPER,---,---,---,40,
+26,AVX,1250,VMOVSD,---,---,---,12,
+26,AVX,1685,VSTMXCSR,---,---,---,2,
+26,AVX,1232,VMOVDQU,---,---,---,12,
+26,SSE2f,160,DIVSD,---,---,ARITHMETIC,2,Divide Scalar Double-Precision Floating-Point Value
+26,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,1,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+26,SSE2f,141,CVTSI2SD,---,---,CONVERSION,2,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+26,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1,Add Scalar Double-Precision Floating-Point Values
+26,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+26,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+26,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+26,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,5,Move High Packed Single-Precision Floating-Point Values
+26,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,4,Move or Merge Scalar Single-Precision Floating-Point Value
+26,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,38,Move Aligned Packed Single-Precision Floating-Point Values
+26,SSE1f,161,DIVSS,---,---,ARITHMETIC,3,Divide Scalar Single-Precision Floating-Point Values
+26,SSE1f,142,CVTSI2SS,---,---,CONVERSION,3,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+26,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+26,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,104,Move Unaligned Packed Single-Precision Floating-Point Values
+26,AVX2,1608,VPXOR,---,---,---,2,
+26,AVX2,1456,VPMINUB,---,---,---,8,
+26,AVX2,1312,VPBROADCASTB,---,---,---,16,
+26,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,13,Move Aligned Packed Integer Values
+26,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,44,Move Unaligned Packed Integer Values
+26,SSE2i,634,PSHUFD,---,---,SHUFFLE,5,Shuffle Packed Doublewords
+26,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,29,Unpack Low Data
+26,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+26,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+26,MMX,678,PXOR,---,---,LOGICAL,41,Logical Exclusive OR
+26,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+26,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+26,MMX,509,PADDD,---,---,ARITHMETIC,4,Add Packed Integers
+26,MMX,670,PUNPCKLWD,---,---,UNPACK,5,Unpack Low Data
+26,MMX,623,POR,---,---,LOGICAL,1,Bitwise Logical OR
+26,MMX,667,PUNPCKLBW,---,---,UNPACK,3,Unpack Low Data
+26,MMX,454,MOVQ,---,---,DATA_TRANSFER,87,Move Doubleword/Move Quadword
+26,MMX,431,MOVD,---,---,DATA_TRANSFER,7,Move Doubleword/Move Quadword
+26,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+31,AVX,1249,VMOVQ,---,---,---,6,
+31,AVX,1232,VMOVDQU,---,---,---,1872,
+31,SSE2f,868,UNPCKLPD,---,---,UNPACK,233,Unpack and Interleave Low Packed Double-Precision Floating-Point Values
+31,SSE2f,35,ANDPD,FCMOV,LZCNT,LOGICAL,2151,Bitwise Logical AND of Packed Double Precision Floating-Point Values
+31,SSE2f,439,MOVHPD,---,---,DATA_TRANSFER,233,Move High Packed Double-Precision Floating-Point Value
+31,SSE2f,140,CVTSD2SS,---,---,CONVERSION,2840,Convert Scalar Double-Precision Floating-Point Value to Scalar Single-Precision Floating-Point Value
+31,SSE2f,829,SUBSD,---,---,ARITHMETIC,3171,Subtract Scalar Double-Precision Floating-Point Value
+31,SSE2f,158,DIVPD,---,---,ARITHMETIC,233,Divide Packed Double-Precision Floating-Point Values
+31,SSE2f,457,MOVSD,---,---,DATA_TRANSFER,2108,Move or Merge Scalar Double-Precision Floating-Point Value
+31,SSE2f,802,SHUFPD,---,---,SHUFFLE,120,Packed Interleave Shuffle of Pairs of Double-Precision Floating-Point Values
+31,SSE2f,141,CVTSI2SD,---,---,CONVERSION,3635,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+31,SSE2f,417,MAXSD,---,---,COMPARISON,316,Return Maximum Scalar Double-Precision Floating-Point Value
+31,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,5264,Move Aligned Packed Double-Precision Floating-Point Values
+31,SSE2f,124,COMISD,---,---,COMPARISON,17259,Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS
+31,SSE2f,475,MULSD,---,---,ARITHMETIC,8535,Multiply Scalar Double-Precision Floating-Point Value
+31,SSE2f,160,DIVSD,---,---,ARITHMETIC,394,Divide Scalar Double-Precision Floating-Point Value
+31,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,16121,Add Scalar Double-Precision Floating-Point Values
+31,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,162,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+31,SSE2f,145,CVTTPD2DQ,---,---,CONVERSION,233,Convert with Truncation Packed Double-Precision Floating-Point Values to Packed Doubleword Integers
+31,SSE2f,858,UCOMISD,---,---,COMPARISON,4267,Unordered Compare Scalar Double-Precision Floating-Point Values and Set EFLAGS
+31,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1661,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+31,SSE1f,438,MOVHLPS,---,---,DATA_TRANSFER,693,Move Packed Single-Precision Floating-Point Values High to Low
+31,SSE1f,859,UCOMISS,---,---,COMPARISON,304,Unordered Compare Scalar Single-Precision Floating-Point Values and Set EFLAGS
+31,SSE1f,443,MOVLPS,---,---,DATA_TRANSFER,60,Move Low Packed Single-Precision Floating-Point Values
+31,SSE1f,424,MINSS,---,---,COMPARISON,25,Return Minimum Scalar Single-Precision Floating-Point Value
+31,SSE1f,125,COMISS,---,---,COMPARISON,1723,Compare Scalar Ordered Single-Precision Floating-Point Values and Set EFLAGS
+31,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,193,Add Scalar Single-Precision Floating-Point Values
+31,SSE1f,476,MULSS,---,---,ARITHMETIC,278,Multiply Scalar Single-Precision Floating-Point Values
+31,SSE1f,161,DIVSS,---,---,ARITHMETIC,73,Divide Scalar Single-Precision Floating-Point Values
+31,SSE1f,869,UNPCKLPS,---,---,UNPACK,67,Unpack and Interleave Low Packed Single-Precision Floating-Point Values
+31,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,2317,Move High Packed Single-Precision Floating-Point Values
+31,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,49114,Move Aligned Packed Single-Precision Floating-Point Values
+31,SSE1f,830,SUBSS,---,---,ARITHMETIC,418,Subtract Scalar Single-Precision Floating-Point Value
+31,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,5495,Move or Merge Scalar Single-Precision Floating-Point Value
+31,SSE1f,142,CVTSI2SS,---,---,CONVERSION,207,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+31,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,323246,Move Unaligned Packed Single-Precision Floating-Point Values
+31,AVX2,1456,VPMINUB,---,---,---,138,
+31,AVX2,1312,VPBROADCASTB,---,---,---,11254,
+31,SSE2i,510,PADDQ,---,---,ARITHMETIC,1543,Add Packed Integers
+31,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,134628,Move Unaligned Packed Integer Values
+31,SSE2i,634,PSHUFD,---,---,SHUFFLE,5963,Shuffle Packed Doublewords
+31,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,11078,Move Aligned Packed Integer Values
+31,SSE2i,649,PSRLDQ,---,---,SHIFT,425,Shift Double Quadword Right Logical
+31,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,4782,Unpack Low Data
+31,MMX,664,PUNPCKHDQ,---,---,UNPACK,4,Unpack High Data
+31,MMX,535,PCMPGTD,---,---,COMPARISON,4,Compare Packed Signed Integers for Greater Than
+31,MMX,527,PCMPEQD,---,---,COMPARISON,4170,Compare Packed Data for Equal
+31,MMX,666,PUNPCKHWD,---,---,UNPACK,2,Unpack High Data
+31,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+31,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+31,MMX,678,PXOR,---,---,LOGICAL,32040,Logical Exclusive OR
+31,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+31,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+31,MMX,509,PADDD,---,---,ARITHMETIC,9,Add Packed Integers
+31,MMX,670,PUNPCKLWD,---,---,UNPACK,3,Unpack Low Data
+31,MMX,623,POR,---,---,LOGICAL,1346,Bitwise Logical OR
+31,MMX,667,PUNPCKLBW,---,---,UNPACK,2,Unpack Low Data
+31,MMX,663,PUNPCKHBW,---,---,UNPACK,1,Unpack High Data
+31,MMX,454,MOVQ,---,---,DATA_TRANSFER,19947,Move Doubleword/Move Quadword
+31,MMX,431,MOVD,---,---,DATA_TRANSFER,8779,Move Doubleword/Move Quadword
+31,MMX,668,PUNPCKLDQ,---,---,UNPACK,1383,Unpack Low Data
+33,AVX,1249,VMOVQ,---,---,---,15,
+33,AVX,1232,VMOVDQU,---,---,---,344,
+33,SSE2f,475,MULSD,---,---,ARITHMETIC,241,Multiply Scalar Double-Precision Floating-Point Value
+33,SSE2f,124,COMISD,---,---,COMPARISON,171,Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS
+33,SSE2f,802,SHUFPD,---,---,SHUFFLE,14,Packed Interleave Shuffle of Pairs of Double-Precision Floating-Point Values
+33,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,69,Move Aligned Packed Double-Precision Floating-Point Values
+33,SSE2f,417,MAXSD,---,---,COMPARISON,24,Return Maximum Scalar Double-Precision Floating-Point Value
+33,SSE2f,160,DIVSD,---,---,ARITHMETIC,136,Divide Scalar Double-Precision Floating-Point Value
+33,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,32,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+33,SSE2f,141,CVTSI2SD,---,---,CONVERSION,494,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+33,SSE2f,858,UCOMISD,---,---,COMPARISON,64,Unordered Compare Scalar Double-Precision Floating-Point Values and Set EFLAGS
+33,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1,Add Scalar Double-Precision Floating-Point Values
+33,SSE2f,143,CVTSS2SD,---,---,CONVERSION,35,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+33,SSE1f,438,MOVHLPS,---,---,DATA_TRANSFER,187,Move Packed Single-Precision Floating-Point Values High to Low
+33,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,35,Add Scalar Single-Precision Floating-Point Values
+33,SSE1f,476,MULSS,---,---,ARITHMETIC,52,Multiply Scalar Single-Precision Floating-Point Values
+33,SSE1f,150,CVTTSS2SI,---,---,CONVERSION,50,Convert with Truncation Scalar Single-Precision Floating-Point Value to Integer
+33,SSE1f,161,DIVSS,---,---,ARITHMETIC,53,Divide Scalar Single-Precision Floating-Point Values
+33,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,1965,Move High Packed Single-Precision Floating-Point Values
+33,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,11002,Move Aligned Packed Single-Precision Floating-Point Values
+33,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,38,Move or Merge Scalar Single-Precision Floating-Point Value
+33,SSE1f,142,CVTSI2SS,---,---,CONVERSION,53,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+33,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+33,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,27460,Move Unaligned Packed Single-Precision Floating-Point Values
+33,AVX2,1456,VPMINUB,---,---,---,364,
+33,AVX2,1312,VPBROADCASTB,---,---,---,4790,
+33,SSE2i,665,PUNPCKHQDQ,---,---,UNPACK,50,Unpack High Data
+33,SSE2i,510,PADDQ,---,---,ARITHMETIC,22,Add Packed Integers
+33,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,16076,Move Unaligned Packed Integer Values
+33,SSE2i,634,PSHUFD,---,---,SHUFFLE,1101,Shuffle Packed Doublewords
+33,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,11059,Move Aligned Packed Integer Values
+33,SSE2i,649,PSRLDQ,---,---,SHIFT,23,Shift Double Quadword Right Logical
+33,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,2262,Unpack Low Data
+33,MMX,535,PCMPGTD,---,---,COMPARISON,11,Compare Packed Signed Integers for Greater Than
+33,MMX,664,PUNPCKHDQ,---,---,UNPACK,21,Unpack High Data
+33,MMX,527,PCMPEQD,---,---,COMPARISON,1067,Compare Packed Data for Equal
+33,MMX,666,PUNPCKHWD,---,---,UNPACK,2,Unpack High Data
+33,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+33,MMX,518,PANDN,---,---,LOGICAL,1096,Logical AND NOT
+33,MMX,678,PXOR,---,---,LOGICAL,5827,Logical Exclusive OR
+33,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+33,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+33,MMX,509,PADDD,---,---,ARITHMETIC,37,Add Packed Integers
+33,MMX,670,PUNPCKLWD,---,---,UNPACK,3,Unpack Low Data
+33,MMX,623,POR,---,---,LOGICAL,1734,Bitwise Logical OR
+33,MMX,667,PUNPCKLBW,---,---,UNPACK,2,Unpack Low Data
+33,MMX,663,PUNPCKHBW,---,---,UNPACK,1,Unpack High Data
+33,MMX,454,MOVQ,---,---,DATA_TRANSFER,11893,Move Doubleword/Move Quadword
+33,MMX,431,MOVD,---,---,DATA_TRANSFER,6643,Move Doubleword/Move Quadword
+33,MMX,668,PUNPCKLDQ,---,---,UNPACK,2680,Unpack Low Data
+32,AVX,1249,VMOVQ,---,---,---,98,
+32,AVX,1232,VMOVDQU,---,---,---,1220,
+32,SSE2f,475,MULSD,---,---,ARITHMETIC,727,Multiply Scalar Double-Precision Floating-Point Value
+32,SSE2f,124,COMISD,---,---,COMPARISON,612,Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS
+32,SSE2f,802,SHUFPD,---,---,SHUFFLE,48,Packed Interleave Shuffle of Pairs of Double-Precision Floating-Point Values
+32,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,244,Move Aligned Packed Double-Precision Floating-Point Values
+32,SSE2f,417,MAXSD,---,---,COMPARISON,100,Return Maximum Scalar Double-Precision Floating-Point Value
+32,SSE2f,160,DIVSD,---,---,ARITHMETIC,472,Divide Scalar Double-Precision Floating-Point Value
+32,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,79,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+32,SSE2f,141,CVTSI2SD,---,---,CONVERSION,1634,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+32,SSE2f,858,UCOMISD,---,---,COMPARISON,180,Unordered Compare Scalar Double-Precision Floating-Point Values and Set EFLAGS
+32,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1,Add Scalar Double-Precision Floating-Point Values
+32,SSE2f,143,CVTSS2SD,---,---,CONVERSION,59,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+32,SSE1f,438,MOVHLPS,---,---,DATA_TRANSFER,421,Move Packed Single-Precision Floating-Point Values High to Low
+32,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,59,Add Scalar Single-Precision Floating-Point Values
+32,SSE1f,476,MULSS,---,---,ARITHMETIC,95,Multiply Scalar Single-Precision Floating-Point Values
+32,SSE1f,150,CVTTSS2SI,---,---,CONVERSION,93,Convert with Truncation Scalar Single-Precision Floating-Point Value to Integer
+32,SSE1f,161,DIVSS,---,---,ARITHMETIC,102,Divide Scalar Single-Precision Floating-Point Values
+32,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,5718,Move High Packed Single-Precision Floating-Point Values
+32,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,31593,Move Aligned Packed Single-Precision Floating-Point Values
+32,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,73,Move or Merge Scalar Single-Precision Floating-Point Value
+32,SSE1f,142,CVTSI2SS,---,---,CONVERSION,108,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+32,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+32,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,80148,Move Unaligned Packed Single-Precision Floating-Point Values
+32,AVX2,1456,VPMINUB,---,---,---,1599,
+32,AVX2,1312,VPBROADCASTB,---,---,---,14244,
+32,SSE2i,510,PADDQ,---,---,ARITHMETIC,98,Add Packed Integers
+32,SSE2i,665,PUNPCKHQDQ,---,---,UNPACK,93,Unpack High Data
+32,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,46055,Move Unaligned Packed Integer Values
+32,SSE2i,634,PSHUFD,---,---,SHUFFLE,3059,Shuffle Packed Doublewords
+32,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,30746,Move Aligned Packed Integer Values
+32,SSE2i,649,PSRLDQ,---,---,SHIFT,25,Shift Double Quadword Right Logical
+32,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,6630,Unpack Low Data
+32,MMX,535,PCMPGTD,---,---,COMPARISON,49,Compare Packed Signed Integers for Greater Than
+32,MMX,664,PUNPCKHDQ,---,---,UNPACK,60,Unpack High Data
+32,MMX,527,PCMPEQD,---,---,COMPARISON,2956,Compare Packed Data for Equal
+32,MMX,666,PUNPCKHWD,---,---,UNPACK,2,Unpack High Data
+32,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+32,MMX,518,PANDN,---,---,LOGICAL,2888,Logical AND NOT
+32,MMX,678,PXOR,---,---,LOGICAL,17037,Logical Exclusive OR
+32,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+32,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+32,MMX,509,PADDD,---,---,ARITHMETIC,40,Add Packed Integers
+32,MMX,670,PUNPCKLWD,---,---,UNPACK,3,Unpack Low Data
+32,MMX,623,POR,---,---,LOGICAL,5280,Bitwise Logical OR
+32,MMX,667,PUNPCKLBW,---,---,UNPACK,2,Unpack Low Data
+32,MMX,663,PUNPCKHBW,---,---,UNPACK,1,Unpack High Data
+32,MMX,454,MOVQ,---,---,DATA_TRANSFER,35368,Move Doubleword/Move Quadword
+32,MMX,431,MOVD,---,---,DATA_TRANSFER,20757,Move Doubleword/Move Quadword
+32,MMX,668,PUNPCKLDQ,---,---,UNPACK,8700,Unpack Low Data
+29,AVX,1203,VLDMXCSR,---,---,---,2,
+29,AVX,1704,VZEROUPPER,---,---,---,16,
+29,AVX,1250,VMOVSD,---,---,---,4,
+29,AVX,1685,VSTMXCSR,---,---,---,2,
+29,AVX,1232,VMOVDQU,---,---,---,8,
+29,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,9,Move Aligned Packed Double-Precision Floating-Point Values
+29,SSE2f,811,SQRTSD,---,---,ARITHMETIC,4,Compute Square Root of Scalar Double-Precision Floating-Point Value
+29,SSE2f,124,COMISD,---,---,COMPARISON,13,Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS
+29,SSE2f,475,MULSD,---,---,ARITHMETIC,17,Multiply Scalar Double-Precision Floating-Point Value
+29,SSE2f,160,DIVSD,---,---,ARITHMETIC,4,Divide Scalar Double-Precision Floating-Point Value
+29,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,5,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+29,SSE2f,141,CVTSI2SD,---,---,CONVERSION,14,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+29,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,9,Add Scalar Double-Precision Floating-Point Values
+29,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+29,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,13,Move Aligned Packed Integer Values
+29,SSE2i,634,PSHUFD,---,---,SHUFFLE,5,Shuffle Packed Doublewords
+29,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,20,Unpack Low Data
+29,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,37,Move Unaligned Packed Integer Values
+29,AVX2,1456,VPMINUB,---,---,---,8,
+29,AVX2,1312,VPBROADCASTB,---,---,---,16,
+29,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+29,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+29,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,7,Move High Packed Single-Precision Floating-Point Values
+29,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,4,Move or Merge Scalar Single-Precision Floating-Point Value
+29,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,41,Move Aligned Packed Single-Precision Floating-Point Values
+29,SSE1f,161,DIVSS,---,---,ARITHMETIC,3,Divide Scalar Single-Precision Floating-Point Values
+29,SSE1f,142,CVTSI2SS,---,---,CONVERSION,3,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+29,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+29,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,87,Move Unaligned Packed Single-Precision Floating-Point Values
+29,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+29,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+29,MMX,678,PXOR,---,---,LOGICAL,57,Logical Exclusive OR
+29,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+29,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+29,MMX,509,PADDD,---,---,ARITHMETIC,4,Add Packed Integers
+29,MMX,670,PUNPCKLWD,---,---,UNPACK,5,Unpack Low Data
+29,MMX,623,POR,---,---,LOGICAL,1,Bitwise Logical OR
+29,MMX,667,PUNPCKLBW,---,---,UNPACK,3,Unpack Low Data
+29,MMX,454,MOVQ,---,---,DATA_TRANSFER,61,Move Doubleword/Move Quadword
+29,MMX,431,MOVD,---,---,DATA_TRANSFER,7,Move Doubleword/Move Quadword
+29,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+28,SSE1i,595,PMOVMSKB,---,---,DATA_TRANSFER,59,Move Byte Mask
+28,SSE1i,592,PMINUB,---,---,ARITHMETIC,56,Minimum of Packed Unsigned Integers
+28,AVX,1203,VLDMXCSR,---,---,---,2,
+28,AVX,1704,VZEROUPPER,---,---,---,223,
+28,AVX,1250,VMOVSD,---,---,---,120,
+28,AVX,1685,VSTMXCSR,---,---,---,2,
+28,AVX,1232,VMOVDQU,---,---,---,12,
+28,SSE2f,439,MOVHPD,---,---,DATA_TRANSFER,2,Move High Packed Double-Precision Floating-Point Value
+28,SSE2f,442,MOVLPD,---,---,DATA_TRANSFER,2,Move Low Packed Double-Precision Floating-Point Value
+28,SSE2f,160,DIVSD,---,---,ARITHMETIC,2,Divide Scalar Double-Precision Floating-Point Value
+28,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,1,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+28,SSE2f,141,CVTSI2SD,---,---,CONVERSION,2,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+28,SSE2f,858,UCOMISD,---,---,COMPARISON,24,Unordered Compare Scalar Double-Precision Floating-Point Values and Set EFLAGS
+28,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1,Add Scalar Double-Precision Floating-Point Values
+28,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+28,SSE1f,438,MOVHLPS,---,---,DATA_TRANSFER,1,Move Packed Single-Precision Floating-Point Values High to Low
+28,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+28,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+28,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,9,Move High Packed Single-Precision Floating-Point Values
+28,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,4,Move or Merge Scalar Single-Precision Floating-Point Value
+28,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,144,Move Aligned Packed Single-Precision Floating-Point Values
+28,SSE1f,161,DIVSS,---,---,ARITHMETIC,3,Divide Scalar Single-Precision Floating-Point Values
+28,SSE1f,142,CVTSI2SS,---,---,CONVERSION,3,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+28,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+28,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,199,Move Unaligned Packed Single-Precision Floating-Point Values
+28,AVX2,1456,VPMINUB,---,---,---,12,
+28,AVX2,1312,VPBROADCASTB,---,---,---,26,
+28,SSE2i,649,PSRLDQ,---,---,SHIFT,1,Shift Double Quadword Right Logical
+28,SSE2i,634,PSHUFD,---,---,SHUFFLE,41,Shuffle Packed Doublewords
+28,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,132,Move Aligned Packed Integer Values
+28,SSE2i,642,PSLLDQ,---,---,SHIFT,2,Shift Double Quadword Left Logical
+28,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,190,Move Unaligned Packed Integer Values
+28,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,57,Unpack Low Data
+28,MMX,526,PCMPEQB,---,---,COMPARISON,174,Compare Packed Data for Equal
+28,MMX,652,PSUBB,---,---,ARITHMETIC,3,Subtract Packed Integers
+28,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+28,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+28,MMX,678,PXOR,---,---,LOGICAL,122,Logical Exclusive OR
+28,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+28,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+28,MMX,509,PADDD,---,---,ARITHMETIC,4,Add Packed Integers
+28,MMX,670,PUNPCKLWD,---,---,UNPACK,33,Unpack Low Data
+28,MMX,623,POR,---,---,LOGICAL,58,Bitwise Logical OR
+28,MMX,667,PUNPCKLBW,---,---,UNPACK,31,Unpack Low Data
+28,MMX,454,MOVQ,---,---,DATA_TRANSFER,175,Move Doubleword/Move Quadword
+28,MMX,431,MOVD,---,---,DATA_TRANSFER,44,Move Doubleword/Move Quadword
+28,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+30,SSE1i,592,PMINUB,---,---,ARITHMETIC,364,Minimum of Packed Unsigned Integers
+30,SSE1i,595,PMOVMSKB,---,---,DATA_TRANSFER,1398,Move Byte Mask
+30,SSE1i,580,PINSRW,---,---,INSERT,191,Insert Word
+30,AVX,1423,VPINSRW,---,---,---,1,
+30,AVX,1265,VMULPD,---,---,---,9,
+30,AVX,1392,VPEXTRW,---,---,---,1,
+30,AVX,1701,VXORPD,---,---,---,43,
+30,AVX,1017,VEXTRACTF128,---,---,---,16,
+30,AVX,1005,VDIVSD,---,---,---,103,
+30,AVX,1225,VMOVAPD,---,---,---,123,
+30,AVX,892,VANDPD,---,---,---,20,
+30,AVX,1268,VMULSD,---,---,---,103,
+30,AVX,963,VCVTSI2SD,---,---,---,123,
+30,AVX,1699,VUNPCKLPD,---,---,---,1,
+30,AVX,1229,VMOVDQA,---,---,---,120,
+30,AVX,1685,VSTMXCSR,---,---,---,239,
+30,AVX,1591,VPTEST,---,---,---,356,
+30,AVX,988,VCVTTSS2SI,---,---,---,113,
+30,AVX,1270,VMULSS,---,---,---,109,
+30,AVX,877,VADDSD,---,---,---,72,
+30,AVX,1421,VPINSRD,---,---,---,30,
+30,AVX,1689,VSUBSD,---,---,---,25,
+30,AVX,984,VCVTTSD2SI,---,---,---,52,
+30,AVX,1007,VDIVSS,---,---,---,6,
+30,AVX,1694,VUCOMISD,---,---,---,140,
+30,AVX,1318,VPCLMULQDQ,---,---,---,5722,
+30,AVX,1249,VMOVQ,---,---,---,11913,
+30,AVX,874,VADDPD,---,---,---,5,
+30,AVX,1250,VMOVSD,---,---,---,13711,
+30,AVX,1203,VLDMXCSR,---,---,---,239,
+30,AVX,1696,VUCOMISS,---,---,---,261,
+30,AVX,1226,VMOVAPS,---,---,---,6,
+30,AVX,965,VCVTSI2SS,---,---,---,114,
+30,AVX,1624,VRCPPS,---,---,---,1,
+30,AVX,966,VCVTSS2SD,---,---,---,1,
+30,AVX,1232,VMOVDQU,---,---,---,18964,
+30,AVX,1702,VXORPS,---,---,---,103,
+30,AVX,1704,VZEROUPPER,---,---,---,150525,
+30,AVX,1227,VMOVD,---,---,---,7254,
+30,AVX,1254,VMOVSS,---,---,---,1589,
+30,SSE2f,811,SQRTSD,---,---,ARITHMETIC,12,Compute Square Root of Scalar Double-Precision Floating-Point Value
+30,SSE2f,439,MOVHPD,---,---,DATA_TRANSFER,546,Move High Packed Double-Precision Floating-Point Value
+30,SSE2f,475,MULSD,---,---,ARITHMETIC,5292,Multiply Scalar Double-Precision Floating-Point Value
+30,SSE2f,124,COMISD,---,---,COMPARISON,6781,Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS
+30,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,2326,Move Aligned Packed Double-Precision Floating-Point Values
+30,SSE2f,141,CVTSI2SD,---,---,CONVERSION,16810,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+30,SSE2f,417,MAXSD,---,---,COMPARISON,1548,Return Maximum Scalar Double-Precision Floating-Point Value
+30,SSE2f,802,SHUFPD,---,---,SHUFFLE,698,Packed Interleave Shuffle of Pairs of Double-Precision Floating-Point Values
+30,SSE2f,160,DIVSD,---,---,ARITHMETIC,4396,Divide Scalar Double-Precision Floating-Point Value
+30,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1817,Add Scalar Double-Precision Floating-Point Values
+30,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,13,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+30,SSE2f,858,UCOMISD,---,---,COMPARISON,3964,Unordered Compare Scalar Double-Precision Floating-Point Values and Set EFLAGS
+30,SSE2f,442,MOVLPD,---,---,DATA_TRANSFER,546,Move Low Packed Double-Precision Floating-Point Value
+30,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+30,SSE1f,438,MOVHLPS,---,---,DATA_TRANSFER,60,Move Packed Single-Precision Floating-Point Values High to Low
+30,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+30,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+30,SSE1f,161,DIVSS,---,---,ARITHMETIC,287,Divide Scalar Single-Precision Floating-Point Values
+30,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,19734,Move High Packed Single-Precision Floating-Point Values
+30,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,224241,Move Aligned Packed Single-Precision Floating-Point Values
+30,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,288,Move or Merge Scalar Single-Precision Floating-Point Value
+30,SSE1f,142,CVTSI2SS,---,---,CONVERSION,571,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+30,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+30,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,165936,Move Unaligned Packed Single-Precision Floating-Point Values
+30,AVX2,1563,VPSLLQ,---,---,---,2,
+30,AVX2,1574,VPSRLD,---,---,---,1,
+30,AVX2,1512,VPOR,---,---,---,2,
+30,AVX2,1289,VPADDD,---,---,---,2,
+30,AVX2,1575,VPSRLDQ,---,---,---,180,
+30,AVX2,1608,VPXOR,---,---,---,91039,
+30,AVX2,1555,VPSHUFD,---,---,---,9,
+30,AVX2,1456,VPMINUB,---,---,---,3886,
+30,AVX2,1297,VPAND,---,---,---,33,
+30,AVX2,1576,VPSRLQ,---,---,---,2,
+30,AVX2,1312,VPBROADCASTB,---,---,---,31850,
+30,SSE2i,642,PSLLDQ,---,---,SHIFT,211,Shift Double Quadword Left Logical
+30,SSE2i,510,PADDQ,---,---,ARITHMETIC,93,Add Packed Integers
+30,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,103617,Move Unaligned Packed Integer Values
+30,SSE2i,634,PSHUFD,---,---,SHUFFLE,8430,Shuffle Packed Doublewords
+30,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,81052,Move Aligned Packed Integer Values
+30,SSE2i,649,PSRLDQ,---,---,SHIFT,1290,Shift Double Quadword Right Logical
+30,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,106564,Unpack Low Data
+30,MMX,526,PCMPEQB,---,---,COMPARISON,2764,Compare Packed Data for Equal
+30,MMX,664,PUNPCKHDQ,---,---,UNPACK,40,Unpack High Data
+30,MMX,535,PCMPGTD,---,---,COMPARISON,40,Compare Packed Signed Integers for Greater Than
+30,MMX,527,PCMPEQD,---,---,COMPARISON,363,Compare Packed Data for Equal
+30,MMX,651,PSRLW,---,---,SHIFT,178,Shift Packed Data Right Logical
+30,MMX,666,PUNPCKHWD,---,---,UNPACK,1854,Unpack High Data
+30,MMX,663,PUNPCKHBW,---,---,UNPACK,927,Unpack High Data
+30,MMX,652,PSUBB,---,---,ARITHMETIC,603,Subtract Packed Integers
+30,MMX,537,PCMPGTW,---,---,COMPARISON,2472,Compare Packed Signed Integers for Greater Than
+30,MMX,518,PANDN,---,---,LOGICAL,1236,Logical AND NOT
+30,MMX,678,PXOR,---,---,LOGICAL,69291,Logical Exclusive OR
+30,MMX,517,PAND,---,---,LOGICAL,1271,Logical AND
+30,MMX,534,PCMPGTB,---,---,COMPARISON,2472,Compare Packed Signed Integers for Greater Than
+30,MMX,509,PADDD,---,---,ARITHMETIC,6171,Add Packed Integers
+30,MMX,670,PUNPCKLWD,---,---,UNPACK,3305,Unpack Low Data
+30,MMX,623,POR,---,---,LOGICAL,1876,Bitwise Logical OR
+30,MMX,644,PSLLW,---,---,SHIFT,178,Shift Packed Data Left Logical
+30,MMX,667,PUNPCKLBW,---,---,UNPACK,1760,Unpack Low Data
+30,MMX,454,MOVQ,---,---,DATA_TRANSFER,240542,Move Doubleword/Move Quadword
+30,MMX,431,MOVD,---,---,DATA_TRANSFER,12773,Move Doubleword/Move Quadword
+30,MMX,668,PUNPCKLDQ,---,---,UNPACK,2147,Unpack Low Data
+34,AVX,1203,VLDMXCSR,---,---,---,2,
+34,AVX,1704,VZEROUPPER,---,---,---,207,
+34,AVX,1250,VMOVSD,---,---,---,120,
+34,AVX,1685,VSTMXCSR,---,---,---,2,
+34,AVX,1232,VMOVDQU,---,---,---,10,
+34,SSE2f,124,COMISD,---,---,COMPARISON,16,Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS
+34,SSE2f,475,MULSD,---,---,ARITHMETIC,12,Multiply Scalar Double-Precision Floating-Point Value
+34,SSE2f,417,MAXSD,---,---,COMPARISON,4,Return Maximum Scalar Double-Precision Floating-Point Value
+34,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,6,Move Aligned Packed Double-Precision Floating-Point Values
+34,SSE2f,160,DIVSD,---,---,ARITHMETIC,12,Divide Scalar Double-Precision Floating-Point Value
+34,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,1,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+34,SSE2f,141,CVTSI2SD,---,---,CONVERSION,41,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+34,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,5,Add Scalar Double-Precision Floating-Point Values
+34,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+34,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+34,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+34,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,11,Move High Packed Single-Precision Floating-Point Values
+34,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,5,Move or Merge Scalar Single-Precision Floating-Point Value
+34,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,105,Move Aligned Packed Single-Precision Floating-Point Values
+34,SSE1f,161,DIVSS,---,---,ARITHMETIC,4,Divide Scalar Single-Precision Floating-Point Values
+34,SSE1f,142,CVTSI2SS,---,---,CONVERSION,5,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+34,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+34,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,244,Move Unaligned Packed Single-Precision Floating-Point Values
+34,AVX2,1608,VPXOR,---,---,---,2,
+34,AVX2,1456,VPMINUB,---,---,---,8,
+34,AVX2,1312,VPBROADCASTB,---,---,---,16,
+34,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,45,Move Aligned Packed Integer Values
+34,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,78,Move Unaligned Packed Integer Values
+34,SSE2i,634,PSHUFD,---,---,SHUFFLE,5,Shuffle Packed Doublewords
+34,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,82,Unpack Low Data
+34,MMX,527,PCMPEQD,---,---,COMPARISON,2,Compare Packed Data for Equal
+34,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+34,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+34,MMX,678,PXOR,---,---,LOGICAL,119,Logical Exclusive OR
+34,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+34,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+34,MMX,509,PADDD,---,---,ARITHMETIC,4,Add Packed Integers
+34,MMX,670,PUNPCKLWD,---,---,UNPACK,5,Unpack Low Data
+34,MMX,623,POR,---,---,LOGICAL,1,Bitwise Logical OR
+34,MMX,667,PUNPCKLBW,---,---,UNPACK,3,Unpack Low Data
+34,MMX,454,MOVQ,---,---,DATA_TRANSFER,207,Move Doubleword/Move Quadword
+34,MMX,431,MOVD,---,---,DATA_TRANSFER,11,Move Doubleword/Move Quadword
+34,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+35,AVX,1203,VLDMXCSR,---,---,---,2,
+35,AVX,1704,VZEROUPPER,---,---,---,20,
+35,AVX,1250,VMOVSD,---,---,---,4,
+35,AVX,1685,VSTMXCSR,---,---,---,2,
+35,AVX,1232,VMOVDQU,---,---,---,8,
+35,SSE2f,160,DIVSD,---,---,ARITHMETIC,2,Divide Scalar Double-Precision Floating-Point Value
+35,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,1,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+35,SSE2f,141,CVTSI2SD,---,---,CONVERSION,2,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+35,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1,Add Scalar Double-Precision Floating-Point Values
+35,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+35,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+35,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+35,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,4,Move High Packed Single-Precision Floating-Point Values
+35,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,4,Move or Merge Scalar Single-Precision Floating-Point Value
+35,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,45,Move Aligned Packed Single-Precision Floating-Point Values
+35,SSE1f,161,DIVSS,---,---,ARITHMETIC,3,Divide Scalar Single-Precision Floating-Point Values
+35,SSE1f,142,CVTSI2SS,---,---,CONVERSION,3,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+35,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+35,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,100,Move Unaligned Packed Single-Precision Floating-Point Values
+35,AVX2,1456,VPMINUB,---,---,---,8,
+35,AVX2,1312,VPBROADCASTB,---,---,---,16,
+35,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,13,Move Aligned Packed Integer Values
+35,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,44,Move Unaligned Packed Integer Values
+35,SSE2i,634,PSHUFD,---,---,SHUFFLE,5,Shuffle Packed Doublewords
+35,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,28,Unpack Low Data
+35,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+35,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+35,MMX,678,PXOR,---,---,LOGICAL,48,Logical Exclusive OR
+35,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+35,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+35,MMX,509,PADDD,---,---,ARITHMETIC,4,Add Packed Integers
+35,MMX,670,PUNPCKLWD,---,---,UNPACK,5,Unpack Low Data
+35,MMX,623,POR,---,---,LOGICAL,1,Bitwise Logical OR
+35,MMX,667,PUNPCKLBW,---,---,UNPACK,3,Unpack Low Data
+35,MMX,454,MOVQ,---,---,DATA_TRANSFER,90,Move Doubleword/Move Quadword
+35,MMX,431,MOVD,---,---,DATA_TRANSFER,7,Move Doubleword/Move Quadword
+35,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+36,SSE1i,580,PINSRW,---,---,INSERT,37,Insert Word
+36,AVX,1689,VSUBSD,---,---,---,20,
+36,AVX,892,VANDPD,---,---,---,20,
+36,AVX,1268,VMULSD,---,---,---,40,
+36,AVX,877,VADDSD,---,---,---,60,
+36,AVX,1694,VUCOMISD,---,---,---,140,
+36,AVX,1005,VDIVSD,---,---,---,50,
+36,AVX,963,VCVTSI2SD,---,---,---,70,
+36,AVX,1591,VPTEST,---,---,---,160,
+36,AVX,1203,VLDMXCSR,---,---,---,2,
+36,AVX,1249,VMOVQ,---,---,---,1833,
+36,AVX,1250,VMOVSD,---,---,---,4312,
+36,AVX,1227,VMOVD,---,---,---,4300,
+36,AVX,1701,VXORPD,---,---,---,40,
+36,AVX,965,VCVTSI2SS,---,---,---,24,
+36,AVX,988,VCVTTSS2SI,---,---,---,24,
+36,AVX,1270,VMULSS,---,---,---,24,
+36,AVX,1702,VXORPS,---,---,---,20,
+36,AVX,1232,VMOVDQU,---,---,---,1644,
+36,AVX,1254,VMOVSS,---,---,---,320,
+36,AVX,1704,VZEROUPPER,---,---,---,19412,
+36,AVX,1696,VUCOMISS,---,---,---,63,
+36,AVX,1225,VMOVAPD,---,---,---,70,
+36,AVX,1685,VSTMXCSR,---,---,---,2,
+36,SSE2f,417,MAXSD,---,---,COMPARISON,263,Return Maximum Scalar Double-Precision Floating-Point Value
+36,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,408,Move Aligned Packed Double-Precision Floating-Point Values
+36,SSE2f,811,SQRTSD,---,---,ARITHMETIC,4,Compute Square Root of Scalar Double-Precision Floating-Point Value
+36,SSE2f,124,COMISD,---,---,COMPARISON,1215,Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS
+36,SSE2f,475,MULSD,---,---,ARITHMETIC,958,Multiply Scalar Double-Precision Floating-Point Value
+36,SSE2f,160,DIVSD,---,---,ARITHMETIC,751,Divide Scalar Double-Precision Floating-Point Value
+36,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,5,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+36,SSE2f,141,CVTSI2SD,---,---,CONVERSION,3011,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+36,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,355,Add Scalar Double-Precision Floating-Point Values
+36,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+36,SSE1f,438,MOVHLPS,---,---,DATA_TRANSFER,9,Move Packed Single-Precision Floating-Point Values High to Low
+36,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+36,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+36,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,1395,Move High Packed Single-Precision Floating-Point Values
+36,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,82,Move or Merge Scalar Single-Precision Floating-Point Value
+36,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,14638,Move Aligned Packed Single-Precision Floating-Point Values
+36,SSE1f,161,DIVSS,---,---,ARITHMETIC,81,Divide Scalar Single-Precision Floating-Point Values
+36,SSE1f,142,CVTSI2SS,---,---,CONVERSION,159,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+36,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+36,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,14302,Move Unaligned Packed Single-Precision Floating-Point Values
+36,AVX2,1608,VPXOR,---,---,---,5466,
+36,AVX2,1456,VPMINUB,---,---,---,26,
+36,AVX2,1312,VPBROADCASTB,---,---,---,967,
+36,SSE2i,510,PADDQ,---,---,ARITHMETIC,4,Add Packed Integers
+36,SSE2i,634,PSHUFD,---,---,SHUFFLE,178,Shuffle Packed Doublewords
+36,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,8282,Move Aligned Packed Integer Values
+36,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,4827,Move Unaligned Packed Integer Values
+36,SSE2i,649,PSRLDQ,---,---,SHIFT,111,Shift Double Quadword Right Logical
+36,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,6026,Unpack Low Data
+36,MMX,664,PUNPCKHDQ,---,---,UNPACK,2,Unpack High Data
+36,MMX,535,PCMPGTD,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+36,MMX,527,PCMPEQD,---,---,COMPARISON,71,Compare Packed Data for Equal
+36,MMX,666,PUNPCKHWD,---,---,UNPACK,132,Unpack High Data
+36,MMX,663,PUNPCKHBW,---,---,UNPACK,66,Unpack High Data
+36,MMX,537,PCMPGTW,---,---,COMPARISON,164,Compare Packed Signed Integers for Greater Than
+36,MMX,518,PANDN,---,---,LOGICAL,82,Logical AND NOT
+36,MMX,678,PXOR,---,---,LOGICAL,5756,Logical Exclusive OR
+36,MMX,517,PAND,---,---,LOGICAL,82,Logical AND
+36,MMX,534,PCMPGTB,---,---,COMPARISON,164,Compare Packed Signed Integers for Greater Than
+36,MMX,509,PADDD,---,---,ARITHMETIC,439,Add Packed Integers
+36,MMX,670,PUNPCKLWD,---,---,UNPACK,197,Unpack Low Data
+36,MMX,623,POR,---,---,LOGICAL,82,Bitwise Logical OR
+36,MMX,667,PUNPCKLBW,---,---,UNPACK,99,Unpack Low Data
+36,MMX,454,MOVQ,---,---,DATA_TRANSFER,13591,Move Doubleword/Move Quadword
+36,MMX,431,MOVD,---,---,DATA_TRANSFER,493,Move Doubleword/Move Quadword
+36,MMX,668,PUNPCKLDQ,---,---,UNPACK,114,Unpack Low Data
+38,AVX,1203,VLDMXCSR,---,---,---,2,
+38,AVX,1704,VZEROUPPER,---,---,---,20,
+38,AVX,1250,VMOVSD,---,---,---,4,
+38,AVX,1685,VSTMXCSR,---,---,---,2,
+38,AVX,1232,VMOVDQU,---,---,---,8,
+38,SSE2f,160,DIVSD,---,---,ARITHMETIC,2,Divide Scalar Double-Precision Floating-Point Value
+38,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,1,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+38,SSE2f,141,CVTSI2SD,---,---,CONVERSION,2,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+38,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1,Add Scalar Double-Precision Floating-Point Values
+38,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+38,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+38,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+38,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,4,Move High Packed Single-Precision Floating-Point Values
+38,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,4,Move or Merge Scalar Single-Precision Floating-Point Value
+38,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,42,Move Aligned Packed Single-Precision Floating-Point Values
+38,SSE1f,161,DIVSS,---,---,ARITHMETIC,3,Divide Scalar Single-Precision Floating-Point Values
+38,SSE1f,142,CVTSI2SS,---,---,CONVERSION,3,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+38,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+38,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,103,Move Unaligned Packed Single-Precision Floating-Point Values
+38,AVX2,1456,VPMINUB,---,---,---,8,
+38,AVX2,1312,VPBROADCASTB,---,---,---,16,
+38,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,13,Move Aligned Packed Integer Values
+38,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,42,Move Unaligned Packed Integer Values
+38,SSE2i,634,PSHUFD,---,---,SHUFFLE,5,Shuffle Packed Doublewords
+38,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,30,Unpack Low Data
+38,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+38,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+38,MMX,678,PXOR,---,---,LOGICAL,46,Logical Exclusive OR
+38,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+38,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+38,MMX,509,PADDD,---,---,ARITHMETIC,4,Add Packed Integers
+38,MMX,670,PUNPCKLWD,---,---,UNPACK,5,Unpack Low Data
+38,MMX,623,POR,---,---,LOGICAL,1,Bitwise Logical OR
+38,MMX,667,PUNPCKLBW,---,---,UNPACK,3,Unpack Low Data
+38,MMX,454,MOVQ,---,---,DATA_TRANSFER,88,Move Doubleword/Move Quadword
+38,MMX,431,MOVD,---,---,DATA_TRANSFER,7,Move Doubleword/Move Quadword
+38,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+39,SSE1i,580,PINSRW,---,---,INSERT,29,Insert Word
+39,AVX,1689,VSUBSD,---,---,---,20,
+39,AVX,892,VANDPD,---,---,---,20,
+39,AVX,1268,VMULSD,---,---,---,40,
+39,AVX,877,VADDSD,---,---,---,60,
+39,AVX,1694,VUCOMISD,---,---,---,140,
+39,AVX,1005,VDIVSD,---,---,---,50,
+39,AVX,963,VCVTSI2SD,---,---,---,70,
+39,AVX,1591,VPTEST,---,---,---,160,
+39,AVX,1203,VLDMXCSR,---,---,---,2,
+39,AVX,1249,VMOVQ,---,---,---,1834,
+39,AVX,1250,VMOVSD,---,---,---,4178,
+39,AVX,1227,VMOVD,---,---,---,4300,
+39,AVX,1701,VXORPD,---,---,---,40,
+39,AVX,965,VCVTSI2SS,---,---,---,24,
+39,AVX,988,VCVTTSS2SI,---,---,---,24,
+39,AVX,1270,VMULSS,---,---,---,24,
+39,AVX,1702,VXORPS,---,---,---,20,
+39,AVX,1232,VMOVDQU,---,---,---,1629,
+39,AVX,1254,VMOVSS,---,---,---,320,
+39,AVX,1704,VZEROUPPER,---,---,---,17289,
+39,AVX,1696,VUCOMISS,---,---,---,63,
+39,AVX,1225,VMOVAPD,---,---,---,70,
+39,AVX,1685,VSTMXCSR,---,---,---,2,
+39,SSE2f,417,MAXSD,---,---,COMPARISON,341,Return Maximum Scalar Double-Precision Floating-Point Value
+39,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,525,Move Aligned Packed Double-Precision Floating-Point Values
+39,SSE2f,811,SQRTSD,---,---,ARITHMETIC,4,Compute Square Root of Scalar Double-Precision Floating-Point Value
+39,SSE2f,124,COMISD,---,---,COMPARISON,1629,Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS
+39,SSE2f,475,MULSD,---,---,ARITHMETIC,1293,Multiply Scalar Double-Precision Floating-Point Value
+39,SSE2f,160,DIVSD,---,---,ARITHMETIC,939,Divide Scalar Double-Precision Floating-Point Value
+39,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,5,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+39,SSE2f,141,CVTSI2SD,---,---,CONVERSION,3913,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+39,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,427,Add Scalar Double-Precision Floating-Point Values
+39,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+39,SSE1f,438,MOVHLPS,---,---,DATA_TRANSFER,2,Move Packed Single-Precision Floating-Point Values High to Low
+39,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+39,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+39,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,1114,Move High Packed Single-Precision Floating-Point Values
+39,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,46,Move or Merge Scalar Single-Precision Floating-Point Value
+39,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,12611,Move Aligned Packed Single-Precision Floating-Point Values
+39,SSE1f,161,DIVSS,---,---,ARITHMETIC,45,Divide Scalar Single-Precision Floating-Point Values
+39,SSE1f,142,CVTSI2SS,---,---,CONVERSION,87,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+39,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+39,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,12415,Move Unaligned Packed Single-Precision Floating-Point Values
+39,AVX2,1608,VPXOR,---,---,---,5471,
+39,AVX2,1456,VPMINUB,---,---,---,11,
+39,AVX2,1312,VPBROADCASTB,---,---,---,640,
+39,SSE2i,510,PADDQ,---,---,ARITHMETIC,2,Add Packed Integers
+39,SSE2i,634,PSHUFD,---,---,SHUFFLE,166,Shuffle Packed Doublewords
+39,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,7092,Move Aligned Packed Integer Values
+39,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,4314,Move Unaligned Packed Integer Values
+39,SSE2i,649,PSRLDQ,---,---,SHIFT,111,Shift Double Quadword Right Logical
+39,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,5238,Unpack Low Data
+39,MMX,664,PUNPCKHDQ,---,---,UNPACK,1,Unpack High Data
+39,MMX,535,PCMPGTD,---,---,COMPARISON,1,Compare Packed Signed Integers for Greater Than
+39,MMX,666,PUNPCKHWD,---,---,UNPACK,132,Unpack High Data
+39,MMX,663,PUNPCKHBW,---,---,UNPACK,66,Unpack High Data
+39,MMX,527,PCMPEQD,---,---,COMPARISON,47,Compare Packed Data for Equal
+39,MMX,537,PCMPGTW,---,---,COMPARISON,164,Compare Packed Signed Integers for Greater Than
+39,MMX,518,PANDN,---,---,LOGICAL,82,Logical AND NOT
+39,MMX,678,PXOR,---,---,LOGICAL,6111,Logical Exclusive OR
+39,MMX,517,PAND,---,---,LOGICAL,82,Logical AND
+39,MMX,534,PCMPGTB,---,---,COMPARISON,164,Compare Packed Signed Integers for Greater Than
+39,MMX,509,PADDD,---,---,ARITHMETIC,439,Add Packed Integers
+39,MMX,670,PUNPCKLWD,---,---,UNPACK,197,Unpack Low Data
+39,MMX,623,POR,---,---,LOGICAL,82,Bitwise Logical OR
+39,MMX,667,PUNPCKLBW,---,---,UNPACK,99,Unpack Low Data
+39,MMX,454,MOVQ,---,---,DATA_TRANSFER,11868,Move Doubleword/Move Quadword
+39,MMX,431,MOVD,---,---,DATA_TRANSFER,439,Move Doubleword/Move Quadword
+39,MMX,668,PUNPCKLDQ,---,---,UNPACK,106,Unpack Low Data
+37,AVX,1203,VLDMXCSR,---,---,---,2,
+37,AVX,1704,VZEROUPPER,---,---,---,207,
+37,AVX,1250,VMOVSD,---,---,---,120,
+37,AVX,1685,VSTMXCSR,---,---,---,2,
+37,AVX,1232,VMOVDQU,---,---,---,10,
+37,SSE2f,124,COMISD,---,---,COMPARISON,52,Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS
+37,SSE2f,475,MULSD,---,---,ARITHMETIC,40,Multiply Scalar Double-Precision Floating-Point Value
+37,SSE2f,417,MAXSD,---,---,COMPARISON,12,Return Maximum Scalar Double-Precision Floating-Point Value
+37,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,18,Move Aligned Packed Double-Precision Floating-Point Values
+37,SSE2f,160,DIVSD,---,---,ARITHMETIC,32,Divide Scalar Double-Precision Floating-Point Value
+37,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,1,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+37,SSE2f,141,CVTSI2SD,---,---,CONVERSION,125,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+37,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,13,Add Scalar Double-Precision Floating-Point Values
+37,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+37,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+37,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+37,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,5,Move High Packed Single-Precision Floating-Point Values
+37,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,5,Move or Merge Scalar Single-Precision Floating-Point Value
+37,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,75,Move Aligned Packed Single-Precision Floating-Point Values
+37,SSE1f,161,DIVSS,---,---,ARITHMETIC,4,Divide Scalar Single-Precision Floating-Point Values
+37,SSE1f,142,CVTSI2SS,---,---,CONVERSION,5,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+37,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+37,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,122,Move Unaligned Packed Single-Precision Floating-Point Values
+37,AVX2,1608,VPXOR,---,---,---,2,
+37,AVX2,1456,VPMINUB,---,---,---,8,
+37,AVX2,1312,VPBROADCASTB,---,---,---,16,
+37,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,31,Move Aligned Packed Integer Values
+37,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,44,Move Unaligned Packed Integer Values
+37,SSE2i,634,PSHUFD,---,---,SHUFFLE,5,Shuffle Packed Doublewords
+37,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,45,Unpack Low Data
+37,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+37,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+37,MMX,678,PXOR,---,---,LOGICAL,181,Logical Exclusive OR
+37,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+37,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+37,MMX,509,PADDD,---,---,ARITHMETIC,4,Add Packed Integers
+37,MMX,670,PUNPCKLWD,---,---,UNPACK,5,Unpack Low Data
+37,MMX,623,POR,---,---,LOGICAL,1,Bitwise Logical OR
+37,MMX,667,PUNPCKLBW,---,---,UNPACK,3,Unpack Low Data
+37,MMX,454,MOVQ,---,---,DATA_TRANSFER,106,Move Doubleword/Move Quadword
+37,MMX,431,MOVD,---,---,DATA_TRANSFER,7,Move Doubleword/Move Quadword
+37,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+41,AVX,1203,VLDMXCSR,---,---,---,2,
+41,AVX,1704,VZEROUPPER,---,---,---,20,
+41,AVX,1250,VMOVSD,---,---,---,4,
+41,AVX,1685,VSTMXCSR,---,---,---,2,
+41,AVX,1232,VMOVDQU,---,---,---,8,
+41,SSE2f,160,DIVSD,---,---,ARITHMETIC,2,Divide Scalar Double-Precision Floating-Point Value
+41,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,1,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+41,SSE2f,141,CVTSI2SD,---,---,CONVERSION,2,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+41,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1,Add Scalar Double-Precision Floating-Point Values
+41,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+41,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+41,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+41,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,4,Move High Packed Single-Precision Floating-Point Values
+41,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,4,Move or Merge Scalar Single-Precision Floating-Point Value
+41,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,45,Move Aligned Packed Single-Precision Floating-Point Values
+41,SSE1f,161,DIVSS,---,---,ARITHMETIC,3,Divide Scalar Single-Precision Floating-Point Values
+41,SSE1f,142,CVTSI2SS,---,---,CONVERSION,3,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+41,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+41,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,94,Move Unaligned Packed Single-Precision Floating-Point Values
+41,AVX2,1456,VPMINUB,---,---,---,8,
+41,AVX2,1312,VPBROADCASTB,---,---,---,16,
+41,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,13,Move Aligned Packed Integer Values
+41,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,39,Move Unaligned Packed Integer Values
+41,SSE2i,634,PSHUFD,---,---,SHUFFLE,5,Shuffle Packed Doublewords
+41,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,23,Unpack Low Data
+41,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+41,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+41,MMX,678,PXOR,---,---,LOGICAL,47,Logical Exclusive OR
+41,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+41,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+41,MMX,509,PADDD,---,---,ARITHMETIC,4,Add Packed Integers
+41,MMX,670,PUNPCKLWD,---,---,UNPACK,5,Unpack Low Data
+41,MMX,623,POR,---,---,LOGICAL,1,Bitwise Logical OR
+41,MMX,667,PUNPCKLBW,---,---,UNPACK,3,Unpack Low Data
+41,MMX,454,MOVQ,---,---,DATA_TRANSFER,70,Move Doubleword/Move Quadword
+41,MMX,431,MOVD,---,---,DATA_TRANSFER,7,Move Doubleword/Move Quadword
+41,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+40,AVX,1203,VLDMXCSR,---,---,---,2,
+40,AVX,1704,VZEROUPPER,---,---,---,195,
+40,AVX,1250,VMOVSD,---,---,---,120,
+40,AVX,1685,VSTMXCSR,---,---,---,2,
+40,AVX,1232,VMOVDQU,---,---,---,10,
+40,SSE2f,160,DIVSD,---,---,ARITHMETIC,2,Divide Scalar Double-Precision Floating-Point Value
+40,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,1,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+40,SSE2f,141,CVTSI2SD,---,---,CONVERSION,2,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+40,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1,Add Scalar Double-Precision Floating-Point Values
+40,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+40,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+40,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+40,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,6,Move High Packed Single-Precision Floating-Point Values
+40,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,4,Move or Merge Scalar Single-Precision Floating-Point Value
+40,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,42,Move Aligned Packed Single-Precision Floating-Point Values
+40,SSE1f,161,DIVSS,---,---,ARITHMETIC,3,Divide Scalar Single-Precision Floating-Point Values
+40,SSE1f,142,CVTSI2SS,---,---,CONVERSION,3,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+40,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+40,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,105,Move Unaligned Packed Single-Precision Floating-Point Values
+40,AVX2,1608,VPXOR,---,---,---,2,
+40,AVX2,1456,VPMINUB,---,---,---,8,
+40,AVX2,1312,VPBROADCASTB,---,---,---,16,
+40,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,13,Move Aligned Packed Integer Values
+40,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,44,Move Unaligned Packed Integer Values
+40,SSE2i,634,PSHUFD,---,---,SHUFFLE,5,Shuffle Packed Doublewords
+40,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,29,Unpack Low Data
+40,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+40,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+40,MMX,678,PXOR,---,---,LOGICAL,45,Logical Exclusive OR
+40,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+40,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+40,MMX,509,PADDD,---,---,ARITHMETIC,4,Add Packed Integers
+40,MMX,670,PUNPCKLWD,---,---,UNPACK,5,Unpack Low Data
+40,MMX,623,POR,---,---,LOGICAL,1,Bitwise Logical OR
+40,MMX,667,PUNPCKLBW,---,---,UNPACK,3,Unpack Low Data
+40,MMX,454,MOVQ,---,---,DATA_TRANSFER,87,Move Doubleword/Move Quadword
+40,MMX,431,MOVD,---,---,DATA_TRANSFER,7,Move Doubleword/Move Quadword
+40,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+42,SSE1i,580,PINSRW,---,---,INSERT,25,Insert Word
+42,AVX,1689,VSUBSD,---,---,---,20,
+42,AVX,892,VANDPD,---,---,---,20,
+42,AVX,1268,VMULSD,---,---,---,40,
+42,AVX,877,VADDSD,---,---,---,60,
+42,AVX,1694,VUCOMISD,---,---,---,140,
+42,AVX,1005,VDIVSD,---,---,---,50,
+42,AVX,963,VCVTSI2SD,---,---,---,70,
+42,AVX,1591,VPTEST,---,---,---,160,
+42,AVX,1203,VLDMXCSR,---,---,---,2,
+42,AVX,1249,VMOVQ,---,---,---,1832,
+42,AVX,1250,VMOVSD,---,---,---,4352,
+42,AVX,1227,VMOVD,---,---,---,4300,
+42,AVX,1701,VXORPD,---,---,---,40,
+42,AVX,965,VCVTSI2SS,---,---,---,24,
+42,AVX,988,VCVTTSS2SI,---,---,---,24,
+42,AVX,1270,VMULSS,---,---,---,24,
+42,AVX,1702,VXORPS,---,---,---,20,
+42,AVX,1232,VMOVDQU,---,---,---,1911,
+42,AVX,1254,VMOVSS,---,---,---,293,
+42,AVX,1704,VZEROUPPER,---,---,---,16221,
+42,AVX,1696,VUCOMISS,---,---,---,63,
+42,AVX,1225,VMOVAPD,---,---,---,70,
+42,AVX,1685,VSTMXCSR,---,---,---,2,
+42,SSE2f,417,MAXSD,---,---,COMPARISON,164,Return Maximum Scalar Double-Precision Floating-Point Value
+42,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,264,Move Aligned Packed Double-Precision Floating-Point Values
+42,SSE2f,811,SQRTSD,---,---,ARITHMETIC,4,Compute Square Root of Scalar Double-Precision Floating-Point Value
+42,SSE2f,124,COMISD,---,---,COMPARISON,942,Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS
+42,SSE2f,475,MULSD,---,---,ARITHMETIC,782,Multiply Scalar Double-Precision Floating-Point Value
+42,SSE2f,160,DIVSD,---,---,ARITHMETIC,533,Divide Scalar Double-Precision Floating-Point Value
+42,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,5,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+42,SSE2f,141,CVTSI2SD,---,---,CONVERSION,2302,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+42,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,283,Add Scalar Double-Precision Floating-Point Values
+42,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+42,SSE1f,438,MOVHLPS,---,---,DATA_TRANSFER,3,Move Packed Single-Precision Floating-Point Values High to Low
+42,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+42,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+42,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,953,Move High Packed Single-Precision Floating-Point Values
+42,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,28,Move or Merge Scalar Single-Precision Floating-Point Value
+42,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,10488,Move Aligned Packed Single-Precision Floating-Point Values
+42,SSE1f,161,DIVSS,---,---,ARITHMETIC,27,Divide Scalar Single-Precision Floating-Point Values
+42,SSE1f,142,CVTSI2SS,---,---,CONVERSION,51,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+42,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+42,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,10846,Move Unaligned Packed Single-Precision Floating-Point Values
+42,AVX2,1608,VPXOR,---,---,---,5819,
+42,AVX2,1456,VPMINUB,---,---,---,8,
+42,AVX2,1312,VPBROADCASTB,---,---,---,452,
+42,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,6131,Move Aligned Packed Integer Values
+42,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,3870,Move Unaligned Packed Integer Values
+42,SSE2i,649,PSRLDQ,---,---,SHIFT,111,Shift Double Quadword Right Logical
+42,SSE2i,634,PSHUFD,---,---,SHUFFLE,97,Shuffle Packed Doublewords
+42,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,4365,Unpack Low Data
+42,MMX,666,PUNPCKHWD,---,---,UNPACK,132,Unpack High Data
+42,MMX,663,PUNPCKHBW,---,---,UNPACK,66,Unpack High Data
+42,MMX,527,PCMPEQD,---,---,COMPARISON,35,Compare Packed Data for Equal
+42,MMX,537,PCMPGTW,---,---,COMPARISON,164,Compare Packed Signed Integers for Greater Than
+42,MMX,518,PANDN,---,---,LOGICAL,82,Logical AND NOT
+42,MMX,678,PXOR,---,---,LOGICAL,3794,Logical Exclusive OR
+42,MMX,517,PAND,---,---,LOGICAL,82,Logical AND
+42,MMX,534,PCMPGTB,---,---,COMPARISON,164,Compare Packed Signed Integers for Greater Than
+42,MMX,509,PADDD,---,---,ARITHMETIC,439,Add Packed Integers
+42,MMX,670,PUNPCKLWD,---,---,UNPACK,197,Unpack Low Data
+42,MMX,623,POR,---,---,LOGICAL,82,Bitwise Logical OR
+42,MMX,667,PUNPCKLBW,---,---,UNPACK,99,Unpack Low Data
+42,MMX,454,MOVQ,---,---,DATA_TRANSFER,9838,Move Doubleword/Move Quadword
+42,MMX,431,MOVD,---,---,DATA_TRANSFER,206,Move Doubleword/Move Quadword
+42,MMX,668,PUNPCKLDQ,---,---,UNPACK,30,Unpack Low Data
+44,AVX,1203,VLDMXCSR,---,---,---,2,
+44,AVX,1704,VZEROUPPER,---,---,---,23,
+44,AVX,1250,VMOVSD,---,---,---,4,
+44,AVX,1685,VSTMXCSR,---,---,---,2,
+44,AVX,1232,VMOVDQU,---,---,---,8,
+44,SSE2f,160,DIVSD,---,---,ARITHMETIC,2,Divide Scalar Double-Precision Floating-Point Value
+44,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,1,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+44,SSE2f,141,CVTSI2SD,---,---,CONVERSION,2,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+44,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1,Add Scalar Double-Precision Floating-Point Values
+44,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+44,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+44,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+44,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,4,Move High Packed Single-Precision Floating-Point Values
+44,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,4,Move or Merge Scalar Single-Precision Floating-Point Value
+44,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,45,Move Aligned Packed Single-Precision Floating-Point Values
+44,SSE1f,161,DIVSS,---,---,ARITHMETIC,3,Divide Scalar Single-Precision Floating-Point Values
+44,SSE1f,142,CVTSI2SS,---,---,CONVERSION,3,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+44,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+44,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,105,Move Unaligned Packed Single-Precision Floating-Point Values
+44,AVX2,1456,VPMINUB,---,---,---,8,
+44,AVX2,1312,VPBROADCASTB,---,---,---,16,
+44,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,13,Move Aligned Packed Integer Values
+44,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,44,Move Unaligned Packed Integer Values
+44,SSE2i,634,PSHUFD,---,---,SHUFFLE,5,Shuffle Packed Doublewords
+44,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,30,Unpack Low Data
+44,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+44,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+44,MMX,678,PXOR,---,---,LOGICAL,51,Logical Exclusive OR
+44,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+44,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+44,MMX,509,PADDD,---,---,ARITHMETIC,4,Add Packed Integers
+44,MMX,670,PUNPCKLWD,---,---,UNPACK,5,Unpack Low Data
+44,MMX,623,POR,---,---,LOGICAL,1,Bitwise Logical OR
+44,MMX,667,PUNPCKLBW,---,---,UNPACK,3,Unpack Low Data
+44,MMX,454,MOVQ,---,---,DATA_TRANSFER,89,Move Doubleword/Move Quadword
+44,MMX,431,MOVD,---,---,DATA_TRANSFER,7,Move Doubleword/Move Quadword
+44,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+43,SSE1i,580,PINSRW,---,---,INSERT,1,Insert Word
+43,AVX,1203,VLDMXCSR,---,---,---,2,
+43,AVX,1704,VZEROUPPER,---,---,---,225,
+43,AVX,1250,VMOVSD,---,---,---,82,
+43,AVX,1685,VSTMXCSR,---,---,---,2,
+43,AVX,1232,VMOVDQU,---,---,---,10,
+43,SSE2f,124,COMISD,---,---,COMPARISON,36,Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS
+43,SSE2f,475,MULSD,---,---,ARITHMETIC,25,Multiply Scalar Double-Precision Floating-Point Value
+43,SSE2f,417,MAXSD,---,---,COMPARISON,12,Return Maximum Scalar Double-Precision Floating-Point Value
+43,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,16,Move Aligned Packed Double-Precision Floating-Point Values
+43,SSE2f,160,DIVSD,---,---,ARITHMETIC,29,Divide Scalar Double-Precision Floating-Point Value
+43,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,1,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+43,SSE2f,141,CVTSI2SD,---,---,CONVERSION,95,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+43,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,11,Add Scalar Double-Precision Floating-Point Values
+43,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+43,SSE1f,438,MOVHLPS,---,---,DATA_TRANSFER,2,Move Packed Single-Precision Floating-Point Values High to Low
+43,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+43,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+43,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,11,Move High Packed Single-Precision Floating-Point Values
+43,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,9,Move or Merge Scalar Single-Precision Floating-Point Value
+43,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,315,Move Aligned Packed Single-Precision Floating-Point Values
+43,SSE1f,161,DIVSS,---,---,ARITHMETIC,8,Divide Scalar Single-Precision Floating-Point Values
+43,SSE1f,142,CVTSI2SS,---,---,CONVERSION,13,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+43,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+43,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,520,Move Unaligned Packed Single-Precision Floating-Point Values
+43,AVX2,1608,VPXOR,---,---,---,2,
+43,AVX2,1456,VPMINUB,---,---,---,17,
+43,AVX2,1312,VPBROADCASTB,---,---,---,27,
+43,SSE2i,510,PADDQ,---,---,ARITHMETIC,2,Add Packed Integers
+43,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,223,Move Aligned Packed Integer Values
+43,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,210,Move Unaligned Packed Integer Values
+43,SSE2i,634,PSHUFD,---,---,SHUFFLE,9,Shuffle Packed Doublewords
+43,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,121,Unpack Low Data
+43,MMX,664,PUNPCKHDQ,---,---,UNPACK,1,Unpack High Data
+43,MMX,535,PCMPGTD,---,---,COMPARISON,1,Compare Packed Signed Integers for Greater Than
+43,MMX,527,PCMPEQD,---,---,COMPARISON,6,Compare Packed Data for Equal
+43,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+43,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+43,MMX,678,PXOR,---,---,LOGICAL,218,Logical Exclusive OR
+43,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+43,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+43,MMX,509,PADDD,---,---,ARITHMETIC,4,Add Packed Integers
+43,MMX,670,PUNPCKLWD,---,---,UNPACK,5,Unpack Low Data
+43,MMX,623,POR,---,---,LOGICAL,1,Bitwise Logical OR
+43,MMX,667,PUNPCKLBW,---,---,UNPACK,3,Unpack Low Data
+43,MMX,454,MOVQ,---,---,DATA_TRANSFER,288,Move Doubleword/Move Quadword
+43,MMX,431,MOVD,---,---,DATA_TRANSFER,31,Move Doubleword/Move Quadword
+43,MMX,668,PUNPCKLDQ,---,---,UNPACK,10,Unpack Low Data
+45,SSE1i,580,PINSRW,---,---,INSERT,48,Insert Word
+45,AVX,1689,VSUBSD,---,---,---,20,
+45,AVX,892,VANDPD,---,---,---,20,
+45,AVX,1268,VMULSD,---,---,---,40,
+45,AVX,877,VADDSD,---,---,---,60,
+45,AVX,1694,VUCOMISD,---,---,---,140,
+45,AVX,1005,VDIVSD,---,---,---,50,
+45,AVX,963,VCVTSI2SD,---,---,---,70,
+45,AVX,1591,VPTEST,---,---,---,160,
+45,AVX,1203,VLDMXCSR,---,---,---,2,
+45,AVX,1249,VMOVQ,---,---,---,2385,
+45,AVX,1250,VMOVSD,---,---,---,3876,
+45,AVX,1227,VMOVD,---,---,---,4812,
+45,AVX,1701,VXORPD,---,---,---,40,
+45,AVX,965,VCVTSI2SS,---,---,---,24,
+45,AVX,988,VCVTTSS2SI,---,---,---,24,
+45,AVX,1270,VMULSS,---,---,---,24,
+45,AVX,1702,VXORPS,---,---,---,20,
+45,AVX,1232,VMOVDQU,---,---,---,1907,
+45,AVX,1254,VMOVSS,---,---,---,193,
+45,AVX,1704,VZEROUPPER,---,---,---,17161,
+45,AVX,1696,VUCOMISS,---,---,---,63,
+45,AVX,1225,VMOVAPD,---,---,---,70,
+45,AVX,1685,VSTMXCSR,---,---,---,2,
+45,SSE2f,802,SHUFPD,---,---,SHUFFLE,2,Packed Interleave Shuffle of Pairs of Double-Precision Floating-Point Values
+45,SSE2f,417,MAXSD,---,---,COMPARISON,158,Return Maximum Scalar Double-Precision Floating-Point Value
+45,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,247,Move Aligned Packed Double-Precision Floating-Point Values
+45,SSE2f,811,SQRTSD,---,---,ARITHMETIC,4,Compute Square Root of Scalar Double-Precision Floating-Point Value
+45,SSE2f,124,COMISD,---,---,COMPARISON,786,Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS
+45,SSE2f,475,MULSD,---,---,ARITHMETIC,632,Multiply Scalar Double-Precision Floating-Point Value
+45,SSE2f,160,DIVSD,---,---,ARITHMETIC,480,Divide Scalar Double-Precision Floating-Point Value
+45,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,5,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+45,SSE2f,141,CVTSI2SD,---,---,CONVERSION,1963,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+45,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,247,Add Scalar Double-Precision Floating-Point Values
+45,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+45,SSE1f,438,MOVHLPS,---,---,DATA_TRANSFER,2,Move Packed Single-Precision Floating-Point Values High to Low
+45,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+45,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+45,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,1037,Move High Packed Single-Precision Floating-Point Values
+45,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,53,Move or Merge Scalar Single-Precision Floating-Point Value
+45,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,10546,Move Aligned Packed Single-Precision Floating-Point Values
+45,SSE1f,161,DIVSS,---,---,ARITHMETIC,52,Divide Scalar Single-Precision Floating-Point Values
+45,SSE1f,142,CVTSI2SS,---,---,CONVERSION,101,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+45,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+45,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,12705,Move Unaligned Packed Single-Precision Floating-Point Values
+45,AVX2,1608,VPXOR,---,---,---,5819,
+45,AVX2,1456,VPMINUB,---,---,---,8,
+45,AVX2,1312,VPBROADCASTB,---,---,---,432,
+45,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,6026,Move Aligned Packed Integer Values
+45,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,4270,Move Unaligned Packed Integer Values
+45,SSE2i,649,PSRLDQ,---,---,SHIFT,111,Shift Double Quadword Right Logical
+45,SSE2i,634,PSHUFD,---,---,SHUFFLE,80,Shuffle Packed Doublewords
+45,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,4983,Unpack Low Data
+45,MMX,527,PCMPEQD,---,---,COMPARISON,65,Compare Packed Data for Equal
+45,MMX,666,PUNPCKHWD,---,---,UNPACK,132,Unpack High Data
+45,MMX,663,PUNPCKHBW,---,---,UNPACK,66,Unpack High Data
+45,MMX,537,PCMPGTW,---,---,COMPARISON,164,Compare Packed Signed Integers for Greater Than
+45,MMX,518,PANDN,---,---,LOGICAL,82,Logical AND NOT
+45,MMX,678,PXOR,---,---,LOGICAL,3915,Logical Exclusive OR
+45,MMX,517,PAND,---,---,LOGICAL,82,Logical AND
+45,MMX,534,PCMPGTB,---,---,COMPARISON,164,Compare Packed Signed Integers for Greater Than
+45,MMX,509,PADDD,---,---,ARITHMETIC,439,Add Packed Integers
+45,MMX,670,PUNPCKLWD,---,---,UNPACK,197,Unpack Low Data
+45,MMX,623,POR,---,---,LOGICAL,82,Bitwise Logical OR
+45,MMX,667,PUNPCKLBW,---,---,UNPACK,99,Unpack Low Data
+45,MMX,454,MOVQ,---,---,DATA_TRANSFER,11135,Move Doubleword/Move Quadword
+45,MMX,431,MOVD,---,---,DATA_TRANSFER,169,Move Doubleword/Move Quadword
+45,MMX,668,PUNPCKLDQ,---,---,UNPACK,8,Unpack Low Data
+22,SSE1i,580,PINSRW,---,---,INSERT,3,Insert Word
+22,SSE1i,595,PMOVMSKB,---,---,DATA_TRANSFER,437,Move Byte Mask
+22,SSE1i,592,PMINUB,---,---,ARITHMETIC,140,Minimum of Packed Unsigned Integers
+22,AVX,1270,VMULSS,---,---,---,10,
+22,AVX,988,VCVTTSS2SI,---,---,---,10,
+22,AVX,965,VCVTSI2SS,---,---,---,10,
+22,AVX,1254,VMOVSS,---,---,---,72,
+22,AVX,1203,VLDMXCSR,---,---,---,37,
+22,AVX,1249,VMOVQ,---,---,---,14,
+22,AVX,1318,VPCLMULQDQ,---,---,---,1002,
+22,AVX,1229,VMOVDQA,---,---,---,4,
+22,AVX,1250,VMOVSD,---,---,---,296,
+22,AVX,1227,VMOVD,---,---,---,10,
+22,AVX,1704,VZEROUPPER,---,---,---,2268,
+22,AVX,1591,VPTEST,---,---,---,5,
+22,AVX,1421,VPINSRD,---,---,---,1,
+22,AVX,1685,VSTMXCSR,---,---,---,37,
+22,AVX,1232,VMOVDQU,---,---,---,1874,
+22,SSE2f,829,SUBSD,---,---,ARITHMETIC,5,Subtract Scalar Double-Precision Floating-Point Value
+22,SSE2f,439,MOVHPD,---,---,DATA_TRANSFER,4,Move High Packed Double-Precision Floating-Point Value
+22,SSE2f,124,COMISD,---,---,COMPARISON,47,Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS
+22,SSE2f,475,MULSD,---,---,ARITHMETIC,35,Multiply Scalar Double-Precision Floating-Point Value
+22,SSE2f,141,CVTSI2SD,---,---,CONVERSION,156,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+22,SSE2f,417,MAXSD,---,---,COMPARISON,14,Return Maximum Scalar Double-Precision Floating-Point Value
+22,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,17,Move Aligned Packed Double-Precision Floating-Point Values
+22,SSE2f,802,SHUFPD,---,---,SHUFFLE,60,Packed Interleave Shuffle of Pairs of Double-Precision Floating-Point Values
+22,SSE2f,160,DIVSD,---,---,ARITHMETIC,74,Divide Scalar Double-Precision Floating-Point Value
+22,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,26,Add Scalar Double-Precision Floating-Point Values
+22,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,6,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+22,SSE2f,858,UCOMISD,---,---,COMPARISON,404,Unordered Compare Scalar Double-Precision Floating-Point Values and Set EFLAGS
+22,SSE2f,442,MOVLPD,---,---,DATA_TRANSFER,4,Move Low Packed Double-Precision Floating-Point Value
+22,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+22,SSE1f,438,MOVHLPS,---,---,DATA_TRANSFER,10,Move Packed Single-Precision Floating-Point Values High to Low
+22,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+22,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+22,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,863,Move High Packed Single-Precision Floating-Point Values
+22,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,9,Move or Merge Scalar Single-Precision Floating-Point Value
+22,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,9997,Move Aligned Packed Single-Precision Floating-Point Values
+22,SSE1f,161,DIVSS,---,---,ARITHMETIC,8,Divide Scalar Single-Precision Floating-Point Values
+22,SSE1f,142,CVTSI2SS,---,---,CONVERSION,13,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+22,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+22,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,9489,Move Unaligned Packed Single-Precision Floating-Point Values
+22,AVX2,1575,VPSRLDQ,---,---,---,6,
+22,AVX2,1608,VPXOR,---,---,---,1138,
+22,AVX2,1456,VPMINUB,---,---,---,212,
+22,AVX2,1297,VPAND,---,---,---,1,
+22,AVX2,1312,VPBROADCASTB,---,---,---,1826,
+22,SSE2i,510,PADDQ,---,---,ARITHMETIC,2,Add Packed Integers
+22,SSE2i,642,PSLLDQ,---,---,SHIFT,7,Shift Double Quadword Left Logical
+22,SSE2i,634,PSHUFD,---,---,SHUFFLE,873,Shuffle Packed Doublewords
+22,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,4277,Move Aligned Packed Integer Values
+22,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,4322,Move Unaligned Packed Integer Values
+22,SSE2i,649,PSRLDQ,---,---,SHIFT,91,Shift Double Quadword Right Logical
+22,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,5032,Unpack Low Data
+22,MMX,535,PCMPGTD,---,---,COMPARISON,1,Compare Packed Signed Integers for Greater Than
+22,MMX,527,PCMPEQD,---,---,COMPARISON,8,Compare Packed Data for Equal
+22,MMX,666,PUNPCKHWD,---,---,UNPACK,104,Unpack High Data
+22,MMX,663,PUNPCKHBW,---,---,UNPACK,52,Unpack High Data
+22,MMX,664,PUNPCKHDQ,---,---,UNPACK,1,Unpack High Data
+22,MMX,526,PCMPEQB,---,---,COMPARISON,726,Compare Packed Data for Equal
+22,MMX,651,PSRLW,---,---,SHIFT,37,Shift Packed Data Right Logical
+22,MMX,652,PSUBB,---,---,ARITHMETIC,9,Subtract Packed Integers
+22,MMX,537,PCMPGTW,---,---,COMPARISON,162,Compare Packed Signed Integers for Greater Than
+22,MMX,518,PANDN,---,---,LOGICAL,81,Logical AND NOT
+22,MMX,678,PXOR,---,---,LOGICAL,4681,Logical Exclusive OR
+22,MMX,517,PAND,---,---,LOGICAL,350,Logical AND
+22,MMX,534,PCMPGTB,---,---,COMPARISON,162,Compare Packed Signed Integers for Greater Than
+22,MMX,509,PADDD,---,---,ARITHMETIC,411,Add Packed Integers
+22,MMX,670,PUNPCKLWD,---,---,UNPACK,310,Unpack Low Data
+22,MMX,623,POR,---,---,LOGICAL,262,Bitwise Logical OR
+22,MMX,644,PSLLW,---,---,SHIFT,37,Shift Packed Data Left Logical
+22,MMX,667,PUNPCKLBW,---,---,UNPACK,200,Unpack Low Data
+22,MMX,454,MOVQ,---,---,DATA_TRANSFER,12872,Move Doubleword/Move Quadword
+22,MMX,431,MOVD,---,---,DATA_TRANSFER,1604,Move Doubleword/Move Quadword
+22,MMX,668,PUNPCKLDQ,---,---,UNPACK,375,Unpack Low Data
+21,AVX2,1456,VPMINUB,---,---,---,2,
+21,AVX2,1312,VPBROADCASTB,---,---,---,6,
+21,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,292,Move Unaligned Packed Integer Values
+21,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,11,Move Aligned Packed Integer Values
+21,SSE2i,634,PSHUFD,---,---,SHUFFLE,1,Shuffle Packed Doublewords
+21,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,618,Unpack Low Data
+21,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,15,Move High Packed Single-Precision Floating-Point Values
+21,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,3,Move Aligned Packed Single-Precision Floating-Point Values
+21,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,1128,Move Unaligned Packed Single-Precision Floating-Point Values
+21,MMX,670,PUNPCKLWD,---,---,UNPACK,1,Unpack Low Data
+21,MMX,678,PXOR,---,---,LOGICAL,471,Logical Exclusive OR
+21,MMX,667,PUNPCKLBW,---,---,UNPACK,1,Unpack Low Data
+21,MMX,454,MOVQ,---,---,DATA_TRANSFER,1697,Move Doubleword/Move Quadword
+21,MMX,431,MOVD,---,---,DATA_TRANSFER,5,Move Doubleword/Move Quadword
+21,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+5,SSE2f,160,DIVSD,---,---,ARITHMETIC,1,Divide Scalar Double-Precision Floating-Point Value
+5,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1,Add Scalar Double-Precision Floating-Point Values
+5,SSE2f,141,CVTSI2SD,---,---,CONVERSION,2,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+5,AVX2,1456,VPMINUB,---,---,---,2,
+5,AVX2,1312,VPBROADCASTB,---,---,---,6,
+5,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,1,Move Unaligned Packed Integer Values
+5,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,9,Move Aligned Packed Integer Values
+5,SSE2i,634,PSHUFD,---,---,SHUFFLE,1,Shuffle Packed Doublewords
+5,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,131,Unpack Low Data
+5,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,1,Move Aligned Packed Single-Precision Floating-Point Values
+5,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,159,Move Unaligned Packed Single-Precision Floating-Point Values
+5,MMX,670,PUNPCKLWD,---,---,UNPACK,1,Unpack Low Data
+5,MMX,678,PXOR,---,---,LOGICAL,7,Logical Exclusive OR
+5,MMX,667,PUNPCKLBW,---,---,UNPACK,1,Unpack Low Data
+5,MMX,454,MOVQ,---,---,DATA_TRANSFER,136,Move Doubleword/Move Quadword
+5,MMX,431,MOVD,---,---,DATA_TRANSFER,5,Move Doubleword/Move Quadword
+5,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+6,SSE2f,811,SQRTSD,---,---,ARITHMETIC,17640,Compute Square Root of Scalar Double-Precision Floating-Point Value
+6,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,41364,Move Aligned Packed Double-Precision Floating-Point Values
+6,SSE2f,829,SUBSD,---,---,ARITHMETIC,4838,Subtract Scalar Double-Precision Floating-Point Value
+6,SSE2f,124,COMISD,---,---,COMPARISON,44532,Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS
+6,SSE2f,35,ANDPD,FCMOV,LZCNT,LOGICAL,1116,Bitwise Logical AND of Packed Double Precision Floating-Point Values
+6,SSE2f,475,MULSD,---,---,ARITHMETIC,67144,Multiply Scalar Double-Precision Floating-Point Value
+6,SSE2f,494,ORPD,---,---,LOGICAL,558,Bitwise Logical OR of Packed Double Precision Floating-Point Values
+6,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,33277,Add Scalar Double-Precision Floating-Point Values
+6,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,5962,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+6,SSE2f,160,DIVSD,---,---,ARITHMETIC,2403,Divide Scalar Double-Precision Floating-Point Value
+6,SSE2f,33,ANDNPD,ENQCMD,KEYLOCKER_WIDE,LOGICAL,558,Bitwise Logical AND NOT of Packed Double Precision Floating-Point Values
+6,SSE2f,858,UCOMISD,---,---,COMPARISON,558,Unordered Compare Scalar Double-Precision Floating-Point Values and Set EFLAGS
+6,SSE2f,141,CVTSI2SD,---,---,CONVERSION,40656,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+6,AVX2,1456,VPMINUB,---,---,---,2,
+6,AVX2,1312,VPBROADCASTB,---,---,---,6,
+6,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,445,Move Unaligned Packed Integer Values
+6,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,437,Move Aligned Packed Integer Values
+6,SSE2i,654,PSUBQ,---,---,ARITHMETIC,428,Subtract Packed Quadword Integers
+6,SSE2i,634,PSHUFD,---,---,SHUFFLE,1,Shuffle Packed Doublewords
+6,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,131,Unpack Low Data
+6,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,445,Move Aligned Packed Single-Precision Floating-Point Values
+6,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,595,Move Unaligned Packed Single-Precision Floating-Point Values
+6,MMX,670,PUNPCKLWD,---,---,UNPACK,1,Unpack Low Data
+6,MMX,678,PXOR,---,---,LOGICAL,80784,Logical Exclusive OR
+6,MMX,667,PUNPCKLBW,---,---,UNPACK,1,Unpack Low Data
+6,MMX,454,MOVQ,---,---,DATA_TRANSFER,564,Move Doubleword/Move Quadword
+6,MMX,431,MOVD,---,---,DATA_TRANSFER,5,Move Doubleword/Move Quadword
+6,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+3,SSE2f,160,DIVSD,---,---,ARITHMETIC,1,Divide Scalar Double-Precision Floating-Point Value
+3,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1,Add Scalar Double-Precision Floating-Point Values
+3,SSE2f,141,CVTSI2SD,---,---,CONVERSION,2,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+3,AVX2,1456,VPMINUB,---,---,---,2,
+3,AVX2,1312,VPBROADCASTB,---,---,---,6,
+3,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,1,Move Unaligned Packed Integer Values
+3,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,9,Move Aligned Packed Integer Values
+3,SSE2i,634,PSHUFD,---,---,SHUFFLE,1,Shuffle Packed Doublewords
+3,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,131,Unpack Low Data
+3,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,1,Move Aligned Packed Single-Precision Floating-Point Values
+3,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,159,Move Unaligned Packed Single-Precision Floating-Point Values
+3,MMX,670,PUNPCKLWD,---,---,UNPACK,1,Unpack Low Data
+3,MMX,678,PXOR,---,---,LOGICAL,7,Logical Exclusive OR
+3,MMX,667,PUNPCKLBW,---,---,UNPACK,1,Unpack Low Data
+3,MMX,454,MOVQ,---,---,DATA_TRANSFER,136,Move Doubleword/Move Quadword
+3,MMX,431,MOVD,---,---,DATA_TRANSFER,5,Move Doubleword/Move Quadword
+3,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+10,AVX,1203,VLDMXCSR,---,---,---,1,
+10,AVX,1704,VZEROUPPER,---,---,---,4,
+10,AVX,1685,VSTMXCSR,---,---,---,1,
+10,AVX,1232,VMOVDQU,---,---,---,8,
+10,SSE2f,160,DIVSD,---,---,ARITHMETIC,2,Divide Scalar Double-Precision Floating-Point Value
+10,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,1,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+10,SSE2f,141,CVTSI2SD,---,---,CONVERSION,2,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+10,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1,Add Scalar Double-Precision Floating-Point Values
+10,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+10,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+10,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+10,SSE1f,161,DIVSS,---,---,ARITHMETIC,3,Divide Scalar Single-Precision Floating-Point Values
+10,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,2,Move High Packed Single-Precision Floating-Point Values
+10,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,37,Move Aligned Packed Single-Precision Floating-Point Values
+10,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,4,Move or Merge Scalar Single-Precision Floating-Point Value
+10,SSE1f,142,CVTSI2SS,---,---,CONVERSION,3,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+10,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+10,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,203,Move Unaligned Packed Single-Precision Floating-Point Values
+10,AVX2,1456,VPMINUB,---,---,---,8,
+10,AVX2,1312,VPBROADCASTB,---,---,---,14,
+10,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,34,Move Unaligned Packed Integer Values
+10,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,25,Move Aligned Packed Integer Values
+10,SSE2i,649,PSRLDQ,---,---,SHIFT,3,Shift Double Quadword Right Logical
+10,SSE2i,634,PSHUFD,---,---,SHUFFLE,1,Shuffle Packed Doublewords
+10,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,143,Unpack Low Data
+10,MMX,666,PUNPCKHWD,---,---,UNPACK,2,Unpack High Data
+10,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+10,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+10,MMX,678,PXOR,---,---,LOGICAL,29,Logical Exclusive OR
+10,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+10,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+10,MMX,509,PADDD,---,---,ARITHMETIC,7,Add Packed Integers
+10,MMX,670,PUNPCKLWD,---,---,UNPACK,3,Unpack Low Data
+10,MMX,623,POR,---,---,LOGICAL,1,Bitwise Logical OR
+10,MMX,667,PUNPCKLBW,---,---,UNPACK,2,Unpack Low Data
+10,MMX,663,PUNPCKHBW,---,---,UNPACK,1,Unpack High Data
+10,MMX,454,MOVQ,---,---,DATA_TRANSFER,163,Move Doubleword/Move Quadword
+10,MMX,431,MOVD,---,---,DATA_TRANSFER,6,Move Doubleword/Move Quadword
+10,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+7,AVX,1232,VMOVDQU,---,---,---,136,
+7,SSE2f,160,DIVSD,---,---,ARITHMETIC,76,Divide Scalar Double-Precision Floating-Point Value
+7,SSE2f,141,CVTSI2SD,---,---,CONVERSION,76,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+7,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,1161,Move Aligned Packed Single-Precision Floating-Point Values
+7,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,2107,Move Unaligned Packed Single-Precision Floating-Point Values
+7,AVX2,1456,VPMINUB,---,---,---,306,
+7,AVX2,1312,VPBROADCASTB,---,---,---,314,
+7,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,1027,Move Unaligned Packed Integer Values
+7,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,198,Move Aligned Packed Integer Values
+7,SSE2i,634,PSHUFD,---,---,SHUFFLE,1,Shuffle Packed Doublewords
+7,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,666,Unpack Low Data
+7,MMX,670,PUNPCKLWD,---,---,UNPACK,1,Unpack Low Data
+7,MMX,678,PXOR,---,---,LOGICAL,574,Logical Exclusive OR
+7,MMX,667,PUNPCKLBW,---,---,UNPACK,1,Unpack Low Data
+7,MMX,454,MOVQ,---,---,DATA_TRANSFER,1255,Move Doubleword/Move Quadword
+7,MMX,431,MOVD,---,---,DATA_TRANSFER,5,Move Doubleword/Move Quadword
+7,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+1,SSE42,538,PCMPISTRI,---,---,COMPARISON,32,Packed Compare Implicit Length Strings and Return Index
+1,SSSE3,633,PSHUFB,---,---,SHUFFLE,21,Packed Shuffle Bytes
+1,AVX,1423,VPINSRW,---,---,---,3,
+1,AVX,1682,VSQRTSD,---,---,---,22,
+1,AVX,1005,VDIVSD,---,---,---,6703,
+1,AVX,1225,VMOVAPD,---,---,---,27019,
+1,AVX,1228,VMOVDDUP,---,---,---,72,
+1,AVX,892,VANDPD,---,---,---,54,
+1,AVX,1268,VMULSD,---,---,---,21715,
+1,AVX,963,VCVTSI2SD,---,---,---,4147,
+1,AVX,1265,VMULPD,---,---,---,194,
+1,AVX,1392,VPEXTRW,---,---,---,38,
+1,AVX,1017,VEXTRACTF128,---,---,---,32,
+1,AVX,1694,VUCOMISD,---,---,---,19011,
+1,AVX,1318,VPCLMULQDQ,---,---,---,108502,
+1,AVX,1699,VUNPCKLPD,---,---,---,1,
+1,AVX,1229,VMOVDQA,---,---,---,808,
+1,AVX,877,VADDSD,---,---,---,24363,
+1,AVX,879,VADDSS,---,---,---,3,
+1,AVX,988,VCVTTSS2SI,---,---,---,172,
+1,AVX,1270,VMULSS,---,---,---,101,
+1,AVX,1701,VXORPD,---,---,---,8089,
+1,AVX,965,VCVTSI2SS,---,---,---,203,
+1,AVX,1624,VRCPPS,---,---,---,38,
+1,AVX,966,VCVTSS2SD,---,---,---,25,
+1,AVX,1232,VMOVDQU,---,---,---,162739,
+1,AVX,1702,VXORPS,---,---,---,147,
+1,AVX,1227,VMOVD,---,---,---,3771,
+1,AVX,874,VADDPD,---,---,---,79,
+1,AVX,1203,VLDMXCSR,---,---,---,1290,
+1,AVX,1250,VMOVSD,---,---,---,379977,
+1,AVX,1696,VUCOMISS,---,---,---,362,
+1,AVX,1226,VMOVAPS,---,---,---,98,
+1,AVX,1249,VMOVQ,---,---,---,4179,
+1,AVX,1591,VPTEST,---,---,---,1116,
+1,AVX,1685,VSTMXCSR,---,---,---,1290,
+1,AVX,1421,VPINSRD,---,---,---,202,
+1,AVX,1689,VSUBSD,---,---,---,13600,
+1,AVX,984,VCVTTSD2SI,---,---,---,168,
+1,AVX,1007,VDIVSS,---,---,---,98,
+1,AVX,1191,VINSERTF128,---,---,---,1,
+1,AVX,1704,VZEROUPPER,---,---,---,207552,
+1,AVX,1254,VMOVSS,---,---,---,3584,
+1,SSE1i,592,PMINUB,---,---,ARITHMETIC,7611,Minimum of Packed Unsigned Integers
+1,SSE1i,580,PINSRW,---,---,INSERT,260,Insert Word
+1,SSE1i,595,PMOVMSKB,---,---,DATA_TRANSFER,16912,Move Byte Mask
+1,SSE2f,33,ANDNPD,ENQCMD,KEYLOCKER_WIDE,LOGICAL,2,Bitwise Logical AND NOT of Packed Double Precision Floating-Point Values
+1,SSE2f,35,ANDPD,FCMOV,LZCNT,LOGICAL,4,Bitwise Logical AND of Packed Double Precision Floating-Point Values
+1,SSE2f,811,SQRTSD,---,---,ARITHMETIC,51,Compute Square Root of Scalar Double-Precision Floating-Point Value
+1,SSE2f,466,MOVUPD,---,---,DATA_TRANSFER,27,Move Unaligned Packed Double-Precision Floating-Point Values
+1,SSE2f,868,UNPCKLPD,---,---,UNPACK,83,Unpack and Interleave Low Packed Double-Precision Floating-Point Values
+1,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,7226,Move Aligned Packed Double-Precision Floating-Point Values
+1,SSE2f,829,SUBSD,---,---,ARITHMETIC,44,Subtract Scalar Double-Precision Floating-Point Value
+1,SSE2f,9,ADDPD,AVX512_4FMAPS,AVX,ARITHMETIC,27,Add Packed Double-Precision Floating-Point Values
+1,SSE2f,124,COMISD,---,---,COMPARISON,20124,Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS
+1,SSE2f,494,ORPD,---,---,LOGICAL,2,Bitwise Logical OR of Packed Double Precision Floating-Point Values
+1,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,5662,Add Scalar Double-Precision Floating-Point Values
+1,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,94,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+1,SSE2f,827,SUBPD,---,---,ARITHMETIC,27,Subtract Packed Double-Precision Floating-Point Values
+1,SSE2f,160,DIVSD,---,---,ARITHMETIC,15306,Divide Scalar Double-Precision Floating-Point Value
+1,SSE2f,417,MAXSD,---,---,COMPARISON,5088,Return Maximum Scalar Double-Precision Floating-Point Value
+1,SSE2f,141,CVTSI2SD,---,---,CONVERSION,52141,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+1,SSE2f,858,UCOMISD,---,---,COMPARISON,23132,Unordered Compare Scalar Double-Precision Floating-Point Values and Set EFLAGS
+1,SSE2f,439,MOVHPD,---,---,DATA_TRANSFER,5432,Move High Packed Double-Precision Floating-Point Value
+1,SSE2f,802,SHUFPD,---,---,SHUFFLE,4684,Packed Interleave Shuffle of Pairs of Double-Precision Floating-Point Values
+1,SSE2f,475,MULSD,---,---,ARITHMETIC,15620,Multiply Scalar Double-Precision Floating-Point Value
+1,SSE2f,143,CVTSS2SD,---,---,CONVERSION,2,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+1,SSE2f,442,MOVLPD,---,---,DATA_TRANSFER,5432,Move Low Packed Double-Precision Floating-Point Value
+1,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,3,Add Scalar Single-Precision Floating-Point Values
+1,SSE1f,161,DIVSS,---,---,ARITHMETIC,681,Divide Scalar Single-Precision Floating-Point Values
+1,SSE1f,476,MULSS,---,---,ARITHMETIC,6,Multiply Scalar Single-Precision Floating-Point Values
+1,SSE1f,142,CVTSI2SS,---,---,CONVERSION,1353,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+1,SSE1f,438,MOVHLPS,---,---,DATA_TRANSFER,1531,Move Packed Single-Precision Floating-Point Values High to Low
+1,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,53353,Move High Packed Single-Precision Floating-Point Values
+1,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,887494,Move Aligned Packed Single-Precision Floating-Point Values
+1,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,704,Move or Merge Scalar Single-Precision Floating-Point Value
+1,SSE1f,830,SUBSS,---,---,ARITHMETIC,3,Subtract Scalar Single-Precision Floating-Point Value
+1,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,806924,Move Unaligned Packed Single-Precision Floating-Point Values
+1,AVX2,1563,VPSLLQ,---,---,---,76,
+1,AVX2,1574,VPSRLD,---,---,---,38,
+1,AVX2,1576,VPSRLQ,---,---,---,76,
+1,AVX2,1297,VPAND,---,---,---,277,
+1,AVX2,1288,VPADDB,---,---,---,172,
+1,AVX2,1581,VPSUBB,---,---,---,172,
+1,AVX2,1512,VPOR,---,---,---,76,
+1,AVX2,1468,VPMOVMSKB,---,---,---,76,
+1,AVX2,1555,VPSHUFD,---,---,---,123,
+1,AVX2,1456,VPMINUB,---,---,---,19957,
+1,AVX2,1322,VPCMPEQB,---,---,---,215,
+1,AVX2,1575,VPSRLDQ,---,---,---,1212,
+1,AVX2,1608,VPXOR,---,---,---,149822,
+1,AVX2,1289,VPADDD,---,---,---,39,
+1,AVX2,1312,VPBROADCASTB,---,---,---,185821,
+1,SSE2i,665,PUNPCKHQDQ,---,---,UNPACK,1,Unpack High Data
+1,SSE2i,634,PSHUFD,---,---,SHUFFLE,53803,Shuffle Packed Doublewords
+1,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,439981,Move Aligned Packed Integer Values
+1,SSE2i,649,PSRLDQ,---,---,SHIFT,9278,Shift Double Quadword Right Logical
+1,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,341407,Unpack Low Data
+1,SSE2i,510,PADDQ,---,---,ARITHMETIC,179,Add Packed Integers
+1,SSE2i,642,PSLLDQ,---,---,SHIFT,2910,Shift Double Quadword Left Logical
+1,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,451175,Move Unaligned Packed Integer Values
+1,MMX,535,PCMPGTD,---,---,COMPARISON,75,Compare Packed Signed Integers for Greater Than
+1,MMX,666,PUNPCKHWD,---,---,UNPACK,10610,Unpack High Data
+1,MMX,663,PUNPCKHBW,---,---,UNPACK,5372,Unpack High Data
+1,MMX,518,PANDN,---,---,LOGICAL,6790,Logical AND NOT
+1,MMX,534,PCMPGTB,---,---,COMPARISON,14106,Compare Packed Signed Integers for Greater Than
+1,MMX,651,PSRLW,---,---,SHIFT,2189,Shift Packed Data Right Logical
+1,MMX,668,PUNPCKLDQ,---,---,UNPACK,15510,Unpack Low Data
+1,MMX,454,MOVQ,---,---,DATA_TRANSFER,837544,Move Doubleword/Move Quadword
+1,MMX,431,MOVD,---,---,DATA_TRANSFER,85071,Move Doubleword/Move Quadword
+1,MMX,664,PUNPCKHDQ,---,---,UNPACK,77,Unpack High Data
+1,MMX,526,PCMPEQB,---,---,COMPARISON,37516,Compare Packed Data for Equal
+1,MMX,670,PUNPCKLWD,---,---,UNPACK,21737,Unpack Low Data
+1,MMX,509,PADDD,---,---,ARITHMETIC,37078,Add Packed Integers
+1,MMX,537,PCMPGTW,---,---,COMPARISON,14106,Compare Packed Signed Integers for Greater Than
+1,MMX,652,PSUBB,---,---,ARITHMETIC,5929,Subtract Packed Integers
+1,MMX,527,PCMPEQD,---,---,COMPARISON,1473,Compare Packed Data for Equal
+1,MMX,644,PSLLW,---,---,SHIFT,2189,Shift Packed Data Left Logical
+1,MMX,667,PUNPCKLBW,---,---,UNPACK,13079,Unpack Low Data
+1,MMX,623,POR,---,---,LOGICAL,17603,Bitwise Logical OR
+1,MMX,517,PAND,---,---,LOGICAL,12695,Logical AND
+1,MMX,678,PXOR,---,---,LOGICAL,388634,Logical Exclusive OR
+2,AVX2,1456,VPMINUB,---,---,---,2,
+2,AVX2,1312,VPBROADCASTB,---,---,---,6,
+2,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,102,Move Unaligned Packed Integer Values
+2,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,110,Move Aligned Packed Integer Values
+2,SSE2i,634,PSHUFD,---,---,SHUFFLE,1,Shuffle Packed Doublewords
+2,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,229,Unpack Low Data
+2,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,203,Move Aligned Packed Single-Precision Floating-Point Values
+2,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,628,Move Unaligned Packed Single-Precision Floating-Point Values
+2,MMX,670,PUNPCKLWD,---,---,UNPACK,1,Unpack Low Data
+2,MMX,678,PXOR,---,---,LOGICAL,175,Logical Exclusive OR
+2,MMX,667,PUNPCKLBW,---,---,UNPACK,1,Unpack Low Data
+2,MMX,454,MOVQ,---,---,DATA_TRANSFER,433,Move Doubleword/Move Quadword
+2,MMX,431,MOVD,---,---,DATA_TRANSFER,5,Move Doubleword/Move Quadword
+2,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+4,AVX2,1456,VPMINUB,---,---,---,2,
+4,AVX2,1312,VPBROADCASTB,---,---,---,6,
+4,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,1,Move Unaligned Packed Integer Values
+4,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,9,Move Aligned Packed Integer Values
+4,SSE2i,634,PSHUFD,---,---,SHUFFLE,1,Shuffle Packed Doublewords
+4,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,128,Unpack Low Data
+4,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,1,Move Aligned Packed Single-Precision Floating-Point Values
+4,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,154,Move Unaligned Packed Single-Precision Floating-Point Values
+4,MMX,670,PUNPCKLWD,---,---,UNPACK,1,Unpack Low Data
+4,MMX,678,PXOR,---,---,LOGICAL,4,Logical Exclusive OR
+4,MMX,667,PUNPCKLBW,---,---,UNPACK,1,Unpack Low Data
+4,MMX,454,MOVQ,---,---,DATA_TRANSFER,130,Move Doubleword/Move Quadword
+4,MMX,431,MOVD,---,---,DATA_TRANSFER,5,Move Doubleword/Move Quadword
+4,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+8,SSE1i,595,PMOVMSKB,---,---,DATA_TRANSFER,60,Move Byte Mask
+8,SSE1i,592,PMINUB,---,---,ARITHMETIC,56,Minimum of Packed Unsigned Integers
+8,AVX,1704,VZEROUPPER,---,---,---,13,
+8,AVX,1685,VSTMXCSR,---,---,---,1,
+8,AVX,1232,VMOVDQU,---,---,---,8,
+8,SSE2f,160,DIVSD,---,---,ARITHMETIC,1,Divide Scalar Double-Precision Floating-Point Value
+8,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,1,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+8,SSE2f,141,CVTSI2SD,---,---,CONVERSION,1,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+8,SSE2f,858,UCOMISD,---,---,COMPARISON,12,Unordered Compare Scalar Double-Precision Floating-Point Values and Set EFLAGS
+8,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1,Add Scalar Double-Precision Floating-Point Values
+8,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+8,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+8,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+8,SSE1f,161,DIVSS,---,---,ARITHMETIC,3,Divide Scalar Single-Precision Floating-Point Values
+8,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,1,Move High Packed Single-Precision Floating-Point Values
+8,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,46,Move Aligned Packed Single-Precision Floating-Point Values
+8,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,4,Move or Merge Scalar Single-Precision Floating-Point Value
+8,SSE1f,142,CVTSI2SS,---,---,CONVERSION,3,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+8,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+8,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,196,Move Unaligned Packed Single-Precision Floating-Point Values
+8,AVX2,1456,VPMINUB,---,---,---,11,
+8,AVX2,1312,VPBROADCASTB,---,---,---,18,
+8,SSE2i,642,PSLLDQ,---,---,SHIFT,4,Shift Double Quadword Left Logical
+8,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,132,Move Unaligned Packed Integer Values
+8,SSE2i,634,PSHUFD,---,---,SHUFFLE,29,Shuffle Packed Doublewords
+8,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,110,Move Aligned Packed Integer Values
+8,SSE2i,649,PSRLDQ,---,---,SHIFT,6,Shift Double Quadword Right Logical
+8,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,142,Unpack Low Data
+8,MMX,526,PCMPEQB,---,---,COMPARISON,176,Compare Packed Data for Equal
+8,MMX,666,PUNPCKHWD,---,---,UNPACK,2,Unpack High Data
+8,MMX,652,PSUBB,---,---,ARITHMETIC,4,Subtract Packed Integers
+8,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+8,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+8,MMX,678,PXOR,---,---,LOGICAL,62,Logical Exclusive OR
+8,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+8,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+8,MMX,509,PADDD,---,---,ARITHMETIC,7,Add Packed Integers
+8,MMX,670,PUNPCKLWD,---,---,UNPACK,31,Unpack Low Data
+8,MMX,623,POR,---,---,LOGICAL,60,Bitwise Logical OR
+8,MMX,667,PUNPCKLBW,---,---,UNPACK,30,Unpack Low Data
+8,MMX,663,PUNPCKHBW,---,---,UNPACK,1,Unpack High Data
+8,MMX,454,MOVQ,---,---,DATA_TRANSFER,162,Move Doubleword/Move Quadword
+8,MMX,431,MOVD,---,---,DATA_TRANSFER,34,Move Doubleword/Move Quadword
+8,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+9,SSE1i,595,PMOVMSKB,---,---,DATA_TRANSFER,59,Move Byte Mask
+9,SSE1i,592,PMINUB,---,---,ARITHMETIC,56,Minimum of Packed Unsigned Integers
+9,AVX,1203,VLDMXCSR,---,---,---,1,
+9,AVX,1704,VZEROUPPER,---,---,---,70,
+9,AVX,1250,VMOVSD,---,---,---,4,
+9,AVX,1685,VSTMXCSR,---,---,---,2,
+9,AVX,1232,VMOVDQU,---,---,---,200,
+9,SSE2f,442,MOVLPD,---,---,DATA_TRANSFER,2,Move Low Packed Double-Precision Floating-Point Value
+9,SSE2f,439,MOVHPD,---,---,DATA_TRANSFER,2,Move High Packed Double-Precision Floating-Point Value
+9,SSE2f,802,SHUFPD,---,---,SHUFFLE,3,Packed Interleave Shuffle of Pairs of Double-Precision Floating-Point Values
+9,SSE2f,160,DIVSD,---,---,ARITHMETIC,3,Divide Scalar Double-Precision Floating-Point Value
+9,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,1,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+9,SSE2f,141,CVTSI2SD,---,---,CONVERSION,3,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+9,SSE2f,858,UCOMISD,---,---,COMPARISON,40,Unordered Compare Scalar Double-Precision Floating-Point Values and Set EFLAGS
+9,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1,Add Scalar Double-Precision Floating-Point Values
+9,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+9,SSE1f,438,MOVHLPS,---,---,DATA_TRANSFER,1,Move Packed Single-Precision Floating-Point Values High to Low
+9,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+9,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+9,SSE1f,161,DIVSS,---,---,ARITHMETIC,3,Divide Scalar Single-Precision Floating-Point Values
+9,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,34,Move High Packed Single-Precision Floating-Point Values
+9,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,673,Move Aligned Packed Single-Precision Floating-Point Values
+9,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,4,Move or Merge Scalar Single-Precision Floating-Point Value
+9,SSE1f,142,CVTSI2SS,---,---,CONVERSION,3,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+9,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+9,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,591,Move Unaligned Packed Single-Precision Floating-Point Values
+9,AVX2,1456,VPMINUB,---,---,---,18,
+9,AVX2,1312,VPBROADCASTB,---,---,---,136,
+9,SSE2i,649,PSRLDQ,---,---,SHIFT,1,Shift Double Quadword Right Logical
+9,SSE2i,642,PSLLDQ,---,---,SHIFT,2,Shift Double Quadword Left Logical
+9,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,395,Move Unaligned Packed Integer Values
+9,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,277,Move Aligned Packed Integer Values
+9,SSE2i,634,PSHUFD,---,---,SHUFFLE,79,Shuffle Packed Doublewords
+9,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,375,Unpack Low Data
+9,MMX,526,PCMPEQB,---,---,COMPARISON,174,Compare Packed Data for Equal
+9,MMX,651,PSRLW,---,---,SHIFT,3,Shift Packed Data Right Logical
+9,MMX,652,PSUBB,---,---,ARITHMETIC,3,Subtract Packed Integers
+9,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+9,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+9,MMX,678,PXOR,---,---,LOGICAL,270,Logical Exclusive OR
+9,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+9,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+9,MMX,509,PADDD,---,---,ARITHMETIC,4,Add Packed Integers
+9,MMX,670,PUNPCKLWD,---,---,UNPACK,33,Unpack Low Data
+9,MMX,623,POR,---,---,LOGICAL,61,Bitwise Logical OR
+9,MMX,644,PSLLW,---,---,SHIFT,3,Shift Packed Data Left Logical
+9,MMX,667,PUNPCKLBW,---,---,UNPACK,31,Unpack Low Data
+9,MMX,454,MOVQ,---,---,DATA_TRANSFER,787,Move Doubleword/Move Quadword
+9,MMX,431,MOVD,---,---,DATA_TRANSFER,90,Move Doubleword/Move Quadword
+9,MMX,668,PUNPCKLDQ,---,---,UNPACK,6,Unpack Low Data
+11,AVX,1232,VMOVDQU,---,---,---,8,
+11,SSE2f,160,DIVSD,---,---,ARITHMETIC,1,Divide Scalar Double-Precision Floating-Point Value
+11,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,1,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+11,SSE2f,141,CVTSI2SD,---,---,CONVERSION,1,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+11,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1,Add Scalar Double-Precision Floating-Point Values
+11,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+11,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+11,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+11,SSE1f,161,DIVSS,---,---,ARITHMETIC,3,Divide Scalar Single-Precision Floating-Point Values
+11,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,7,Move Aligned Packed Single-Precision Floating-Point Values
+11,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,4,Move or Merge Scalar Single-Precision Floating-Point Value
+11,SSE1f,142,CVTSI2SS,---,---,CONVERSION,3,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+11,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+11,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,220,Move Unaligned Packed Single-Precision Floating-Point Values
+11,AVX2,1456,VPMINUB,---,---,---,6,
+11,AVX2,1312,VPBROADCASTB,---,---,---,10,
+11,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,10,Move Unaligned Packed Integer Values
+11,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,14,Move Aligned Packed Integer Values
+11,SSE2i,634,PSHUFD,---,---,SHUFFLE,5,Shuffle Packed Doublewords
+11,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,146,Unpack Low Data
+11,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+11,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+11,MMX,678,PXOR,---,---,LOGICAL,41,Logical Exclusive OR
+11,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+11,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+11,MMX,509,PADDD,---,---,ARITHMETIC,4,Add Packed Integers
+11,MMX,670,PUNPCKLWD,---,---,UNPACK,5,Unpack Low Data
+11,MMX,623,POR,---,---,LOGICAL,1,Bitwise Logical OR
+11,MMX,667,PUNPCKLBW,---,---,UNPACK,3,Unpack Low Data
+11,MMX,454,MOVQ,---,---,DATA_TRANSFER,163,Move Doubleword/Move Quadword
+11,MMX,431,MOVD,---,---,DATA_TRANSFER,7,Move Doubleword/Move Quadword
+11,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+12,AVX,1232,VMOVDQU,---,---,---,8,
+12,SSE2f,160,DIVSD,---,---,ARITHMETIC,1,Divide Scalar Double-Precision Floating-Point Value
+12,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,1,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+12,SSE2f,141,CVTSI2SD,---,---,CONVERSION,1,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+12,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1,Add Scalar Double-Precision Floating-Point Values
+12,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+12,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+12,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+12,SSE1f,161,DIVSS,---,---,ARITHMETIC,3,Divide Scalar Single-Precision Floating-Point Values
+12,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,9,Move Aligned Packed Single-Precision Floating-Point Values
+12,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,4,Move or Merge Scalar Single-Precision Floating-Point Value
+12,SSE1f,142,CVTSI2SS,---,---,CONVERSION,3,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+12,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+12,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,176,Move Unaligned Packed Single-Precision Floating-Point Values
+12,AVX2,1456,VPMINUB,---,---,---,6,
+12,AVX2,1312,VPBROADCASTB,---,---,---,10,
+12,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,8,Move Unaligned Packed Integer Values
+12,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,29,Move Aligned Packed Integer Values
+12,SSE2i,649,PSRLDQ,---,---,SHIFT,3,Shift Double Quadword Right Logical
+12,SSE2i,634,PSHUFD,---,---,SHUFFLE,5,Shuffle Packed Doublewords
+12,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,138,Unpack Low Data
+12,MMX,666,PUNPCKHWD,---,---,UNPACK,2,Unpack High Data
+12,MMX,537,PCMPGTW,---,---,COMPARISON,4,Compare Packed Signed Integers for Greater Than
+12,MMX,518,PANDN,---,---,LOGICAL,2,Logical AND NOT
+12,MMX,678,PXOR,---,---,LOGICAL,17,Logical Exclusive OR
+12,MMX,517,PAND,---,---,LOGICAL,2,Logical AND
+12,MMX,534,PCMPGTB,---,---,COMPARISON,4,Compare Packed Signed Integers for Greater Than
+12,MMX,509,PADDD,---,---,ARITHMETIC,11,Add Packed Integers
+12,MMX,670,PUNPCKLWD,---,---,UNPACK,7,Unpack Low Data
+12,MMX,623,POR,---,---,LOGICAL,2,Bitwise Logical OR
+12,MMX,667,PUNPCKLBW,---,---,UNPACK,4,Unpack Low Data
+12,MMX,663,PUNPCKHBW,---,---,UNPACK,1,Unpack High Data
+12,MMX,454,MOVQ,---,---,DATA_TRANSFER,145,Move Doubleword/Move Quadword
+12,MMX,431,MOVD,---,---,DATA_TRANSFER,8,Move Doubleword/Move Quadword
+12,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+13,SSE1i,495,ORPS,---,---,LOGICAL,1,Bitwise Logical OR of Packed Single Precision Floating-Point Values
+13,SSE1i,34,ANDNPS,EXPAND,LONGMODE,LOGICAL,1,Bitwise Logical AND NOT of Packed Single Precision Floating-Point Values
+13,SSE1i,36,ANDPS,FLAGOP,MCOMMIT,LOGICAL,1,Bitwise Logical AND of Packed Single Precision Floating-Point Values
+13,AVX,1249,VMOVQ,---,---,---,140,
+13,AVX,1232,VMOVDQU,---,---,---,25476,
+13,SSE2f,868,UNPCKLPD,---,---,UNPACK,1869,Unpack and Interleave Low Packed Double-Precision Floating-Point Values
+13,SSE2f,829,SUBSD,---,---,ARITHMETIC,27477,Subtract Scalar Double-Precision Floating-Point Value
+13,SSE2f,35,ANDPD,FCMOV,LZCNT,LOGICAL,20595,Bitwise Logical AND of Packed Double Precision Floating-Point Values
+13,SSE2f,439,MOVHPD,---,---,DATA_TRANSFER,1869,Move High Packed Double-Precision Floating-Point Value
+13,SSE2f,140,CVTSD2SS,---,---,CONVERSION,19102,Convert Scalar Double-Precision Floating-Point Value to Scalar Single-Precision Floating-Point Value
+13,SSE2f,475,MULSD,---,---,ARITHMETIC,70709,Multiply Scalar Double-Precision Floating-Point Value
+13,SSE2f,124,COMISD,---,---,COMPARISON,146977,Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS
+13,SSE2f,457,MOVSD,---,---,DATA_TRANSFER,21087,Move or Merge Scalar Double-Precision Floating-Point Value
+13,SSE2f,158,DIVPD,---,---,ARITHMETIC,1869,Divide Packed Double-Precision Floating-Point Values
+13,SSE2f,802,SHUFPD,---,---,SHUFFLE,1528,Packed Interleave Shuffle of Pairs of Double-Precision Floating-Point Values
+13,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,38924,Move Aligned Packed Double-Precision Floating-Point Values
+13,SSE2f,141,CVTSI2SD,---,---,CONVERSION,33611,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+13,SSE2f,417,MAXSD,---,---,COMPARISON,2745,Return Maximum Scalar Double-Precision Floating-Point Value
+13,SSE2f,160,DIVSD,---,---,ARITHMETIC,2483,Divide Scalar Double-Precision Floating-Point Value
+13,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,156820,Add Scalar Double-Precision Floating-Point Values
+13,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,859,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+13,SSE2f,145,CVTTPD2DQ,---,---,CONVERSION,1869,Convert with Truncation Packed Double-Precision Floating-Point Values to Packed Doubleword Integers
+13,SSE2f,858,UCOMISD,---,---,COMPARISON,33902,Unordered Compare Scalar Double-Precision Floating-Point Values and Set EFLAGS
+13,SSE2f,143,CVTSS2SD,---,---,CONVERSION,12608,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+13,SSE1f,443,MOVLPS,---,---,DATA_TRANSFER,417,Move Low Packed Single-Precision Floating-Point Values
+13,SSE1f,869,UNPCKLPS,---,---,UNPACK,462,Unpack and Interleave Low Packed Single-Precision Floating-Point Values
+13,SSE1f,859,UCOMISS,---,---,COMPARISON,2470,Unordered Compare Scalar Single-Precision Floating-Point Values and Set EFLAGS
+13,SSE1f,424,MINSS,---,---,COMPARISON,591,Return Minimum Scalar Single-Precision Floating-Point Value
+13,SSE1f,125,COMISS,---,---,COMPARISON,12283,Compare Scalar Ordered Single-Precision Floating-Point Values and Set EFLAGS
+13,SSE1f,116,CMPSS,---,---,COMPARISON,1,Compare Scalar Single-Precision Floating-Point Value
+13,SSE1f,438,MOVHLPS,---,---,DATA_TRANSFER,4648,Move Packed Single-Precision Floating-Point Values High to Low
+13,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1747,Add Scalar Single-Precision Floating-Point Values
+13,SSE1f,476,MULSS,---,---,ARITHMETIC,2575,Multiply Scalar Single-Precision Floating-Point Values
+13,SSE1f,161,DIVSS,---,---,ARITHMETIC,371,Divide Scalar Single-Precision Floating-Point Values
+13,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,20131,Move High Packed Single-Precision Floating-Point Values
+13,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,537696,Move Aligned Packed Single-Precision Floating-Point Values
+13,SSE1f,830,SUBSS,---,---,ARITHMETIC,3110,Subtract Scalar Single-Precision Floating-Point Value
+13,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,58144,Move or Merge Scalar Single-Precision Floating-Point Value
+13,SSE1f,418,MAXSS,---,---,COMPARISON,36,Return Maximum Scalar Single-Precision Floating-Point Value
+13,SSE1f,142,CVTSI2SS,---,---,CONVERSION,1166,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+13,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,2715917,Move Unaligned Packed Single-Precision Floating-Point Values
+13,AVX2,1456,VPMINUB,---,---,---,2049,
+13,AVX2,1312,VPBROADCASTB,---,---,---,85660,
+13,SSE2i,510,PADDQ,---,---,ARITHMETIC,13218,Add Packed Integers
+13,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,1217332,Move Unaligned Packed Integer Values
+13,SSE2i,634,PSHUFD,---,---,SHUFFLE,41796,Shuffle Packed Doublewords
+13,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,99593,Move Aligned Packed Integer Values
+13,SSE2i,649,PSRLDQ,---,---,SHIFT,3380,Shift Double Quadword Right Logical
+13,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,40682,Unpack Low Data
+13,MMX,664,PUNPCKHDQ,---,---,UNPACK,61,Unpack High Data
+13,MMX,535,PCMPGTD,---,---,COMPARISON,61,Compare Packed Signed Integers for Greater Than
+13,MMX,527,PCMPEQD,---,---,COMPARISON,39910,Compare Packed Data for Equal
+13,MMX,666,PUNPCKHWD,---,---,UNPACK,2,Unpack High Data
+13,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+13,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+13,MMX,678,PXOR,---,---,LOGICAL,271054,Logical Exclusive OR
+13,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+13,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+13,MMX,509,PADDD,---,---,ARITHMETIC,83,Add Packed Integers
+13,MMX,670,PUNPCKLWD,---,---,UNPACK,3,Unpack Low Data
+13,MMX,623,POR,---,---,LOGICAL,10101,Bitwise Logical OR
+13,MMX,667,PUNPCKLBW,---,---,UNPACK,2,Unpack Low Data
+13,MMX,663,PUNPCKHBW,---,---,UNPACK,1,Unpack High Data
+13,MMX,454,MOVQ,---,---,DATA_TRANSFER,154746,Move Doubleword/Move Quadword
+13,MMX,431,MOVD,---,---,DATA_TRANSFER,67392,Move Doubleword/Move Quadword
+13,MMX,668,PUNPCKLDQ,---,---,UNPACK,12642,Unpack Low Data
+14,AVX,1249,VMOVQ,---,---,---,806,
+14,AVX,1232,VMOVDQU,---,---,---,24237,
+14,SSE2f,802,SHUFPD,---,---,SHUFFLE,883,Packed Interleave Shuffle of Pairs of Double-Precision Floating-Point Values
+14,SSE2f,829,SUBSD,---,---,ARITHMETIC,6,Subtract Scalar Double-Precision Floating-Point Value
+14,SSE2f,475,MULSD,---,---,ARITHMETIC,12566,Multiply Scalar Double-Precision Floating-Point Value
+14,SSE2f,124,COMISD,---,---,COMPARISON,10469,Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS
+14,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,4034,Move Aligned Packed Double-Precision Floating-Point Values
+14,SSE2f,141,CVTSI2SD,---,---,CONVERSION,27262,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+14,SSE2f,417,MAXSD,---,---,COMPARISON,1734,Return Maximum Scalar Double-Precision Floating-Point Value
+14,SSE2f,160,DIVSD,---,---,ARITHMETIC,7491,Divide Scalar Double-Precision Floating-Point Value
+14,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,19,Add Scalar Double-Precision Floating-Point Values
+14,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,928,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+14,SSE2f,858,UCOMISD,---,---,COMPARISON,4552,Unordered Compare Scalar Double-Precision Floating-Point Values and Set EFLAGS
+14,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1363,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+14,SSE1f,438,MOVHLPS,---,---,DATA_TRANSFER,9121,Move Packed Single-Precision Floating-Point Values High to Low
+14,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1363,Add Scalar Single-Precision Floating-Point Values
+14,SSE1f,476,MULSS,---,---,ARITHMETIC,2151,Multiply Scalar Single-Precision Floating-Point Values
+14,SSE1f,150,CVTTSS2SI,---,---,CONVERSION,2149,Convert with Truncation Scalar Single-Precision Floating-Point Value to Integer
+14,SSE1f,161,DIVSS,---,---,ARITHMETIC,2570,Divide Scalar Single-Precision Floating-Point Values
+14,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,107508,Move High Packed Single-Precision Floating-Point Values
+14,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,627368,Move Aligned Packed Single-Precision Floating-Point Values
+14,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,1787,Move or Merge Scalar Single-Precision Floating-Point Value
+14,SSE1f,142,CVTSI2SS,---,---,CONVERSION,2988,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+14,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+14,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,1556431,Move Unaligned Packed Single-Precision Floating-Point Values
+14,AVX2,1456,VPMINUB,---,---,---,27514,
+14,AVX2,1312,VPBROADCASTB,---,---,---,274169,
+14,SSE2i,665,PUNPCKHQDQ,---,---,UNPACK,2149,Unpack High Data
+14,SSE2i,510,PADDQ,---,---,ARITHMETIC,1662,Add Packed Integers
+14,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,954488,Move Unaligned Packed Integer Values
+14,SSE2i,634,PSHUFD,---,---,SHUFFLE,63410,Shuffle Packed Doublewords
+14,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,608464,Move Aligned Packed Integer Values
+14,SSE2i,649,PSRLDQ,---,---,SHIFT,557,Shift Double Quadword Right Logical
+14,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,124248,Unpack Low Data
+14,MMX,664,PUNPCKHDQ,---,---,UNPACK,1117,Unpack High Data
+14,MMX,535,PCMPGTD,---,---,COMPARISON,831,Compare Packed Signed Integers for Greater Than
+14,MMX,527,PCMPEQD,---,---,COMPARISON,55595,Compare Packed Data for Equal
+14,MMX,666,PUNPCKHWD,---,---,UNPACK,2,Unpack High Data
+14,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+14,MMX,518,PANDN,---,---,LOGICAL,64085,Logical AND NOT
+14,MMX,678,PXOR,---,---,LOGICAL,321827,Logical Exclusive OR
+14,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+14,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+14,MMX,509,PADDD,---,---,ARITHMETIC,847,Add Packed Integers
+14,MMX,670,PUNPCKLWD,---,---,UNPACK,9,Unpack Low Data
+14,MMX,623,POR,---,---,LOGICAL,131091,Bitwise Logical OR
+14,MMX,667,PUNPCKLBW,---,---,UNPACK,8,Unpack Low Data
+14,MMX,663,PUNPCKHBW,---,---,UNPACK,1,Unpack High Data
+14,MMX,454,MOVQ,---,---,DATA_TRANSFER,662306,Move Doubleword/Move Quadword
+14,MMX,431,MOVD,---,---,DATA_TRANSFER,369359,Move Doubleword/Move Quadword
+14,MMX,668,PUNPCKLDQ,---,---,UNPACK,149179,Unpack Low Data
+15,AVX,1232,VMOVDQU,---,---,---,8,
+15,SSE2f,160,DIVSD,---,---,ARITHMETIC,1,Divide Scalar Double-Precision Floating-Point Value
+15,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,1,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+15,SSE2f,141,CVTSI2SD,---,---,CONVERSION,1,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+15,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1,Add Scalar Double-Precision Floating-Point Values
+15,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+15,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+15,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+15,SSE1f,161,DIVSS,---,---,ARITHMETIC,3,Divide Scalar Single-Precision Floating-Point Values
+15,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,7,Move Aligned Packed Single-Precision Floating-Point Values
+15,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,4,Move or Merge Scalar Single-Precision Floating-Point Value
+15,SSE1f,142,CVTSI2SS,---,---,CONVERSION,3,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+15,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+15,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,165,Move Unaligned Packed Single-Precision Floating-Point Values
+15,AVX2,1456,VPMINUB,---,---,---,6,
+15,AVX2,1312,VPBROADCASTB,---,---,---,10,
+15,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,7,Move Unaligned Packed Integer Values
+15,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,14,Move Aligned Packed Integer Values
+15,SSE2i,634,PSHUFD,---,---,SHUFFLE,5,Shuffle Packed Doublewords
+15,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,128,Unpack Low Data
+15,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+15,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+15,MMX,678,PXOR,---,---,LOGICAL,15,Logical Exclusive OR
+15,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+15,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+15,MMX,509,PADDD,---,---,ARITHMETIC,4,Add Packed Integers
+15,MMX,670,PUNPCKLWD,---,---,UNPACK,5,Unpack Low Data
+15,MMX,623,POR,---,---,LOGICAL,1,Bitwise Logical OR
+15,MMX,667,PUNPCKLBW,---,---,UNPACK,3,Unpack Low Data
+15,MMX,454,MOVQ,---,---,DATA_TRANSFER,134,Move Doubleword/Move Quadword
+15,MMX,431,MOVD,---,---,DATA_TRANSFER,7,Move Doubleword/Move Quadword
+15,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+18,AVX,1704,VZEROUPPER,---,---,---,67,
+18,AVX,1250,VMOVSD,---,---,---,16,
+18,AVX,1685,VSTMXCSR,---,---,---,1,
+18,AVX,1232,VMOVDQU,---,---,---,8,
+18,SSE2f,160,DIVSD,---,---,ARITHMETIC,1,Divide Scalar Double-Precision Floating-Point Value
+18,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,1,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+18,SSE2f,141,CVTSI2SD,---,---,CONVERSION,1,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+18,SSE2f,858,UCOMISD,---,---,COMPARISON,20,Unordered Compare Scalar Double-Precision Floating-Point Values and Set EFLAGS
+18,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1,Add Scalar Double-Precision Floating-Point Values
+18,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+18,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+18,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+18,SSE1f,161,DIVSS,---,---,ARITHMETIC,3,Divide Scalar Single-Precision Floating-Point Values
+18,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,1,Move High Packed Single-Precision Floating-Point Values
+18,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,159,Move Aligned Packed Single-Precision Floating-Point Values
+18,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,4,Move or Merge Scalar Single-Precision Floating-Point Value
+18,SSE1f,142,CVTSI2SS,---,---,CONVERSION,3,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+18,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+18,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,237,Move Unaligned Packed Single-Precision Floating-Point Values
+18,AVX2,1456,VPMINUB,---,---,---,6,
+18,AVX2,1312,VPBROADCASTB,---,---,---,18,
+18,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,25,Move Unaligned Packed Integer Values
+18,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,65,Move Aligned Packed Integer Values
+18,SSE2i,634,PSHUFD,---,---,SHUFFLE,11,Shuffle Packed Doublewords
+18,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,181,Unpack Low Data
+18,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+18,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+18,MMX,678,PXOR,---,---,LOGICAL,83,Logical Exclusive OR
+18,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+18,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+18,MMX,509,PADDD,---,---,ARITHMETIC,4,Add Packed Integers
+18,MMX,670,PUNPCKLWD,---,---,UNPACK,5,Unpack Low Data
+18,MMX,623,POR,---,---,LOGICAL,1,Bitwise Logical OR
+18,MMX,667,PUNPCKLBW,---,---,UNPACK,3,Unpack Low Data
+18,MMX,454,MOVQ,---,---,DATA_TRANSFER,249,Move Doubleword/Move Quadword
+18,MMX,431,MOVD,---,---,DATA_TRANSFER,13,Move Doubleword/Move Quadword
+18,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+20,AVX,1232,VMOVDQU,---,---,---,8,
+20,SSE2f,160,DIVSD,---,---,ARITHMETIC,1,Divide Scalar Double-Precision Floating-Point Value
+20,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,1,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+20,SSE2f,141,CVTSI2SD,---,---,CONVERSION,1,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+20,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,1,Add Scalar Double-Precision Floating-Point Values
+20,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+20,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+20,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+20,SSE1f,161,DIVSS,---,---,ARITHMETIC,3,Divide Scalar Single-Precision Floating-Point Values
+20,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,9,Move Aligned Packed Single-Precision Floating-Point Values
+20,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,4,Move or Merge Scalar Single-Precision Floating-Point Value
+20,SSE1f,142,CVTSI2SS,---,---,CONVERSION,3,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+20,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+20,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,171,Move Unaligned Packed Single-Precision Floating-Point Values
+20,AVX2,1456,VPMINUB,---,---,---,6,
+20,AVX2,1312,VPBROADCASTB,---,---,---,10,
+20,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,8,Move Unaligned Packed Integer Values
+20,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,25,Move Aligned Packed Integer Values
+20,SSE2i,649,PSRLDQ,---,---,SHIFT,3,Shift Double Quadword Right Logical
+20,SSE2i,634,PSHUFD,---,---,SHUFFLE,1,Shuffle Packed Doublewords
+20,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,133,Unpack Low Data
+20,MMX,666,PUNPCKHWD,---,---,UNPACK,2,Unpack High Data
+20,MMX,537,PCMPGTW,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+20,MMX,518,PANDN,---,---,LOGICAL,1,Logical AND NOT
+20,MMX,678,PXOR,---,---,LOGICAL,15,Logical Exclusive OR
+20,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+20,MMX,534,PCMPGTB,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+20,MMX,509,PADDD,---,---,ARITHMETIC,7,Add Packed Integers
+20,MMX,670,PUNPCKLWD,---,---,UNPACK,3,Unpack Low Data
+20,MMX,623,POR,---,---,LOGICAL,1,Bitwise Logical OR
+20,MMX,667,PUNPCKLBW,---,---,UNPACK,2,Unpack Low Data
+20,MMX,663,PUNPCKHBW,---,---,UNPACK,1,Unpack High Data
+20,MMX,454,MOVQ,---,---,DATA_TRANSFER,137,Move Doubleword/Move Quadword
+20,MMX,431,MOVD,---,---,DATA_TRANSFER,6,Move Doubleword/Move Quadword
+20,MMX,668,PUNPCKLDQ,---,---,UNPACK,2,Unpack Low Data
+23,SSE1i,580,PINSRW,---,---,INSERT,2,Insert Word
+23,SSE1i,595,PMOVMSKB,---,---,DATA_TRANSFER,60,Move Byte Mask
+23,SSE1i,592,PMINUB,---,---,ARITHMETIC,56,Minimum of Packed Unsigned Integers
+23,AVX,1203,VLDMXCSR,---,---,---,8,
+23,AVX,1249,VMOVQ,---,---,---,19,
+23,AVX,1704,VZEROUPPER,---,---,---,1371,
+23,AVX,1250,VMOVSD,---,---,---,211,
+23,AVX,1685,VSTMXCSR,---,---,---,9,
+23,AVX,1232,VMOVDQU,---,---,---,112,
+23,SSE2f,475,MULSD,---,---,ARITHMETIC,27,Multiply Scalar Double-Precision Floating-Point Value
+23,SSE2f,124,COMISD,---,---,COMPARISON,39,Compare Scalar Ordered Double-Precision Floating-Point Values and Set EFLAGS
+23,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,17,Move Aligned Packed Double-Precision Floating-Point Values
+23,SSE2f,141,CVTSI2SD,---,---,CONVERSION,102,Convert Doubleword Integer to Scalar Double-Precision Floating-Point Value
+23,SSE2f,417,MAXSD,---,---,COMPARISON,14,Return Maximum Scalar Double-Precision Floating-Point Value
+23,SSE2f,802,SHUFPD,---,---,SHUFFLE,3,Packed Interleave Shuffle of Pairs of Double-Precision Floating-Point Values
+23,SSE2f,439,MOVHPD,---,---,DATA_TRANSFER,2,Move High Packed Double-Precision Floating-Point Value
+23,SSE2f,143,CVTSS2SD,---,---,CONVERSION,1,Convert Scalar Single-Precision Floating-Point Value to Scalar Double-Precision Floating-Point Value
+23,SSE2f,442,MOVLPD,---,---,DATA_TRANSFER,2,Move Low Packed Double-Precision Floating-Point Value
+23,SSE2f,160,DIVSD,---,---,ARITHMETIC,32,Divide Scalar Double-Precision Floating-Point Value
+23,SSE2f,11,ADDSD,AVX512_BITALG,AVX2GATHER,ARITHMETIC,11,Add Scalar Double-Precision Floating-Point Values
+23,SSE2f,149,CVTTSD2SI,---,---,CONVERSION,1,Convert with Truncation Scalar Double-Precision Floating-Point Value to Signed Integer
+23,SSE2f,858,UCOMISD,---,---,COMPARISON,184,Unordered Compare Scalar Double-Precision Floating-Point Values and Set EFLAGS
+23,SSE2i,510,PADDQ,---,---,ARITHMETIC,4,Add Packed Integers
+23,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,1360,Move Aligned Packed Integer Values
+23,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,812,Move Unaligned Packed Integer Values
+23,SSE2i,634,PSHUFD,---,---,SHUFFLE,156,Shuffle Packed Doublewords
+23,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,1103,Unpack Low Data
+23,AVX2,1608,VPXOR,---,---,---,12,
+23,AVX2,1456,VPMINUB,---,---,---,69,
+23,AVX2,1312,VPBROADCASTB,---,---,---,312,
+23,SSE1f,438,MOVHLPS,---,---,DATA_TRANSFER,3,Move Packed Single-Precision Floating-Point Values High to Low
+23,SSE1f,12,ADDSS,AVX512_VBMI,AVX512EVEX,ARITHMETIC,1,Add Scalar Single-Precision Floating-Point Values
+23,SSE1f,476,MULSS,---,---,ARITHMETIC,2,Multiply Scalar Single-Precision Floating-Point Values
+23,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,101,Move High Packed Single-Precision Floating-Point Values
+23,SSE1f,462,MOVSS,---,---,DATA_TRANSFER,8,Move or Merge Scalar Single-Precision Floating-Point Value
+23,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,2924,Move Aligned Packed Single-Precision Floating-Point Values
+23,SSE1f,161,DIVSS,---,---,ARITHMETIC,7,Divide Scalar Single-Precision Floating-Point Values
+23,SSE1f,142,CVTSI2SS,---,---,CONVERSION,11,Convert Doubleword Integer to Scalar Single-Precision Floating-Point Value
+23,SSE1f,830,SUBSS,---,---,ARITHMETIC,1,Subtract Scalar Single-Precision Floating-Point Value
+23,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,1951,Move Unaligned Packed Single-Precision Floating-Point Values
+23,MMX,535,PCMPGTD,---,---,COMPARISON,2,Compare Packed Signed Integers for Greater Than
+23,MMX,527,PCMPEQD,---,---,COMPARISON,7,Compare Packed Data for Equal
+23,MMX,664,PUNPCKHDQ,---,---,UNPACK,2,Unpack High Data
+23,MMX,526,PCMPEQB,---,---,COMPARISON,176,Compare Packed Data for Equal
+23,MMX,652,PSUBB,---,---,ARITHMETIC,4,Subtract Packed Integers
+23,MMX,537,PCMPGTW,---,---,COMPARISON,14,Compare Packed Signed Integers for Greater Than
+23,MMX,518,PANDN,---,---,LOGICAL,7,Logical AND NOT
+23,MMX,678,PXOR,---,---,LOGICAL,1135,Logical Exclusive OR
+23,MMX,517,PAND,---,---,LOGICAL,7,Logical AND
+23,MMX,534,PCMPGTB,---,---,COMPARISON,14,Compare Packed Signed Integers for Greater Than
+23,MMX,509,PADDD,---,---,ARITHMETIC,28,Add Packed Integers
+23,MMX,670,PUNPCKLWD,---,---,UNPACK,57,Unpack Low Data
+23,MMX,623,POR,---,---,LOGICAL,63,Bitwise Logical OR
+23,MMX,667,PUNPCKLBW,---,---,UNPACK,43,Unpack Low Data
+23,MMX,454,MOVQ,---,---,DATA_TRANSFER,2473,Move Doubleword/Move Quadword
+23,MMX,431,MOVD,---,---,DATA_TRANSFER,193,Move Doubleword/Move Quadword
+23,MMX,668,PUNPCKLDQ,---,---,UNPACK,25,Unpack Low Data
+0,SSE42,538,PCMPISTRI,---,---,COMPARISON,24,Packed Compare Implicit Length Strings and Return Index
+0,SSSE3,633,PSHUFB,---,---,SHUFFLE,17,Packed Shuffle Bytes
+0,AVX,1232,VMOVDQU,---,---,---,28,
+0,SSE2f,428,MOVAPD,---,---,DATA_TRANSFER,4,Move Aligned Packed Double-Precision Floating-Point Values
+0,SSE2f,439,MOVHPD,---,---,DATA_TRANSFER,5778,Move High Packed Double-Precision Floating-Point Value
+0,SSE2f,442,MOVLPD,---,---,DATA_TRANSFER,5778,Move Low Packed Double-Precision Floating-Point Value
+0,SSE2f,802,SHUFPD,---,---,SHUFFLE,9,Packed Interleave Shuffle of Pairs of Double-Precision Floating-Point Values
+0,SSE1i,592,PMINUB,---,---,ARITHMETIC,4,Minimum of Packed Unsigned Integers
+0,SSE1i,595,PMOVMSKB,---,---,DATA_TRANSFER,5954,Move Byte Mask
+0,AVX2,1288,VPADDB,---,---,---,38,
+0,AVX2,1581,VPSUBB,---,---,---,38,
+0,AVX2,1456,VPMINUB,---,---,---,26,
+0,AVX2,1312,VPBROADCASTB,---,---,---,44,
+0,SSE1f,467,MOVUPS,---,---,DATA_TRANSFER,5428,Move Unaligned Packed Single-Precision Floating-Point Values
+0,SSE1f,440,MOVHPS,---,---,DATA_TRANSFER,81,Move High Packed Single-Precision Floating-Point Values
+0,SSE1f,429,MOVAPS,---,---,DATA_TRANSFER,8027,Move Aligned Packed Single-Precision Floating-Point Values
+0,SSE2i,642,PSLLDQ,---,---,SHIFT,1401,Shift Double Quadword Left Logical
+0,SSE2i,437,MOVDQU,---,---,DATA_TRANSFER,741,Move Unaligned Packed Integer Values
+0,SSE2i,634,PSHUFD,---,---,SHUFFLE,58,Shuffle Packed Doublewords
+0,SSE2i,436,MOVDQA,---,---,DATA_TRANSFER,6303,Move Aligned Packed Integer Values
+0,SSE2i,649,PSRLDQ,---,---,SHIFT,568,Shift Double Quadword Right Logical
+0,SSE2i,669,PUNPCKLQDQ,---,---,UNPACK,3959,Unpack Low Data
+0,MMX,678,PXOR,---,---,LOGICAL,9589,Logical Exclusive OR
+0,MMX,517,PAND,---,---,LOGICAL,1,Logical AND
+0,MMX,668,PUNPCKLDQ,---,---,UNPACK,493,Unpack Low Data
+0,MMX,527,PCMPEQD,---,---,COMPARISON,2,Compare Packed Data for Equal
+0,MMX,509,PADDD,---,---,ARITHMETIC,3,Add Packed Integers
+0,MMX,670,PUNPCKLWD,---,---,UNPACK,57,Unpack Low Data
+0,MMX,431,MOVD,---,---,DATA_TRANSFER,1070,Move Doubleword/Move Quadword
+0,MMX,454,MOVQ,---,---,DATA_TRANSFER,7412,Move Doubleword/Move Quadword
+0,MMX,652,PSUBB,---,---,ARITHMETIC,5725,Subtract Packed Integers
+0,MMX,526,PCMPEQB,---,---,COMPARISON,11749,Compare Packed Data for Equal
+0,MMX,667,PUNPCKLBW,---,---,UNPACK,57,Unpack Low Data
+0,MMX,623,POR,---,---,LOGICAL,631,Bitwise Logical OR
