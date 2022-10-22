@@ -23,6 +23,10 @@ build:
 	echo -e "$(CHL)Downloading JVBench-1.0.jar$(CRS) to $(JVBENCH_DIR)"
 	test -f "$(JVBENCH_JAR)" || wget "$(JVBENCH_JAR_URL)" -O "$(JVBENCH_JAR)" -q --show-progress
 
+	echo -e "$(CHL)Downloading Intel VTune$(CRS) to $(VTUNE_SH)"
+	test -f "$(VTUNE_SH)" || wget "$(VTUNE_URL)" -O "$(VTUNE_SH)" -U "Mozilla/5.0" -q --show-progress
+	chmod 744 "$(VTUNE_SH)"
+
 .SILENT: clean
 .PHONY: clean # clean all
 clean:
@@ -39,9 +43,24 @@ pintool: build
 	echo -e "$(CHL)Compiling...$(CRS) $(DXVC_SRC)"
 	PIN_ROOT="$(PIN_DIR)" make -C $(DXVC_DIR) -j 16 -s
 
+.SILENT: $(BENCH_OUT).td.csv
+$(BENCH_OUT).td.csv:
+	echo $@ > $@
+
+.SILENT: $(BENCH_OUT).nt.csv
+$(BENCH_OUT).nt.csv:
+	echo $@ > $@
+
+.SILENT: $(BENCH_OUT).bm.log
+$(BENCH_OUT).bm.log:
+	echo $@ > $@
+
+.INTERMEDIATE: $(BENCH_OUT).td.csv $(BENCH_OUT).nt.csv $(BENCH_OUT).bm.log
+
 .SILENT: bench
 .PHONY: bench # run a single benchmark (requires BENCH_NAME and BENCH_OUT vars)
-bench: pintool
+bench: pintool $(BENCH_OUT).td.csv $(BENCH_OUT).nt.csv $(BENCH_OUT).bm.log
+	echo -e "$(CHL)Using java from$(CRS) $(JAVA_BIN)"
 	echo -e "$(CHL)Running benchmark$(CRS) $(BENCH_NAME)"
 	$(PIN_BIN) -t $(DXVC_SO) -o $(BENCH_OUT) -- $(JAVA_BIN) --add-modules jdk.incubator.vector -jar $(JVBENCH_JAR) "$(BENCH_NAME)" -o "$(BENCH_OUT).bm.log"
 

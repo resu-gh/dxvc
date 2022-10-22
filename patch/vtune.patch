@@ -1,0 +1,36 @@
+diff --git a/src/hotspot/share/opto/c2compiler.cpp b/src/hotspot/share/opto/c2compiler.cpp
+index 56b6c13176b..f7f56be500a 100644
+--- a/src/hotspot/share/opto/c2compiler.cpp
++++ b/src/hotspot/share/opto/c2compiler.cpp
+@@ -33,7 +33,7 @@
+ #include "opto/runtime.hpp"
+ #include "runtime/stubRoutines.hpp"
+ #include "utilities/macros.hpp"
+-
++#include "include/jitprofiling.h"
+ 
+ // register information defined by ADLC
+ extern const char register_save_policy[];
+@@ -160,6 +160,22 @@ void C2Compiler::compile_method(ciEnv* env, ciMethod* target, int entry_bci, boo
+     // print inlining for last compilation only
+     C.dump_print_inlining();
+ 
++    if (iJIT_IsProfilingActive() != iJIT_SAMPLING_ON) {
++      return;
++    }
++
++    iJIT_Method_Load jmethod = {0};
++    jmethod.method_id = iJIT_GetNewMethodID();
++    jmethod.method_name = (char *)"method_name";
++    jmethod.class_file_name = (char *)"class_name";
++    jmethod.source_file_name = (char *)"source_file_name";
++    jmethod.method_load_address = NULL;
++    jmethod.method_size = 0;
++
++    iJIT_NotifyEvent(iJVM_EVENT_TYPE_METHOD_LOAD_FINISHED,
++          (void*)&jmethod);
++    iJIT_NotifyEvent(iJVM_EVENT_TYPE_SHUTDOWN, NULL);
++
+     // No retry; just break the loop.
+     break;
+   }
