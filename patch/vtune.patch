@@ -1,17 +1,16 @@
 diff --git a/src/hotspot/share/opto/c2compiler.cpp b/src/hotspot/share/opto/c2compiler.cpp
-index 56b6c13176b..f7f56be500a 100644
+index 56b6c13176b..5cc222465ac 100644
 --- a/src/hotspot/share/opto/c2compiler.cpp
 +++ b/src/hotspot/share/opto/c2compiler.cpp
-@@ -33,7 +33,7 @@
- #include "opto/runtime.hpp"
+@@ -34,6 +34,7 @@
  #include "runtime/stubRoutines.hpp"
  #include "utilities/macros.hpp"
--
+ 
 +#include "include/jitprofiling.h"
  
  // register information defined by ADLC
  extern const char register_save_policy[];
-@@ -160,6 +160,22 @@ void C2Compiler::compile_method(ciEnv* env, ciMethod* target, int entry_bci, boo
+@@ -160,6 +161,20 @@ void C2Compiler::compile_method(ciEnv* env, ciMethod* target, int entry_bci, boo
      // print inlining for last compilation only
      C.dump_print_inlining();
  
@@ -21,14 +20,12 @@ index 56b6c13176b..f7f56be500a 100644
 +
 +    iJIT_Method_Load jmethod = {0};
 +    jmethod.method_id = iJIT_GetNewMethodID();
-+    jmethod.method_name = (char *)"method_name";
-+    jmethod.class_file_name = (char *)"class_name";
-+    jmethod.source_file_name = (char *)"source_file_name";
-+    jmethod.method_load_address = NULL;
-+    jmethod.method_size = 0;
++    jmethod.method_name =
++        (char *)target->get_Method()->name_and_sig_as_C_string();
++    jmethod.method_load_address = target->get_Method()->code_base();
++    jmethod.method_size = target->get_Method()->method_size();
 +
-+    iJIT_NotifyEvent(iJVM_EVENT_TYPE_METHOD_LOAD_FINISHED,
-+          (void*)&jmethod);
++    iJIT_NotifyEvent(iJVM_EVENT_TYPE_METHOD_LOAD_FINISHED, (void *)&jmethod);
 +    iJIT_NotifyEvent(iJVM_EVENT_TYPE_SHUTDOWN, NULL);
 +
      // No retry; just break the loop.

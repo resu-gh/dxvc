@@ -60,7 +60,7 @@ $(BENCH_OUT).bm.log:
 .SILENT: bench
 .PHONY: bench # run a single benchmark (requires BENCH_NAME and BENCH_OUT vars)
 bench: pintool $(BENCH_OUT).td.csv $(BENCH_OUT).nt.csv $(BENCH_OUT).bm.log
-	# export INTEL_JIT_PROFILER64="${HOME}/intel/oneapi/vtune/latest/lib64/libpinjitprofiling.so"
+	echo -e "$(CHL)NOTE! export INTEL_JIT_PROFILER64$(CRS) ${HOME}/intel/oneapi/vtune/latest/lib64/libpinjitprofiling.so"
 	echo -e "$(CHL)Using java from$(CRS) $(JAVA_BIN)"
 	echo -e "$(CHL)Using JVBench JAR from$(CRS) $(JVBENCH_JAR)"
 	echo -e "$(CHL)Running benchmark$(CRS) $(BENCH_NAME)"
