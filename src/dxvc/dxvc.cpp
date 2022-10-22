@@ -1209,9 +1209,9 @@ using VXTableCount =
 /// Let each thread's data be in its own data cache line so that
 /// multiple threads do not contend for the same data cache line
 struct ThreadData {
-  THREADID id;
-  VXTableCount tc;
-  ThreadData();
+    THREADID id;
+    VXTableCount tc;
+    ThreadData();
 };
 
 // Constructor
@@ -1219,22 +1219,22 @@ ThreadData::ThreadData() : id(), tc() {}
 
 // << operator overload
 std::ostream &operator<<(std::ostream &o, const ThreadData &t) {
-  for (auto &i : t.tc) {
-    for (auto &j : i.second) {
-      o << t.id;
-      o << ',' << i.first;
-      o << ',' << j.first;
-      o << ',' << OPCODE_StringShort(j.first);
-      auto css = CATEGORY_StringShort(j.first);
-      o << ',' << (css == "LAST" ? "---" : css);
-      auto ess = EXTENSION_StringShort(j.first);
-      o << ',' << (ess == "LAST" ? "---" : ess);
-      o << ',' << getVXType(j.first);
-      o << ',' << j.second;
-      o << ',' << getVXDesc(j.first) << std::endl;
+    for (auto &i : t.tc) {
+        for (auto &j : i.second) {
+            o << t.id;
+            o << ',' << i.first;
+            o << ',' << j.first;
+            o << ',' << OPCODE_StringShort(j.first);
+            auto css = CATEGORY_StringShort(j.first);
+            o << ',' << (css == "LAST" ? "---" : css);
+            auto ess = EXTENSION_StringShort(j.first);
+            o << ',' << (ess == "LAST" ? "---" : ess);
+            o << ',' << getVXType(j.first);
+            o << ',' << j.second;
+            o << ',' << getVXDesc(j.first) << std::endl;
+        }
     }
-  }
-  return o;
+    return o;
 }
 
 // Key for accessing TLS storage in the threads
@@ -1244,7 +1244,7 @@ static TLS_KEY tls_key;
 /// Function to access thread-specific data
 /// @param tid current thread id (assigned by pin)
 ThreadData *getTLS(THREADID tid) {
-  return static_cast<ThreadData *>(PIN_GetThreadData(tls_key, tid));
+    return static_cast<ThreadData *>(PIN_GetThreadData(tls_key, tid));
 }
 
 /// This function is called for every basic block
@@ -1256,7 +1256,7 @@ ThreadData *getTLS(THREADID tid) {
 /// @note use atomic operations for multi-threaded applications
 VOID PIN_FAST_ANALYSIS_CALL VXCountIncr(OPCODE opcode, VXESet eset,
                                         THREADID tid) {
-  getTLS(tid)->tc[eset][opcode]++;
+    getTLS(tid)->tc[eset][opcode]++;
 }
 
 // Number of threads counter
@@ -1273,21 +1273,21 @@ const INT32 maxNThreads = 10000;
 /// @param v value specified by the tool in the
 ///          PIN_AddThreadStartFunction call
 VOID threadStart(THREADID tid, CONTEXT *ctxt, INT32 flags, VOID *v) {
-  // Increase the number of threads counter
-  NThreads++;
+    // Increase the number of threads counter
+    NThreads++;
 
-  // abort() if NThreads > maxNThreads
-  // could be an ASSERT() call
-  if (NThreads > maxNThreads) {
-    std::cerr << "max number of threads exceeded!" << std::endl;
-    PIN_ExitProcess(1);
-  }
+    // abort() if NThreads > maxNThreads
+    // could be an ASSERT() call
+    if (NThreads > maxNThreads) {
+        std::cerr << "max number of threads exceeded!" << std::endl;
+        PIN_ExitProcess(1);
+    }
 
-  // Create new ThreadData
-  ThreadData *data = new ThreadData();
-  PIN_SetThreadData(tls_key, data, tid);
-  // Assign id
-  data->id = tid;
+    // Create new ThreadData
+    ThreadData *data = new ThreadData();
+    PIN_SetThreadData(tls_key, data, tid);
+    // Assign id
+    data->id = tid;
 }
 
 /// This function is called every time a new trace is encountered
@@ -1296,25 +1296,25 @@ VOID threadStart(THREADID tid, CONTEXT *ctxt, INT32 flags, VOID *v) {
 /// @param value specified by the tool in the
 ///        TRACE_AddInstrumentFunction call
 VOID trace(TRACE trace, VOID *v) {
-  // Visit every basic block in the trace
-  for (BBL bbl = TRACE_BblHead(trace); BBL_Valid(bbl); bbl = BBL_Next(bbl)) {
-    // Visit every instruction in the current basic block
-    for (INS ins = BBL_InsHead(bbl); INS_Valid(ins); ins = INS_Next(ins)) {
-      // Get the current instruction opcode
-      OPCODE insOpcode = INS_Opcode(ins);
-      // Get the current instruction extension-set
-      VXESet insESET = getVXESet(insOpcode);
-      // If the current instruction is a vector instruction
-      if (insESET != VXESet::_NONE_)
-        // Insert a call to VXCountIncr passing the opcode
-        // and the set of the instruction
-        // IPOINT_ANYWHERE allows Pin to schedule the call
-        // anywhere to obtain best performance
-        BBL_InsertCall(bbl, IPOINT_ANYWHERE, (AFUNPTR)VXCountIncr,
-                       IARG_FAST_ANALYSIS_CALL, IARG_UINT32, insOpcode,
-                       IARG_UINT32, insESET, IARG_THREAD_ID, IARG_END);
+    // Visit every basic block in the trace
+    for (BBL bbl = TRACE_BblHead(trace); BBL_Valid(bbl); bbl = BBL_Next(bbl)) {
+        // Visit every instruction in the current basic block
+        for (INS ins = BBL_InsHead(bbl); INS_Valid(ins); ins = INS_Next(ins)) {
+            // Get the current instruction opcode
+            OPCODE insOpcode = INS_Opcode(ins);
+            // Get the current instruction extension-set
+            VXESet insESET = getVXESet(insOpcode);
+            // If the current instruction is a vector instruction
+            if (insESET != VXESet::_NONE_)
+                // Insert a call to VXCountIncr passing the opcode
+                // and the set of the instruction
+                // IPOINT_ANYWHERE allows Pin to schedule the call
+                // anywhere to obtain best performance
+                BBL_InsertCall(bbl, IPOINT_ANYWHERE, (AFUNPTR)VXCountIncr,
+                               IARG_FAST_ANALYSIS_CALL, IARG_UINT32, insOpcode,
+                               IARG_UINT32, insESET, IARG_THREAD_ID, IARG_END);
+        }
     }
-  }
 }
 
 // Thread's-data output stream
@@ -1335,7 +1335,7 @@ const auto td_csvHeader =
 /// @param v value specified by the tool in the
 ///          PIN_AddThreadFiniFunction call
 VOID threadFini(THREADID tid, const CONTEXT *ctxt, INT32 code, VOID *v) {
-  *td_csvOut << *getTLS(tid);
+    *td_csvOut << *getTLS(tid);
 }
 
 // Number-of-threads output stream
@@ -1352,8 +1352,8 @@ const auto nt_csvHeader = "threads";
 /// @param v value spcified by the tool in the
 ///          PIN_AddFiniFunction call
 VOID fini(INT32 code, VOID *v) {
-  *nt_csvOut << nt_csvHeader << std::endl;
-  *nt_csvOut << NThreads << std::endl;
+    *nt_csvOut << nt_csvHeader << std::endl;
+    *nt_csvOut << NThreads << std::endl;
 }
 
 // Pintool name
@@ -1361,12 +1361,12 @@ const auto PINTOOL = "dxvc";
 
 /// Print out usage and exit
 INT32 usage() {
-  std::cerr << PINTOOL << std::endl;
-  std::cerr << "This pintool prints out the number of dynamically";
-  std::cerr << "executed simd instructions, using thread-local counters";
-  std::cerr << std::endl << std::endl;
-  std::cerr << KNOB_BASE::StringKnobSummary() << std::endl;
-  return 1;
+    std::cerr << PINTOOL << std::endl;
+    std::cerr << "This pintool prints out the number of dynamically";
+    std::cerr << "executed simd instructions, using thread-local counters";
+    std::cerr << std::endl << std::endl;
+    std::cerr << KNOB_BASE::StringKnobSummary() << std::endl;
+    return 1;
 }
 
 // -o <name> flag/arg
@@ -1374,65 +1374,75 @@ INT32 usage() {
 KNOB<std::string> knobOFile(KNOB_MODE_WRITEONCE, "pintool", "o", "",
                             "output filename");
 
+VOID Routine(RTN rtn, VOID *v) {
+    if (!RTN_IsDynamic(rtn))
+        return;
+    std::cout << "routine: " << RTN_Name(rtn) << std::endl;
+}
+
 /// The main procedure of the tool
 /// This function is called when the app image is loaded
 /// but not yet started
 /// @param argc total number of elements in the argv array
 /// @param argv array of CLI args including `pin -t <pintool> -- ...`
 int main(int argc, char *argv[]) {
-  // Initialize pin
-  // Print help message if:
-  // - -h(elp) flag is specified in the CLI
-  // - the CLI is invalid
-  if (PIN_Init(argc, argv))
-    return usage();
+    PIN_InitSymbols();
 
-  // Header message
-  std::cout << "INFO: This application is instrumented by " << PINTOOL;
-  std::cout << std::endl;
+    // Initialize pin
+    // Print help message if:
+    // - -h(elp) flag is specified in the CLI
+    // - the CLI is invalid
+    if (PIN_Init(argc, argv))
+        return usage();
 
-  // Initialize output streams
-  // If -o <name> flag/arg is passed:
-  // - bind them to stdout
-  // Otherwise:
-  // - create <name>.td.csv stream
-  // - create <name>.nt.csv stream
-  if (knobOFile.Value().empty()) {
-    td_csvOut = &std::cout;
-    nt_csvOut = &std::cout;
-    std::cout << "INFO: Writing to: stdout";
+    // Header message
+    std::cout << "INFO: This application is instrumented by " << PINTOOL;
     std::cout << std::endl;
-  } else {
-    td_csvOut = new std::ofstream(knobOFile.Value() + ".td.csv");
-    nt_csvOut = new std::ofstream(knobOFile.Value() + ".nt.csv");
-    std::cout << "INFO: Writing to: " << knobOFile.Value() << ".[td,nt].csv";
-    std::cout << std::endl;
-  }
 
-  // Obtain a key for TLS storage
-  tls_key = PIN_CreateThreadDataKey(nullptr);
-  // MAX_CLIENT_TLS_KEYS limit reached: abort()
-  if (-1 == tls_key) {
-    std::cerr << "num of already allocated keys reached the ";
-    std::cerr << "MAX_CLIENT_TLS_KEYS limit";
-    std::cerr << std::endl;
-    PIN_ExitProcess(1);
-  }
+    // Initialize output streams
+    // If -o <name> flag/arg is passed:
+    // - bind them to stdout
+    // Otherwise:
+    // - create <name>.td.csv stream
+    // - create <name>.nt.csv stream
+    if (knobOFile.Value().empty()) {
+        td_csvOut = &std::cout;
+        nt_csvOut = &std::cout;
+        std::cout << "INFO: Writing to: stdout";
+        std::cout << std::endl;
+    } else {
+        td_csvOut = new std::ofstream(knobOFile.Value() + ".td.csv");
+        nt_csvOut = new std::ofstream(knobOFile.Value() + ".nt.csv");
+        std::cout << "INFO: Writing to: " << knobOFile.Value()
+                  << ".[td,nt].csv";
+        std::cout << std::endl;
+    }
 
-  // Print `threads data` header
-  *td_csvOut << td_csvHeader << std::endl;
+    // Obtain a key for TLS storage
+    tls_key = PIN_CreateThreadDataKey(nullptr);
+    // MAX_CLIENT_TLS_KEYS limit reached: abort()
+    if (-1 == tls_key) {
+        std::cerr << "num of already allocated keys reached the ";
+        std::cerr << "MAX_CLIENT_TLS_KEYS limit";
+        std::cerr << std::endl;
+        PIN_ExitProcess(1);
+    }
 
-  // Register threadStart to be called when thread starts
-  PIN_AddThreadStartFunction(threadStart, nullptr);
-  // Register threadFini to be called when thread exits
-  PIN_AddThreadFiniFunction(threadFini, nullptr);
-  // Register fini to be called when the application exits
-  PIN_AddFiniFunction(fini, nullptr);
-  // Register trace to be called to instrument instructions
-  TRACE_AddInstrumentFunction(trace, nullptr);
+    // Print `threads data` header
+    *td_csvOut << td_csvHeader << std::endl;
 
-  // Divergent function: never returns
-  PIN_StartProgram();
+    // Register threadStart to be called when thread starts
+    PIN_AddThreadStartFunction(threadStart, nullptr);
+    // Register threadFini to be called when thread exits
+    PIN_AddThreadFiniFunction(threadFini, nullptr);
+    // Register fini to be called when the application exits
+    PIN_AddFiniFunction(fini, nullptr);
+    // Register trace to be called to instrument instructions
+    // TRACE_AddInstrumentFunction(trace, nullptr);
+    RTN_AddInstrumentFunction(Routine, nullptr);
 
-  return 1;
+    // Divergent function: never returns
+    PIN_StartProgram();
+
+    return 1;
 }
