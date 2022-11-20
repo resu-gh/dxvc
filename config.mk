@@ -13,8 +13,8 @@ PIN_TOOLS_DIR := $(PIN_DIR)/source/tools
 
 JVBENCH_URL := https://www.github.com/usi-dag/JVBench
 JVBENCH_DIR := $(ENV_DIR)/jvbench
-JVBENCH_JAR := $(JVBENCH_DIR)/JVBench-1.0.jar
-JVBENCH_JAR_URL := https://github.com/usi-dag/JVBench/releases/download/v1.0.0/JVBench-1.0.jar
+JVBENCH_JAR := $(JVBENCH_DIR)/JVBench-1.0.1.jar
+JVBENCH_JAR_URL := https://github.com/usi-dag/JVBench/releases/download/v1.0.1/JVBench-1.0.1.jar
 
 VTUNE_URL := https://registrationcenter-download.intel.com/akdlm/irc_nas/18888/l_oneapi_vtune_p_2022.4.0.8705_offline.sh
 VTUNE_SH := $(ENV_DIR)/vtune.sh

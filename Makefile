@@ -20,7 +20,7 @@ build:
 
 	echo -e "$(CHL)Cloning usi-dag/JVBench$(CRS) to $(JVBENCH_DIR)"
 	test -d "$(JVBENCH_DIR)" || git clone --progress "$(JVBENCH_URL)" "$(JVBENCH_DIR)"
-	echo -e "$(CHL)Downloading JVBench-1.0.jar$(CRS) to $(JVBENCH_DIR)"
+	echo -e "$(CHL)Downloading JVBench-1.0.1.jar$(CRS) to $(JVBENCH_DIR)"
 	test -f "$(JVBENCH_JAR)" || wget "$(JVBENCH_JAR_URL)" -O "$(JVBENCH_JAR)" -q --show-progress
 
 	echo -e "$(CHL)Downloading Intel VTune$(CRS) to $(VTUNE_SH)"

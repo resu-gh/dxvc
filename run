@@ -1,0 +1,13 @@
+#!/bin/zsh
+
+# [[ -z $ ]] || 
+# inputpath=/home/resu/workspace/github/resu-gh/dxvc/env/jvbench/src/main/resources/lavaMD/input/lavaMD_127776.input
+
+# ./env/intelpin/pin -t ./src/dxvc/obj-intel64/dxvc.so -support_jit_api -- ./env/jdk18u/build/linux-x86_64-server-release/images/jdk/bin/java --add-modules jdk.incubator.vector -Dinput=/home/resu/workspace/github/resu-gh/dxvc/env/jvbench/src/main/resources/lavaMD/input/lavaMD_127776.input -jar ./env/jvbench/JVBench-1.0.1.jar "LavaMDBenchmark.autoVec"
+
+export INTEL_JIT_PROFILER64=$HOME/intel/oneapi/vtune/2022.4.0/lib64/libpinjitprofiling.so
+
+./env/intelpin/pin -t ./src/dxvc/obj-intel64/dxvc.so -support_jit_api -- \
+    ./env/jdk18u/build/linux-x86_64-server-release/images/jdk/bin/java \
+        --add-modules jdk.incubator.vector \
+        -jar ./env/jvbench/JVBench-1.0.1.jar "LavaMDBenchmark.autoVec"
